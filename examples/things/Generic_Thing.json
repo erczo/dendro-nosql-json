@@ -1,0 +1,35 @@
+{
+  "_id": "581434a8650aad2999d57288",
+  "attributes": {
+    "depth": 304,
+    "height": 304
+  },
+  "created_at": "2016-11-15T16:30:00Z",
+  "description": "",
+  "full_name": "Campbell Scientific CR1000 Measurement and Control Datalogger",
+  "geo": {
+    "coordinates": [
+      -122.431297,
+      37.773972
+    ],
+    "type": "Point"
+  },
+  "instance_of_thing_id": "581434a8650aad2999d57288",
+  "is_abstract": "",
+  "manufacturer": {
+    "name": "Campbell Scientific",
+    "url": "https://www.campbellsci.com"
+  },
+  "method_description": "",
+  "model": "CR1000",
+  "name": "CR1000 Datalogger",
+  "part_of_thing_id": "581434a8650aad2999d57288",
+  "serial_number": "",
+  "thing_type": "sensor",
+  "urls": [
+    {
+      "label": "Manual",
+      "url": "https://s.campbellsci.com/documents/us/manuals/cr1000.pdf"
+    }
+  ]
+}

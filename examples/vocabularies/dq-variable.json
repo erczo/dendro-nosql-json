@@ -1,0 +1,97 @@
+{
+  "_id": "dq-variable",
+  "created_at": "2016-11-15T16:30:00Z",
+  "description": "TBD",
+  "label": "Variable",
+  "scheme_id": "dq",
+  "terms": [
+    {
+      "definition": "TBD",
+      "label": "Barometric Pressure"
+    },
+    {
+      "definition": "TBD",
+      "label": "Battery Voltage"
+    },
+    {
+      "definition": "TBD",
+      "label": "Depth"
+    },
+    {
+      "definition": "TBD",
+      "label": "Direction"
+    },
+    {
+      "definition": "TBD",
+      "label": "Discharge"
+    },
+    {
+      "definition": "TBD",
+      "label": "Duration"
+    },
+    {
+      "definition": "TBD",
+      "label": "Evapotranspiration"
+    },
+    {
+      "definition": "TBD",
+      "label": "Flux"
+    },
+    {
+      "definition": "TBD",
+      "label": "Height"
+    },
+    {
+      "definition": "TBD",
+      "label": "Leaf Wetness"
+    },
+    {
+      "definition": "TBD",
+      "label": "Precipitation"
+    },
+    {
+      "definition": "TBD",
+      "label": "Radiation"
+    },
+    {
+      "definition": "TBD",
+      "label": "Speed"
+    },
+    {
+      "definition": "TBD",
+      "label": "Temperature"
+    },
+    {
+      "definition": "TBD",
+      "label": "Transpiration"
+    },
+    {
+      "definition": "TBD",
+      "label": "Turbidity"
+    },
+    {
+      "definition": "TBD",
+      "label": "Vapor Pressure"
+    },
+    {
+      "definition": "TBD",
+      "label": "Vapor Pressure Deficit"
+    },
+    {
+      "definition": "TBD",
+      "label": "Velocity"
+    },
+    {
+      "definition": "TBD",
+      "label": "Visibility"
+    },
+    {
+      "definition": "TBD",
+      "label": "Volume"
+    },
+    {
+      "definition": "TBD",
+      "label": "Volumetric Water Content"
+    }
+  ]
+}

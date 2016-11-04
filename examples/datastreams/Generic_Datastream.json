@@ -1,0 +1,68 @@
+{
+  "_id": "581434a8650aad2999d57288",
+  "attributes": {
+    "depth": 304,
+    "height": 304
+  },
+  "created_at": "2016-11-15T16:30:00Z",
+  "derivation_description": "",
+  "derived": false,
+  "description": "",
+  "enabled": true,
+  "geo": {
+    "coordinates": [
+      -122.431297,
+      37.773972
+    ],
+    "type": "Point"
+  },
+  "members": [
+    {
+      "organization_id": "581434a8650aad2999d57288",
+      "roles": [
+        "manager"
+      ]
+    },
+    {
+      "person_id": "581434a8650aad2999d57288",
+      "roles": [
+        "admin",
+        "owner"
+      ]
+    }
+  ],
+  "name": "",
+  "source_type": "sensor",
+  "state": "ready",
+  "storage": [
+    {
+      "database": "readings",
+      "field": "value",
+      "model": "blueoak_readings_AvgAirTemp",
+      "query": [
+        {
+          "key": "",
+          "value": ""
+        }
+      ],
+      "type": "influx"
+    }
+  ],
+  "tags": [
+    "dt:unit:degreeCelsius",
+    "dq:Medium:Air",
+    "dq:Variable:Temperature",
+    "dq:Aggregation:Average/Mean"
+  ],
+  "thing_id": "581434a8650aad2999d57288",
+  "timeframe": {
+    "begins_at": "",
+    "ends_before": ""
+  },
+  "urls": [
+    {
+      "label": "Whitepaper",
+      "url": "http://..."
+    }
+  ]
+}

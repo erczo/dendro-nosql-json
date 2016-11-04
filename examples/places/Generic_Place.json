@@ -1,0 +1,31 @@
+{
+  "_id": "ChIJPV4oX_65j4ARVW8IJ6IJUYs",
+  "abbreviation": "CA",
+  "attributes": {
+    "city": "",
+    "postal_code": "",
+    "primary_phone": "",
+    "state": "",
+    "street_address": ""
+  },
+  "country_code": "US",
+  "created_at": "2016-11-15T16:30:00Z",
+  "external_refs": [
+    {
+      "ref_id": "",
+      "type": "google_place_id",
+      "url": ""
+    }
+  ],
+  "full_name": "",
+  "geo": {
+    "coordinates": [
+      -122.431297,
+      37.773972
+    ],
+    "type": "Point"
+  },
+  "name": "California",
+  "place_type": "state",
+  "url": "http://..."
+}

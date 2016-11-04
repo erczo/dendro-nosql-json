@@ -1,0 +1,61 @@
+{
+  "_id": "dq-medium",
+  "created_at": "2016-11-15T16:30:00Z",
+  "description": "TBD",
+  "label": "Medium",
+  "scheme_id": "dq",
+  "terms": [
+    {
+      "definition": "TBD",
+      "label": "Air"
+    },
+    {
+      "definition": "TBD",
+      "label": "Ground Water"
+    },
+    {
+      "definition": "TBD",
+      "label": "Not Relevant"
+    },
+    {
+      "definition": "TBD",
+      "label": "Other"
+    },
+    {
+      "definition": "TBD",
+      "label": "Precipitation"
+    },
+    {
+      "definition": "TBD",
+      "label": "Rock"
+    },
+    {
+      "definition": "TBD",
+      "label": "Saprolite"
+    },
+    {
+      "definition": "TBD",
+      "label": "Sediment"
+    },
+    {
+      "definition": "TBD",
+      "label": "Snow"
+    },
+    {
+      "definition": "TBD",
+      "label": "Soil"
+    },
+    {
+      "definition": "TBD",
+      "label": "Surface Water"
+    },
+    {
+      "definition": "TBD",
+      "label": "Tissue"
+    },
+    {
+      "definition": "TBD",
+      "label": "Unknown"
+    }
+  ]
+}

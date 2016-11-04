@@ -1,0 +1,68 @@
+{
+  "_id": "581434a8650aad2999d57288",
+  "activated_at": "2016-11-15T16:30:00Z",
+  "altitude": {
+    "elevation": 575
+  },
+  "created_at": "2016-11-15T16:30:00Z",
+  "datastreams_ids": [
+    "581434a8650aad2999d57288"
+  ],
+  "deactivated_at": "2016-11-15T16:30:00Z",
+  "enabled": true,
+  "full_name": "Blue Oak Ranch Reserve Weather Station",
+  "geo": {
+    "coordinates": [
+      -122.431297,
+      37.773972
+    ],
+    "type": "Point"
+  },
+  "is_active": true,
+  "is_stationary": true,
+  "media": [
+    {
+      "sizes": {
+        "large": {
+          "h": 800,
+          "w": 400
+        },
+        "medium": {
+          "h": 400,
+          "w": 200
+        },
+        "thumb": {
+          "h": 160,
+          "w": 160
+        }
+      },
+      "type": "photo",
+      "url": "http://...",
+      "video_info": {}
+    }
+  ],
+  "members": [
+    {
+      "organization_id": "581434a8650aad2999d57288",
+      "roles": [
+        "manager"
+      ]
+    },
+    {
+      "person_id": "581434a8650aad2999d57288",
+      "roles": [
+        "admin",
+        "owner"
+      ]
+    }
+  ],
+  "name": "Blue Oak Ranch Reserve",
+  "place_id": "581434a8650aad2999d57288",
+  "slug": "blue-oak-ranch",
+  "station_type": "weather",
+  "thing_ids": [
+    "581434a8650aad2999d57288"
+  ],
+  "utc_offset": 19800,
+  "website_url": "http://..."
+}

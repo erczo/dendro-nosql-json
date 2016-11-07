@@ -7,27 +7,27 @@
   "terms": [
     {
       "definition": "TBD",
-      "label": "Average"
+      "label": "Average",
       "name": "Average"
     },
     {
       "definition": "TBD",
-      "label": "Maximum"
+      "label": "Maximum",
       "name": "Maximum"
     },
     {
       "definition": "TBD",
-      "label": "Median"
+      "label": "Median",
       "name": "Median"
     },
     {
       "definition": "TBD",
-      "label": "Minimum"
+      "label": "Minimum",
       "name": "Minimum"
     },
     {
       "definition": "TBD",
-      "label": "StandardDeviation"
+      "label": "StandardDeviation",
       "name": "Standard Deviation"
     }
   ]

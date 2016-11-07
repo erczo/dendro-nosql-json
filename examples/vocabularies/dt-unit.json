@@ -6,243 +6,243 @@
   "scheme_id": "dt",
   "terms": [
     {
-      "abbreviation": "A"
+      "abbreviation": "A",
       "definition": "TBD",
-      "label": "Ampere"
+      "label": "Ampere",
       "name": "Ampere"
     },
     {
-      "abbreviation": "bar"
+      "abbreviation": "bar",
       "definition": "TBD",
-      "label": "Bar"
+      "label": "Bar",
       "name": "Bar"
     },
     {
-      "abbreviation": "cbar"
+      "abbreviation": "cbar",
       "definition": "TBD",
-      "label": "Centibar"
+      "label": "Centibar",
       "name": "Centibar"
     },
     {
-      "abbreviation": "cm"
+      "abbreviation": "cm",
       "definition": "TBD",
-      "label": "Centimeter"
+      "label": "Centimeter",
       "name": "Centimeter"
     },
     {
-      "abbreviation": "cm/hr"
+      "abbreviation": "cm/hr",
       "definition": "TBD",
-      "label": "CentimeterPerHour"
+      "label": "CentimeterPerHour",
       "name": "Centimeter Per Hour"
     },
     {
-      "abbreviation": "m^3/s"
+      "abbreviation": "m^3/s",
       "definition": "TBD",
-      "label": "CubicMeterPerSecond"
+      "label": "CubicMeterPerSecond",
       "name": "Cubic Meter Per Second"
     },
     {
-      "abbreviation": "dB"
+      "abbreviation": "dB",
       "definition": "TBD",
-      "label": "Decibel"
+      "label": "Decibel",
       "name": "Decibel"
     },
     {
-      "abbreviation": "dS/m"
+      "abbreviation": "dS/m",
       "definition": "TBD",
-      "label": "DecisiemenPerMeter"
+      "label": "DecisiemenPerMeter",
       "name": "Decisiemen Per Meter"
     },
     {
-      "abbreviation": "°"
+      "abbreviation": "°",
       "definition": "TBD",
-      "label": "DegreeAngle"
+      "label": "DegreeAngle",
       "name": "Degree Angle"
     },
     {
-      "abbreviation": "degC"
+      "abbreviation": "degC",
       "definition": "TBD",
-      "label": "DegreeCelsius"
+      "label": "DegreeCelsius",
       "name": "Degree Celsius"
     },
     {
-      "abbreviation": "degF"
+      "abbreviation": "degF",
       "definition": "TBD",
-      "label": "DegreeFahrenheit"
+      "label": "DegreeFahrenheit",
       "name": "Degree Fahrenheit"
     },
     {
-      "abbreviation": "ft"
+      "abbreviation": "ft",
       "definition": "TBD",
-      "label": "Foot"
+      "label": "Foot",
       "name": "Foot"
     },
     {
-      "abbreviation": "s^-1"
+      "abbreviation": "s^-1",
       "definition": "TBD",
-      "label": "Hertz"
+      "label": "Hertz",
       "name": "Hertz"
     },
     {
-      "abbreviation": "in"
+      "abbreviation": "in",
       "definition": "TBD",
-      "label": "Inch"
+      "label": "Inch",
       "name": "Inch"
     },
     {
-      "abbreviation": "K"
+      "abbreviation": "K",
       "definition": "TBD",
-      "label": "Kelvin"
+      "label": "Kelvin",
       "name": "Kelvin"
     },
     {
-      "abbreviation": "kJ/m^2"
+      "abbreviation": "kJ/m^2",
       "definition": "TBD",
-      "label": "KilojoulePerSquareMeter"
+      "label": "KilojoulePerSquareMeter",
       "name": "Kilojoule Per Square Meter"
     },
     {
-      "abbreviation": "lx"
+      "abbreviation": "lx",
       "definition": "TBD",
-      "label": "Lux"
+      "label": "Lux",
       "name": "Lux"
     },
     {
-      "abbreviation": "MJ/m^2"
+      "abbreviation": "MJ/m^2",
       "definition": "TBD",
-      "label": "MegajoulePerSquareMeter"
+      "label": "MegajoulePerSquareMeter",
       "name": "Megajoule Per Square Meter"
     },
     {
-      "abbreviation": "MV/m"
+      "abbreviation": "MV/m",
       "definition": "TBD",
-      "label": "MegavoltPerMeter"
+      "label": "MegavoltPerMeter",
       "name": "Megavolt Per Meter"
     },
     {
-      "abbreviation": "m"
+      "abbreviation": "m",
       "definition": "TBD",
-      "label": "Meter"
+      "label": "Meter",
       "name": "Meter"
     },
     {
-      "abbreviation": "m/d"
+      "abbreviation": "m/d",
       "definition": "TBD",
-      "label": "MeterPerDay"
+      "label": "MeterPerDay",
       "name": "Meter Per Day"
     },
     {
-      "abbreviation": "m/s"
+      "abbreviation": "m/s",
       "definition": "TBD",
-      "label": "MeterPerSecond"
+      "label": "MeterPerSecond",
       "name": "Meter Per Second"
     },
     {
-      "abbreviation": "µmol"
+      "abbreviation": "µmol",
       "definition": "TBD",
-      "label": "Micromole"
+      "label": "Micromole",
       "name": "Micromole"
     },
     {
-      "abbreviation": "mi/hr"
+      "abbreviation": "mi/hr",
       "definition": "TBD",
-      "label": "MilePerHour"
+      "label": "MilePerHour",
       "name": "Mile Per Hour"
     },
     {
-      "abbreviation": "mm"
+      "abbreviation": "mm",
       "definition": "TBD",
-      "label": "Millimeter"
+      "label": "Millimeter",
       "name": "Millimeter"
     },
     {
-      "abbreviation": "mm/d"
+      "abbreviation": "mm/d",
       "definition": "TBD",
-      "label": "MillimeterPerDay"
+      "label": "MillimeterPerDay",
       "name": "Millimeter Per Day"
     },
     {
-      "abbreviation": "mm/hr"
+      "abbreviation": "mm/hr",
       "definition": "TBD",
-      "label": "MillimeterPerHour"
+      "label": "MillimeterPerHour",
       "name": "Millimeter Per Hour"
     },
     {
-      "abbreviation": "mV"
+      "abbreviation": "mV",
       "definition": "TBD",
-      "label": "Millivolt"
+      "label": "Millivolt",
       "name": "Millivolt"
     },
     {
-      "abbreviation": "'"
+      "abbreviation": "'",
       "definition": "TBD",
-      "label": "MinuteAngle"
+      "label": "MinuteAngle",
       "name": "Minute Angle"
     },
     {
-      "abbreviation": "min"
+      "abbreviation": "min",
       "definition": "TBD",
-      "label": "MinuteTime"
+      "label": "MinuteTime",
       "name": "Minute Time"
     },
     {
-      "abbreviation": "mol"
+      "abbreviation": "mol",
       "definition": "TBD",
-      "label": "Mole"
+      "label": "Mole",
       "name": "Mole"
     },
     {
-      "abbreviation": "NTU"
+      "abbreviation": "NTU",
       "definition": "TBD",
-      "label": "NephelometricTurbidityUnit"
+      "label": "NephelometricTurbidityUnit",
       "name": "Nephelometric Turbidity Unit"
     },
     {
-      "abbreviation": "ohm"
+      "abbreviation": "ohm",
       "definition": "TBD",
-      "label": "Ohm"
+      "label": "Ohm",
       "name": "Ohm"
     },
     {
-      "abbreviation": "ppm"
+      "abbreviation": "ppm",
       "definition": "TBD",
-      "label": "PartPerMillion"
+      "label": "PartPerMillion",
       "name": "Part Per Million"
     },
     {
-      "abbreviation": "%"
+      "abbreviation": "%",
       "definition": "TBD",
-      "label": "Percent"
+      "label": "Percent",
       "name": "Percent"
     },
     {
-      "abbreviation": "psi"
+      "abbreviation": "psi",
       "definition": "TBD",
-      "label": "PoundForcePerSquareInch"
+      "label": "PoundForcePerSquareInch",
       "name": "Pound Force Per Square Inch"
     },
     {
-      "abbreviation": "S/m"
+      "abbreviation": "S/m",
       "definition": "TBD",
-      "label": "SiemenPerMeter"
+      "label": "SiemenPerMeter",
       "name": "Siemen Per Meter"
     },
     {
-      "abbreviation": "V"
+      "abbreviation": "V",
       "definition": "TBD",
-      "label": "Volt"
+      "label": "Volt",
       "name": "Volt"
     },
     {
-      "abbreviation": "V/m"
+      "abbreviation": "V/m",
       "definition": "TBD",
-      "label": "VoltPerMeter"
+      "label": "VoltPerMeter",
       "name": "Volt Per Meter"
     },
     {
-      "abbreviation": "W/m^2"
+      "abbreviation": "W/m^2",
       "definition": "TBD",
-      "label": "WattPerSquareMeter"
+      "label": "WattPerSquareMeter",
       "name": "Watt Per Square Meter"
     }
   ]

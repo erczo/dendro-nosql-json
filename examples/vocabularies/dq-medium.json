@@ -7,67 +7,67 @@
   "terms": [
     {
       "definition": "TBD",
-      "label": "Air"
+      "label": "Air",
       "name": "Air"
     },
     {
       "definition": "TBD",
-      "label": "GroundWater"
+      "label": "GroundWater",
       "name": "Ground Water"
     },
     {
       "definition": "TBD",
-      "label": "NotRelevant"
+      "label": "NotRelevant",
       "name": "Not Relevant"
     },
     {
       "definition": "TBD",
-      "label": "Other"
+      "label": "Other",
       "name": "Other"
     },
     {
       "definition": "TBD",
-      "label": "Precipitation"
+      "label": "Precipitation",
       "name": "Precipitation"
     },
     {
       "definition": "TBD",
-      "label": "Rock"
+      "label": "Rock",
       "name": "Rock"
     },
     {
       "definition": "TBD",
-      "label": "Saprolite"
+      "label": "Saprolite",
       "name": "Saprolite"
     },
     {
       "definition": "TBD",
-      "label": "Sediment"
+      "label": "Sediment",
       "name": "Sediment"
     },
     {
       "definition": "TBD",
-      "label": "Snow"
+      "label": "Snow",
       "name": "Snow"
     },
     {
       "definition": "TBD",
-      "label": "Soil"
+      "label": "Soil",
       "name": "Soil"
     },
     {
       "definition": "TBD",
-      "label": "SurfaceWater"
+      "label": "SurfaceWater",
       "name": "Surface Water"
     },
     {
       "definition": "TBD",
-      "label": "Tissue"
+      "label": "Tissue",
       "name": "Tissue"
     },
     {
       "definition": "TBD",
-      "label": "Unknown"
+      "label": "Unknown",
       "name": "Unknown"
     }
   ]

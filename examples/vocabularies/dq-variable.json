@@ -7,91 +7,113 @@
   "terms": [
     {
       "definition": "TBD",
-      "label": "Barometric Pressure"
+      "label": "BarometricPressure",
+      "name": "Barometric Pressure"
     },
     {
       "definition": "TBD",
-      "label": "Battery Voltage"
+      "label": "BatteryVoltage",
+      "name": "Battery Voltage"
     },
     {
       "definition": "TBD",
-      "label": "Depth"
+      "label": "Depth",
+      "name": "Depth"
     },
     {
       "definition": "TBD",
-      "label": "Direction"
+      "label": "Direction",
+      "name": "Direction"
     },
     {
       "definition": "TBD",
-      "label": "Discharge"
+      "label": "Discharge",
+      "name": "Discharge"
     },
     {
       "definition": "TBD",
-      "label": "Duration"
+      "label": "Duration",
+      "name": "Duration"
     },
     {
       "definition": "TBD",
-      "label": "Evapotranspiration"
+      "label": "Evapotranspiration",
+      "name": "Evapotranspiration"
     },
     {
       "definition": "TBD",
-      "label": "Flux"
+      "label": "Flux",
+      "name": "Flux"
     },
     {
       "definition": "TBD",
-      "label": "Height"
+      "label": "Height",
+      "name": "Height"
     },
     {
       "definition": "TBD",
-      "label": "Leaf Wetness"
+      "label": "LeafWetness",
+      "name": "Leaf Wetness"
     },
     {
       "definition": "TBD",
-      "label": "Precipitation"
+      "label": "Precipitation",
+      "name": "Precipitation"
     },
     {
       "definition": "TBD",
-      "label": "Radiation"
+      "label": "Radiation",
+      "name": "Radiation"
     },
     {
       "definition": "TBD",
-      "label": "Speed"
+      "label": "Speed",
+      "name": "Speed"
     },
     {
       "definition": "TBD",
-      "label": "Temperature"
+      "label": "Temperature",
+      "name": "Temperature"
     },
     {
       "definition": "TBD",
-      "label": "Transpiration"
+      "label": "Transpiration",
+      "name": "Transpiration"
     },
     {
       "definition": "TBD",
-      "label": "Turbidity"
+      "label": "Turbidity",
+      "name": "Turbidity"
     },
     {
       "definition": "TBD",
-      "label": "Vapor Pressure"
+      "label": "VaporPressure",
+      "name": "Vapor Pressure"
     },
     {
       "definition": "TBD",
-      "label": "Vapor Pressure Deficit"
+      "label": "VaporPressureDeficit",
+      "name": "Vapor Pressure Deficit"
     },
     {
       "definition": "TBD",
-      "label": "Velocity"
+      "label": "Velocity",
+      "name": "Velocity"
     },
     {
       "definition": "TBD",
-      "label": "Visibility"
+      "label": "Visibility",
+      "name": "Visibility"
     },
     {
       "definition": "TBD",
-      "label": "Volume"
+      "label": "Volume",
+      "name": "Volume"
     },
     {
       "definition": "TBD",
-      "label": "Volumetric Water Content"
+      "label": "VolumetricWaterContent",
+      "name": "Volumetric Water Content"
     }
   ]
 }

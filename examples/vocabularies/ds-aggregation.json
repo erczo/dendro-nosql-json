@@ -1,0 +1,29 @@
+{
+  "_id": "ds-aggregation",
+  "created_at": "2016-11-15T16:30:00Z",
+  "description": "TBD",
+  "label": "Aggregation",
+  "scheme_id": "ds",
+  "terms": [
+    {
+      "definition": "TBD",
+      "label": "Average"
+    },
+    {
+      "definition": "TBD",
+      "label": "Maximum"
+    },
+    {
+      "definition": "TBD",
+      "label": "Median"
+    },
+    {
+      "definition": "TBD",
+      "label": "Minimum"
+    },
+    {
+      "definition": "TBD",
+      "label": "StandardDeviation"
+    }
+  ]
+}

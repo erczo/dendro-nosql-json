@@ -1,0 +1,65 @@
+{
+  "_id": "ds-medium",
+  "created_at": "2016-11-15T16:30:00Z",
+  "description": "TBD",
+  "label": "Medium",
+  "scheme_id": "ds",
+  "terms": [
+    {
+      "definition": "TBD",
+      "label": "Air"
+    },
+    {
+      "definition": "TBD",
+      "label": "Battery"
+    },
+    {
+      "definition": "TBD",
+      "label": "GroundWater"
+    },
+    {
+      "definition": "TBD",
+      "label": "Instrument"
+    },
+    {
+      "definition": "TBD",
+      "label": "Leaf"
+    },
+    {
+      "definition": "TBD",
+      "label": "Precipitation"
+    },
+    {
+      "definition": "TBD",
+      "label": "Rock"
+    },
+    {
+      "definition": "TBD",
+      "label": "Saprolite"
+    },
+    {
+      "definition": "TBD",
+      "label": "Sediment"
+    },
+    {
+      "definition": "TBD",
+      "label": "Snow"
+    },
+    {
+      "definition": "TBD",
+      "label": "Soil"
+    },
+    {
+      "definition": "TBD",
+      "label": "Solar"
+    },
+    {
+      "definition": "TBD",
+      "label": "SurfaceWater"
+    },
+    {
+      "definition": "TBD",
+      "label": "Tissue"
+    }
+  ]
+}

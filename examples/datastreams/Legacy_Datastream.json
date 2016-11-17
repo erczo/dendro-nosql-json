@@ -1,0 +1,46 @@
+{
+  "_id": "581434a8650aad2999d57288",
+  "attributes": {},
+  "created_at": "2016-11-15T16:30:00Z",
+  "datapoints_config": [
+    {
+      "date_time_range": {
+        "begins_at": "2016-11-01T00:00:00Z",
+        "ends_before": "2016-12-01T00:00:00Z"
+      },
+      "feathers_service": {
+        "params": {
+          "query": {
+            "compact": true,
+            "datastream_id": 3077,
+            "time_adjust": -28800
+          }
+        },
+        "path": "/legacy/datavalues"
+      }
+    }
+  ],
+  "derivation_description": null,
+  "derived": false,
+  "description": "TBD",
+  "enabled": true,
+  "geo": {
+    "coordinates": [
+      -122.431297,
+      37.773972
+    ],
+    "type": "Point"
+  },
+  "members": [],
+  "name": "Blue Oak Ranch Air Temperature Average",
+  "source_type": "sensor",
+  "state": "ready",
+  "tags": [
+    "dq:Aggregation:Average/Mean",
+    "dq:Medium:Air",
+    "dq:Variable:Temperature",
+    "dt:unit:DegreeCelsius"
+  ],
+  "thing_id": null,
+  "urls": []
+}

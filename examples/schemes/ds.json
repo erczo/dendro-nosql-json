@@ -1,0 +1,6 @@
+{
+  "_id": "ds",
+  "created_at": "2016-11-15T16:30:00Z",
+  "description": "A collection of controlled vocabularies/tags for internal use in the Dendro system.",
+  "name": "Dendro System Controlled Vocabularies"
+}

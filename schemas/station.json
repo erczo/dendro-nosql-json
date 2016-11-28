@@ -2,8 +2,11 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
-    "_id": { "type": "string", "maxLength": 50 },
-    "activated_at": { "type": "string" },
+    "_id": { 
+      "type": "string",
+      "pattern": "/^[a-f\d]{24}$/i",
+      "maxLength": 24 },
+    "activated_at": { "type": "string", "format": "date-time"},
     "altitude": {
       "type": "object",
       "properties": {
@@ -11,12 +14,17 @@
       },
       "required": ["elevation"]
     },
-    "created_at": { "type": "string" },
-    "datastreams_ids": {"type": "array"},
-    "deactivated_at": {"type": "string"},
+    "created_at": { "type": "string", "format": "date-time" },
+    "datastreams_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "deactivated_at": { "type": "string" },
     "enabled": { "type": "boolean" },
-    "full_name": { "type": "string" },
-    "geo": {
+    "full_name": { "type": "string", "maxLength": 200 },
+    "geo": { 
       "type": "object",
       "properties": {
         "coordinates": {"type": "array", "minLength": 2, "maxLength": 2},
@@ -26,16 +34,71 @@
     },
     "is_active": { "type": "boolean" },
     "is_stationary": { "type": "boolean" },
-    "media": { "type": "array" },
-    "members": { "type": "array" },
+
+    "media": { 
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 5,
+      "items": {
+        "sizes": {
+          "type": "object",
+          "properties": {
+            "large": {
+              "type": "object",
+              "properties": {
+                "h": {"type": "number"},
+                "w": {"type": "number"}
+              }
+            },
+              "medium": {
+              "type": "object",
+              "properties": {
+                "h": {"type": "number"},
+                "w": {"type": "number"}
+              }
+            },
+              "thumb": {
+              "type": "object",
+              "properties": {
+                "h": {"type": "number"},
+                "w": {"type": "number"}
+              }
+            }
+          }
+        },
+        "type": {"type": "string"},
+        "url": {"type": "website_url"},
+        "video_info": {
+          "type": "object",
+          "properties": {}
+        }
+      } 
+    },
+
+    "members": {
+      "type": "array",
+      "items": {
+        "organization_id": {"type": "string"},
+        "roles": { 
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+      // something is weird here
+       },
     "name": {"type": "string"},
     "place_id": {"type": "string" },
     "slug": {"type": "string"},
     "station_type": {"type": "string"},
-    "thing_ids": {"type": "array"},
+    "thing_ids": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
     "utc_offset": { "type": "number" },
-    "website_url": {"type": "string"}
+    "website_url": {"type": "string", "format": "uri"}
   },
-  "required": ["_id", "activated_at", "altitude", "datastreams_ids", "enabled", "geo", "is_active", "place_id", "station_type", "thing_ids"],
+  "required": ["activated_at", "datastreams_ids", "enabled", "geo", "is_active", "place_id", "station_type"],
   "additionalProperties": false
 }

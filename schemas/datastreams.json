@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
-    "_id": { 
+    "_id": {
       "type": "string",
       "pattern": "/^[a-f\d]{24}$/i",
       "maxLength": 24 
@@ -14,7 +14,7 @@
           "height": {"type": "number"}
         }
       },
-      "created_at": { 
+      "created_at": {
         "type": "string", 
         "format": "date-time"
       },
@@ -25,7 +25,10 @@
       "geo": { 
       "type": "object",
       "properties": {
-        "coordinates": {"type": "array", "minLength": 2, "maxLength": 2},
+        "coordinates": {
+          "type": "array",
+          "minLength": 2,
+          "maxLength": 2},
         "type": {
           "type": "string",
           "enum": ["Point"]

@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "_id": { 
+      "type": "string",
+      "pattern": "/^[a-f\d]{24}$/i",
+      "maxLength": 24 
+    },
+    "created_at": { 
+      "type": "string", 
+      "format": "date-time"
+    },
+    "organization_id": { 
+      "type": "string",
+      "pattern": "/^[a-f\d]{24}$/i",
+      "maxLength": 24 
+    },
+    "person_id": { 
+      "type": "string",
+      "pattern": "/^[a-f\d]{24}$/i",
+      "maxLength": 24 
+    },
+    "roles": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  }
+  "required": ["_id", "description", "name"],
+  "additionalProperties": false
+}

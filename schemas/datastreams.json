@@ -1,0 +1,112 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "_id": { 
+      "type": "string",
+      "pattern": "/^[a-f\d]{24}$/i",
+      "maxLength": 24 
+    },
+      "attributes": {
+        "type": "object",
+        "properties": {
+          "depth": {"type": "number"},
+          "height": {"type": "number"}
+        }
+      },
+      "created_at": { 
+        "type": "string", 
+        "format": "date-time"
+      },
+      "derivation_description": {"type": "string"},
+      "derived": {"type": "boolean"},
+      "description": {"type": "string"},
+      "enabled": {"type": "boolean"},
+      "geo": { 
+      "type": "object",
+      "properties": {
+        "coordinates": {"type": "array", "minLength": 2, "maxLength": 2},
+        "type": {
+          "type": "string",
+          "enum": ["Point"]
+        }
+      },
+      "required": ["coordinates"]
+    },
+
+    "members": {
+      "type": "array",
+      "items": {
+        "type": "object"
+        // "organization_id": { 
+        //   "type": "string",
+        //   "pattern": "/^[a-f\d]{24}$/i",
+        //   "maxLength": 24 
+        // },
+        // "roles": { 
+        //   "type": "array",
+        //   "items": {
+        //     "type": "string"
+        //   }
+        // }
+      }
+    },
+
+    "name": {"type": "string"},
+    "source_type": {"type": "string"},
+    "state": {
+      "type": "string",
+      "enum": ["ready"]
+    },
+    "storage": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+        "database": {"type": "string"},
+        "field": {"type": "string"},
+        "model": {"type": "string"},
+        "query": {
+          "type": "array",
+          "items": {
+            "key": {"type": "string"},
+            "value": {"type": "string"}
+          }
+        },
+        "type": {"type": "string"}
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "thing_id": { 
+      "type": "string",
+      "pattern": "/^[a-f\d]{24}$/i",
+      "maxLength": 24 
+    },
+    "timeframe": {
+      "type": "object",
+      "properties": {
+        "begins_at": {"type": "string"},
+        "ends_before": {"type": "string"}
+      }
+    },
+    "urls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {"type": "string"},
+          "url": {
+            "type": "string",
+            "format": "url"
+          }
+        }
+      }
+    }
+  },
+  "required": [],
+  "additionalProperties": false
+}

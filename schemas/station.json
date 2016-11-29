@@ -5,7 +5,8 @@
     "_id": { 
       "type": "string",
       "pattern": "/^[a-f\d]{24}$/i",
-      "maxLength": 24 },
+      "maxLength": 24 
+    },
     "activated_at": { "type": "string", "format": "date-time"},
     "altitude": {
       "type": "object",
@@ -34,7 +35,6 @@
     },
     "is_active": { "type": "boolean" },
     "is_stationary": { "type": "boolean" },
-
     "media": { 
       "type": "array",
       "minItems": 0,
@@ -67,7 +67,10 @@
           }
         },
         "type": {"type": "string"},
-        "url": {"type": "website_url"},
+        "url": {
+          "type": "string",
+          "format": "url"
+        },
         "video_info": {
           "type": "object",
           "properties": {}
@@ -77,27 +80,22 @@
 
     "members": {
       "type": "array",
-      "items": {
-        "organization_id": {"type": "string"},
-        "roles": { 
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      }
-      // something is weird here
-       },
+      "items": {"type": "object"}
+    },
     "name": {"type": "string"},
     "place_id": {"type": "string" },
     "slug": {"type": "string"},
     "station_type": {"type": "string"},
     "thing_ids": {
       "type": "array",
-      "items": {"type": "string"}
+      "items": { 
+      "type": "string",
+      "pattern": "/^[a-f\d]{24}$/i",
+      "maxLength": 24 
+    }
     },
     "utc_offset": { "type": "number" },
-    "website_url": {"type": "string", "format": "uri"}
+    "website_url": {"type": "string", "format": "url"}
   },
   "required": ["activated_at", "datastreams_ids", "enabled", "geo", "is_active", "place_id", "station_type"],
   "additionalProperties": false

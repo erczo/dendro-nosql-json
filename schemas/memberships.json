@@ -9,7 +9,7 @@
     },
     "created_at": { 
       "type": "string", 
-      "format": "date-time"
+      "pattern": "/^[0-9]{4}-[0-9]{2}-[0-9]{2}[T][0-9]{2}:[0-9]{2}:[0-9]{2,}Z$/"
     },
     "organization_id": { 
       "type": "string",
@@ -23,9 +23,10 @@
     },
     "roles": {
       "type": "array",
-      "items": {"type": "string"}
+      "items": {"type": "string"},
+      "maxLength": 50
     }
-  }
-  "required": ["_id", "description", "name"],
+  },
+  "required": ["roles"],
   "additionalProperties": false
 }

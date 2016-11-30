@@ -4,12 +4,11 @@
   "properties": {
     "_id": { 
       "type": "string",
-      "pattern": "/^[a-f\d]{24}$/i",
       "maxLength": 24 
     },
     "activated_at": { 
       "type": "string", 
-      "format": "date-time"
+      "pattern": "/^[0-9]{4}-[0-9]{2}-[0-9]{2}[T][0-9]{2}:[0-9]{2}:[0-9]{2,}Z$/"
     },
     "altitude": {
       "type": "object",
@@ -20,13 +19,12 @@
     },
     "created_at": { 
       "type": "string", 
-      "format": "date-time" 
+      "pattern": "/^[0-9]{4}-[0-9]{2}-[0-9]{2}[T][0-9]{2}:[0-9]{2}:[0-9]{2,}Z$/"
     },
-    "datastreams_ids": {
-      "type": "array",
-      "items": {"type": "string"}
+    "deactivated_at": {
+      "type": "string",
+      "pattern": "/^[0-9]{4}-[0-9]{2}-[0-9]{2}[T][0-9]{2}:[0-9]{2}:[0-9]{2,}Z$/"
     },
-    "deactivated_at": {"type": "string"},
     "enabled": {"type": "boolean"},
     "full_name": {
       "type": "string",
@@ -38,11 +36,15 @@
         "coordinates": {
           "type": "array",
           "minLength": 2,
-          "maxLength": 2
+          "maxLength": 2,
+          "items": {"type": "number"}
         },
-        "type": {"type": "string"}
+        "type": {
+          "type": "string",
+          "enum": ["Point"]
+        }
       },
-      "required": ["coordinates"]
+      "required": ["coordinates", "type"]
     },
     "is_active": {"type": "boolean"},
     "is_stationary": {"type": "boolean"},
@@ -51,63 +53,97 @@
       "minItems": 0,
       "maxItems": 5,
       "items": {
-        "sizes": {
-          "type": "object",
-          "properties": {
-            "large": {
-              "type": "object",
-              "properties": {
-                "h": {"type": "number"},
-                "w": {"type": "number"}
-              }
-            },
+        "type": "object",
+        "properties": {
+          "sizes": {
+            "type": "object",
+            "properties": {
+              "large": {
+                "type": "object",
+                "properties": {
+                  "h": {"type": "number"},
+                  "w": {"type": "number"}
+                }
+              },
               "medium": {
-              "type": "object",
-              "properties": {
-                "h": {"type": "number"},
-                "w": {"type": "number"}
+                "type": "object",
+                "properties": {
+                  "h": {"type": "number"},
+                  "w": {"type": "number"}
+                }
+              },
+              "thumb": {
+                "type": "object",
+                "properties": {
+                  "h": {"type": "number"},
+                  "w": {"type": "number"}
+                }
               }
             },
-              "thumb": {
-              "type": "object",
-              "properties": {
-                "h": {"type": "number"},
-                "w": {"type": "number"}
-              }
-            }
+            "required": ["large", "medium", "thumb"]
+          },
+          "type": {
+            "type": "string",
+            "enum": ["photo"]
+          },
+          "url": {
+            "type": "string",
+            "format": "url"
           }
-        },
-        "type": {"type": "string"},
-        "url": {
-          "type": "string",
-          "format": "url"
-        },
-        "video_info": {
-          "type": "object",
-          "properties": {}
         }
       } 
     },
-
     "members": {
       "type": "array",
-      "items": {"type": "object"}
+      "items": {
+        "type": "object",
+        "properties": {
+          "organization_id": {
+            "type": "string",
+            "pattern": "/^[a-f\d]{24}$/",
+            "maxLength": 24
+          },
+          "person_id": {
+            "type": "string",
+            "pattern": "/^[a-f\d]{24}$/",
+            "maxLength": 24
+          },
+          "roles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 50
+            }
+          }
+        },
+        "required": ["roles"]
+      }
     },
     "name": {"type": "string"},
     "place_id": {"type": "string"},
-    "slug": {"type": "string"},
-    "station_type": {"type": "string"},
+    "slug": {
+      "type": "string",
+      "pattern": "/[a-z]+[0-9]+[-]/"
+    },
+    "station_type": {
+      "type": "string",
+      "enum": ["weather"]
+    },
     "thing_ids": {
       "type": "array",
+      "minItems": 1,
       "items": { 
       "type": "string",
-      "pattern": "/^[a-f\d]{24}$/i",
+      "pattern": "/^[a-f\d]{24}$/",
       "maxLength": 24 
     }
     },
     "utc_offset": {"type": "number"},
-    "website_url": {"type": "string", "format": "url"}
+    "website_url": {
+      "type": "string",
+      "format": "url"
+    }
   },
-  "required": ["activated_at", "datastreams_ids", "enabled", "geo", "is_active", "place_id", "station_type"],
+  "required": ["enabled", "is_active", "is_stationary", "name", "station_type", "utc_offset"],
   "additionalProperties": false
 }

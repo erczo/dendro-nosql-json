@@ -2,29 +2,16 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
-    "_id": {
-      "type": "string",
-      "pattern": "/^[a-f\d]{24}$/i",
-      "maxLength": 24 
-    },
+    "_id": {"$ref": "#/definitions/objectId"},
     "attributes": {"type": "object"},
-    "created_at": { 
-      "type": "string", 
-      "pattern": "/^[0-9]{4}-[0-9]{2}-[0-9]{2}[T][0-9]{2}:[0-9]{2}:[0-9]{2,}Z$/"
-    },
+    "created_at": {"$ref": "#/definitions/isoDate"},
     "datapoints_config": {
       "type": "array",
       "items": {
         "type": "object",
         "properties": {
-          "begins_at": { 
-            "type": "string", 
-            "pattern": "/^[0-9]{4}-[0-9]{2}-[0-9]{2}[T][0-9]{2}:[0-9]{2}:[0-9]{2,}Z$/"
-          },
-          "ends_before": { 
-            "type": "string", 
-            "pattern": "/^[0-9]{4}-[0-9]{2}-[0-9]{2}[T][0-9]{2}:[0-9]{2}:[0-9]{2,}Z$/"
-          },
+          "begins_at": {"$ref": "#/definitions/isoDate"},
+          "ends_before": {"$ref": "#/definitions/isoDate"},
           "params": {"type": "object"},
           "path": {"type": "string"}
         },
@@ -57,16 +44,8 @@
       "items": {
         "type": "object",
         "properties": {
-          "organization_id": {
-            "type": "string",
-            "pattern": "/^[a-f\d]{24}$/",
-            "maxLength": 24
-          },
-          "person_id": {
-            "type": "string",
-            "pattern": "/^[a-f\d]{24}$/",
-            "maxLength": 24
-          },
+          "organization_id": {"$ref": "#/definitions/objectId"},
+          "person_id": {"$ref": "#/definitions/objectId"},
           "roles": {
             "type": "array",
             "items": {
@@ -92,11 +71,7 @@
       "type": "array",
       "items": {"type": "string"}
     },
-    "thing_id": { 
-      "type": "string",
-      "pattern": "/^[a-f\d]{24}$/i",
-      "maxLength": 24 
-    },
+    "thing_id": {"$ref": "#/definitions/objectId"},
     "urls": {
       "type": "array",
       "items": {
@@ -110,6 +85,17 @@
         }
       }
     }    
+  },
+  "definitions": {
+    "objectId": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{24}$",
+      "maxLength": 24
+    },
+    "isoDate": {
+      "type": "string", 
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}[T][0-9]{2}:[0-9]{2}:[0-9]{2,}Z$"
+    }
   },
   "required": ["derived", "enabled", "name"],
   "additionalProperties": false

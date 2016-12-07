@@ -2,14 +2,8 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
-    "_id": { 
-      "type": "string",
-      "maxLength": 24 
-    },
-    "activated_at": { 
-      "type": "string", 
-      "pattern": "/^[0-9]{4}-[0-9]{2}-[0-9]{2}[T][0-9]{2}:[0-9]{2}:[0-9]{2,}Z$/"
-    },
+    "_id": {"$ref": "#/definitions/objectId"},
+    "activated_at": {"$ref": "#/definitions/isoDate"},
     "altitude": {
       "type": "object",
       "properties": {
@@ -17,14 +11,12 @@
       },
       "required": ["elevation"]
     },
-    "created_at": { 
-      "type": "string", 
-      "pattern": "/^[0-9]{4}-[0-9]{2}-[0-9]{2}[T][0-9]{2}:[0-9]{2}:[0-9]{2,}Z$/"
+    "datastreams_ids": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/objectId"}
     },
-    "deactivated_at": {
-      "type": "string",
-      "pattern": "/^[0-9]{4}-[0-9]{2}-[0-9]{2}[T][0-9]{2}:[0-9]{2}:[0-9]{2,}Z$/"
-    },
+    "created_at": {"$ref": "#/definitions/isoDate"},
+    "deactivated_at": {"$ref": "#/definitions/isoDate"},
     "enabled": {"type": "boolean"},
     "full_name": {
       "type": "string",
@@ -98,16 +90,8 @@
       "items": {
         "type": "object",
         "properties": {
-          "organization_id": {
-            "type": "string",
-            "pattern": "/^[a-f\d]{24}$/",
-            "maxLength": 24
-          },
-          "person_id": {
-            "type": "string",
-            "pattern": "/^[a-f\d]{24}$/",
-            "maxLength": 24
-          },
+          "organization_id": {"$ref": "#/definitions/objectId"},
+          "person_id": {"$ref": "#/definitions/objectId"},
           "roles": {
             "type": "array",
             "items": {
@@ -121,10 +105,7 @@
     },
     "name": {"type": "string"},
     "place_id": {"type": "string"},
-    "slug": {
-      "type": "string",
-      "pattern": "/[a-z]+[0-9]+[-]/"
-    },
+    "slug": {"$ref": "#/definitions/slugId"},
     "station_type": {
       "type": "string",
       "enum": ["weather"]
@@ -132,16 +113,27 @@
     "thing_ids": {
       "type": "array",
       "minItems": 1,
-      "items": { 
-      "type": "string",
-      "pattern": "/^[a-f\d]{24}$/",
-      "maxLength": 24 
-    }
+      "items": {"$ref": "#/definitions/objectId"}
     },
     "utc_offset": {"type": "number"},
     "website_url": {
       "type": "string",
       "format": "url"
+    }
+  },
+  "definitions": {
+    "objectId": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{24}$",
+      "maxLength": 24
+    },
+    "isoDate": {
+      "type": "string", 
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}[T][0-9]{2}:[0-9]{2}:[0-9]{2,}Z$"
+    },
+    "slugId": {
+      "type": "string",
+      "pattern": "[a-z0-9-]{1,}"
     }
   },
   "required": ["enabled", "is_active", "is_stationary", "name", "station_type", "utc_offset"],

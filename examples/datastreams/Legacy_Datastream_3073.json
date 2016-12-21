@@ -1,0 +1,28 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2015-01-01T00:00:00.000Z",
+      "ends_before": "2016-11-01T00:00:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3073,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues"
+    }
+  ],
+  "derived": false,
+  "description": "Wind gust maximum at Blue Oak Ranch",
+  "enabled": true,
+  "name": "Blue Oak Ranch Maximum Wind Gust",
+  "source_type": "sensor",
+  "state": "ready",
+  "tags": [
+    "ds:Aggregation:Maximum",
+    "ds:Medium:Air",
+    "ds:Variable:Speed",
+    "dt:Unit:MeterPerSecond"
+  ]
+}

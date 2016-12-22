@@ -10,7 +10,7 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues"
+      "path": "/legacy/datavalues-ucnrs"
     }
   ],
   "derived": false,

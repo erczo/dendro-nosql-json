@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "is_active": true,
+  "is_stationary": true,
+  "name": "Blue Oak Ranch Reserve",
+  "station_type": "weather",
+  "utc_offset": 19800
+}

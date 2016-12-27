@@ -15,7 +15,7 @@
           "params": {"type": "object"},
           "path": {"type": "string"}
         },
-        "required": ["begins_at", "ends_before", "params", "path"],
+        "required": ["params", "path"],
         "additionalProperties": false
       },
       "minItems": 1

@@ -57,10 +57,10 @@
   "state": "ready",
   "station_id": null,
   "tags": [
-    "ds:Aggregation:Average",
-    "ds:Medium:Air",
-    "ds:Variable:Temperature",
-    "dt:Unit:DegreeCelsius"
+    "ds_Aggregation_Average",
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
   ],
   "thing_id": null,
   "urls": []

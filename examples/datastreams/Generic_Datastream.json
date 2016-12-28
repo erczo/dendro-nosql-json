@@ -49,10 +49,10 @@
     }
   ],
   "tags": [
-    "dt:unit:degreeCelsius",
-    "dq:Medium:Air",
-    "dq:Variable:Temperature",
-    "dq:Aggregation:Average/Mean"
+    "dt_Unit_DegreeCelsius",
+    "dq_Medium_Air",
+    "dq_Variable_Temperature",
+    "dq_Aggregation_AverageMean"
   ],
   "thing_id": "581434a8650aad2999d57288",
   "timeframe": {

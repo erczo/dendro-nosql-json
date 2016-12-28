@@ -22,9 +22,9 @@
   "state": "ready",
   "station_id": "5861989eb6e0c00001edb2b2",
   "tags": [
-    "ds:Aggregation:Average",
-    "ds:Medium:Air",
-    "ds:Variable:Temperature",
-    "dt:Unit:DegreeCelsius"
+    "ds_Aggregation_Average",
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
   ]
 }

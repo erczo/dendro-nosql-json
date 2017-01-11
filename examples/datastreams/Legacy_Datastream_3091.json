@@ -1,0 +1,30 @@
+{
+  "attributes": {
+    "height": 2,
+    "unit": "Meter"
+  },
+  "datapoints_config": [
+    {
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3091,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "derived": true,
+  "enabled": true,
+  "name": "Air Temp Delta Deg C 10m-2m Blue Oak Max",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5861989eb6e0c00001edb2b2",
+  "tags": [
+    "ds_Aggregation_Maximum",
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ]
+}

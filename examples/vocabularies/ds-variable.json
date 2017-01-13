@@ -55,6 +55,10 @@
     },
     {
       "definition": "TBD",
+      "label": "RelativeHumidity"
+    },
+    {
+      "definition": "TBD",
       "label": "SolarRadiation"
     },
     {

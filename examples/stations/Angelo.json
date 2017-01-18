@@ -1,0 +1,18 @@
+{
+	"enabled": true,
+	"is_active": true,
+	"is_stationary": true,
+	"name": "Angelo",
+	"slug": "angelo",
+	"full_name": "Angelo Reserve South Meadow Weather Station",
+	"station_type": "weather",
+	"utc_offset": -28800,
+	"geo": {
+		"coordinates": [
+			-123.630787427,
+			39.738880110,
+			383.7
+		],
+		"type": "Point"
+	}
+}

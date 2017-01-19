@@ -17,12 +17,12 @@
   ],
   "derived": false,
   "enabled": true,
-  "name": "Soil Temp Deg C 20 in Blue Oak Min",
+  "name": "Soil Temp Deg C 20 in Blue Oak Max",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "5861989eb6e0c00001edb2b2",
   "tags": [
-    "ds_Aggregation_Minimum",
+    "ds_Aggregation_Maximum",
     "ds_Medium_Soil",
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"

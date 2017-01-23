@@ -18,9 +18,9 @@ CREATE TABLE datavalues_seasonal (
 Rules for aggregation:  each of the aggregations will be its own datastream.
 DerivedFromID: DSID of original datastream
 DatastreamID: 
-	990000 + DSID: Maximum
-	980000 + DSID: Average
-	970000 + DSID: Minimum
+	30000 + DSID: Maximum
+	20000 + DSID: Average
+	10000 + DSID: Minimum
 UTCOffset = -8
 QualifierID = 2
 QualityControlLevelCode = 2

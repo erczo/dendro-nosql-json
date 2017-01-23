@@ -1,36 +1,30 @@
 {
-  "station_id": "587d6c09699c930001713eab",
   "derivation_description": null,
+  "station_id": "587d6c09699c930001713eab",
+  "source_type": "sensor",
+  "name": "Air Temp Delta Deg C 10m-2m Angelo Min",
+  "description": "TBD",
+  "enabled": true,
   "tags": [
     "ds_Aggregate_Minimum",
     "ds_Medium_Air",
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"
   ],
-  "attributes": {
-    "height": {
-      "height": "10-2",
-      "units": "dt_Unit_Inches"
-    }
-  },
-  "enabled": true,
-  "name": "Air Temp Delta Deg C 10m-2m Angelo Min",
-  "description": "TBD",
   "datapoints_config": [
     {
+      "begins_at": "2013-05-07T15:10:00.000Z",
       "params": {
         "query": {
+          "compact": true,
           "datastream_id": "3360",
-          "time_adjust": -28800,
-          "compact": true
+          "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues",
-      "begins_at": "2013-05-07T15:10:00.000Z"
+      "path": "/legacy/datavalues"
     }
   ],
-  "source_type": "sensor",
-  "derived": false,
+  "state": "ready",
   "geo": {
     "coordinates": [
       -123.630833,
@@ -39,5 +33,11 @@
     ],
     "type": "Point"
   },
-  "state": "ready"
+  "derived": false,
+  "attributes": {
+    "height": {
+      "units": "Inches",
+      "height": "10-2"
+    }
+  }
 }

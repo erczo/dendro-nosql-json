@@ -17,6 +17,11 @@
     },
     {
       "definition": "TBD",
+      "label": "Count",
+      "name": "Count"
+    },
+    {
+      "definition": "TBD",
       "label": "Depth",
       "name": "Depth"
     },

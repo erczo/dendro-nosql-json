@@ -63,13 +63,16 @@ dslist = {
 now = dt.datetime.now()
 year_current = now.year
 
+# Use ODM_DEV or production ODM
+booDev = False
+
 for dsid,dsname in dslist.items():
     print(dsid,dsname)
     if(re.match('Precipitation',dsname)):
         print('TRUE! I found Precipitation:',dsid,dsname)
 
     # Connect to Sensor Database and get oldest year for DSID
-    conn = odm_connect('odm.pw',boo_dev=True)
+    conn = odm_connect('odm.pw',boo_dev=booDev)
     sql_oldest_year = 'SELECT min(year(LocalDateTime)) '+\
     ' FROM odm.datavalues_UCNRS '+\
     ' WHERE DatastreamID = 3077'
@@ -94,7 +97,7 @@ for dsid,dsname in dslist.items():
         'GROUP BY date(localdatetime) '+\
         'ORDER BY date(localdatetime)'
         #print(sql_daily)
-        conn = odm_connect('odm.pw',boo_dev=True)
+        conn = odm_connect('odm.pw',boo_dev=booDev)
         cursor = conn.cursor()
         cursor.execute(sql_daily)
     

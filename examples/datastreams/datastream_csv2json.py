@@ -29,7 +29,7 @@ for i in range(1,rows):
     dsid = str(df.iloc[i,6])
     hd = df.iloc[i,7]
     hdvalue = df.iloc[i,8]
-    hdunits = 'dt_Unit_'+str(df.iloc[i,9])
+    hdunits = str(df.iloc[i,9])
     if(hd == 'height'):
         attributes = { 'height' : { 'height' : hdvalue, 'units' : hdunits } }
     if(hd == 'depth'):

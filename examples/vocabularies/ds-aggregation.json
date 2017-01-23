@@ -24,6 +24,11 @@
     {
       "definition": "TBD",
       "label": "StandardDeviation"
+    },
+    {
+      "definition": "TBD",
+      "label": "Sum",
+      "name": "Sum"
     }
   ]
 }

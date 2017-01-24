@@ -40,55 +40,13 @@
           "sizes": {
             "type": "object",
             "properties": {
-              "large": {
-                "type": "object",
-                "properties": {
-                  "h": {"type": "number"},
-                  "w": {"type": "number"}
-                }
-              },
-              "medium": {
-                "type": "object",
-                "properties": {
-                  "h": {"type": "number"},
-                  "w": {"type": "number"}
-                }
-              },
-              "medium_2x": {
-                "type": "object",
-                "properties": {
-                  "h": {"type": "number"},
-                  "w": {"type": "number"}
-                }
-              },
-              "small": {
-                "type": "object",
-                "properties": {
-                  "h": {"type": "number"},
-                  "w": {"type": "number"}
-                }
-              },
-              "small_2x": {
-                "type": "object",
-                "properties": {
-                  "h": {"type": "number"},
-                  "w": {"type": "number"}
-                }
-              },
-              "thumb": {
-                "type": "object",
-                "properties": {
-                  "h": {"type": "number"},
-                  "w": {"type": "number"}
-                }
-              },
-              "thumb_2x": {
-                "type": "object",
-                "properties": {
-                  "h": {"type": "number"},
-                  "w": {"type": "number"}
-                }
-              }
+              "large": {"$ref": "#/definitions/mediaSize"},
+              "medium": {"$ref": "#/definitions/mediaSize"},
+              "medium_2x": {"$ref": "#/definitions/mediaSize"},
+              "small": {"$ref": "#/definitions/mediaSize"},
+              "small_2x": {"$ref": "#/definitions/mediaSize"},
+              "thumb": {"$ref": "#/definitions/mediaSize"},
+              "thumb_2x": {"$ref": "#/definitions/mediaSize"}
             },
             "required": ["large", "medium", "small","thumb"]
           },
@@ -147,6 +105,13 @@
     "isoDate": {
       "type": "string",
       "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}[T][0-9]{2}:[0-9]{2}:[0-9]{2}|.|[0-9]{0,3}Z$"
+    },
+    "mediaSize": {
+      "type": "object",
+      "properties": {
+        "h": {"type": "number"},
+        "w": {"type": "number"}
+      }
     },
     "slugId": {
       "type": "string",

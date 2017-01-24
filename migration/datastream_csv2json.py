@@ -12,6 +12,7 @@
 import json
 import pandas as pd
 
+path = '../examples/datastreams/'
 datastream_csv = 'angelo_datastreams_code.csv'
 json_template = 'Legacy_Datastream_Angelo_Generic.json'
 dsfile_prefix = 'Legacy_Datastream_'
@@ -35,7 +36,7 @@ for i in range(1,rows):
     if(hd == 'depth'):
         attributes = { 'depth' : { 'depth' : hdvalue, 'units' : hdunits } }
     print(i,dsid,name,aggregate,medium,variable,units,attributes)      
-    with open(json_template) as json_data:
+    with open(path+json_template) as json_data:
         d = json.load(json_data)
         d['name'] = name
         d['tags'] = [aggregate,medium,variable,units]
@@ -43,7 +44,7 @@ for i in range(1,rows):
         d['datapoints_config'][0]['begins_at'] = datestart
         d['datapoints_config'][0]['params']['query']['datastream_id'] = dsid
         print(json.dumps(d,indent=2,sort_keys=True))
-        dsfile = dsfile_prefix+dsid+'.json'
+        dsfile = path+dsfile_prefix+dsid+'.json'
         with open(dsfile, 'w') as f:
              json.dump(d, f, indent=2,sort_keys=True)
 print('DONE!')

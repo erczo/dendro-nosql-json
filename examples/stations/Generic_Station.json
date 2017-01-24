@@ -58,6 +58,7 @@
   "place_id": "581434a8650aad2999d57288",
   "slug": "blue-oak-ranch",
   "station_type": "weather",
+  "time_zone": "PST",
   "thing_ids": [
     "581434a8650aad2999d57288"
   ],

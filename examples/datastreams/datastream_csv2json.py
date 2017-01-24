@@ -42,8 +42,8 @@ for i in range(1,rows):
         d['attributes'] = attributes
         d['datapoints_config'][0]['begins_at'] = datestart
         d['datapoints_config'][0]['params']['query']['datastream_id'] = dsid
-        print(json.dumps(d,indent=2))
+        print(json.dumps(d,indent=2,sort_keys=True))
         dsfile = dsfile_prefix+dsid+'.json'
         with open(dsfile, 'w') as f:
-             json.dump(d, f, indent=2)
+             json.dump(d, f, indent=2,sort_keys=True)
 print('DONE!')

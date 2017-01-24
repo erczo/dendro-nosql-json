@@ -31,7 +31,7 @@ dslist = {
     3080:'Relative Humidity Per Blue Oak Avg',
     3081:'Barometric Pressure mbar Blue Oak Avg',
     #3061:'Total Solar Radiation W m2 Blue Oak Avg',
-    3082:'Precipitation mm Blue Oak',
+    #3082:'Precipitation mm Blue Oak',
     3355:'Air Temp Deg C 2 m Angelo Avg',
     3373:'Soil Temp Deg C 20 in Angelo Avg',
     3374:'Soil Moisture VWC Angelo Avg',
@@ -61,7 +61,7 @@ for dsid,dsname in dslist.items():
             
             # Assign parameters
             d['name'] = name
-            d['derived'] = True
+            d['derived_from_datastream_ids'] = [dsid]
             d['datapoints_config'][0]['params']['query']['datastream_id'] = dsids
             d['datapoints_config'][0]['path'] = path
             taglist = d['tags']
@@ -71,10 +71,11 @@ for dsid,dsname in dslist.items():
                     taglist.remove(tag)
             taglist.append(aggregate_tag)
             taglist.append(seasonal_tag)
+            taglist.sort()
             d['tags'] = taglist
             
-            # Export JSON to file 
-            print(json.dumps(d,indent=2))
+            # Export JSON to file
+            print(json.dumps(d,indent=2,sort_keys=True))
             #dsfile = dsfile_prefix+'Seasonal_'+dsids+'.json'
             #    with open(dsfile, 'w') as f:
-            #         json.dump(d, f, indent=2)
+            #         json.dump(d, f, indent=2,sort_keys=True)

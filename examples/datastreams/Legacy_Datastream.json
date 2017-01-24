@@ -58,7 +58,7 @@
   "state": "ready",
   "station_id": null,
   "tags": [
-    "ds_Aggregation_Average",
+    "ds_Aggregate_Average",
     "ds_Medium_Air",
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"

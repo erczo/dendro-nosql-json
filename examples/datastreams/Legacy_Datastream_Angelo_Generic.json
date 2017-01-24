@@ -3,7 +3,6 @@
 	"source_type": "sensor",
 	"state": "ready",
 	"derivation_description": null,
-	"derived": false,
 	"description": "TBD",
 	"enabled": true,
 	"station_id": "587d6c09699c930001713eab",

@@ -15,7 +15,7 @@ CREATE TABLE datavalues_seasonal (
   INDEX time_dsid (LocalDateTime,DatastreamID)
 );
 
-Rules for aggregation:  each of the aggregations will be its own datastream.
+Rules for aggregate:  each of the aggregates will be its own datastream.
 DerivedFromID: DSID of original datastream
 DatastreamID: 
 	30000 + DSID: Maximum

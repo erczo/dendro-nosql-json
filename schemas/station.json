@@ -32,8 +32,8 @@
     "is_stationary": {"type": "boolean"},
     "media": {
       "type": "array",
-      "minItems": 0,
-      "maxItems": 5,
+      "minItems": 4,
+      "maxItems": 7,
       "items": {
         "type": "object",
         "properties": {
@@ -54,7 +54,35 @@
                   "w": {"type": "number"}
                 }
               },
+              "medium_2x": {
+                "type": "object",
+                "properties": {
+                  "h": {"type": "number"},
+                  "w": {"type": "number"}
+                }
+              },
+              "small": {
+                "type": "object",
+                "properties": {
+                  "h": {"type": "number"},
+                  "w": {"type": "number"}
+                }
+              },
+              "small_2x": {
+                "type": "object",
+                "properties": {
+                  "h": {"type": "number"},
+                  "w": {"type": "number"}
+                }
+              },
               "thumb": {
+                "type": "object",
+                "properties": {
+                  "h": {"type": "number"},
+                  "w": {"type": "number"}
+                }
+              },
+              "thumb_2x": {
                 "type": "object",
                 "properties": {
                   "h": {"type": "number"},
@@ -62,7 +90,7 @@
                 }
               }
             },
-            "required": ["large", "medium", "thumb"]
+            "required": ["large", "medium", "small","thumb"]
           },
           "type": {
             "type": "string",
@@ -98,6 +126,7 @@
       "type": "string",
       "enum": ["weather"]
     },
+    "time_zone": {"type": "string"},
     "thing_ids": {
       "type": "array",
       "minItems": 1,
@@ -124,6 +153,6 @@
       "pattern": "^[a-z0-9-]+$"
     }
   },
-  "required": ["enabled", "is_active", "is_stationary", "name", "station_type", "utc_offset"],
+  "required": ["enabled", "is_active", "is_stationary", "name", "station_type", "time_zone","utc_offset"],
   "additionalProperties": false
 }

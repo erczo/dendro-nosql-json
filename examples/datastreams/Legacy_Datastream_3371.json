@@ -8,7 +8,7 @@
   "enabled": true,
   "station_id": "587d6c09699c930001713eab",
   "tags": [
-    "ds_Aggregation_Max",
+    "ds_Aggregate_Max",
     "ds_Medium_Soil",
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"

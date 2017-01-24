@@ -4,6 +4,7 @@
   "is_stationary": true,
   "name": "Blue Oak Ranch Reserve",
   "station_type": "weather",
+  "time_zone": "PST",
   "utc_offset": -28800,
   "geo": {
 		"coordinates": [

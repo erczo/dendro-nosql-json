@@ -18,7 +18,7 @@
   "state": "ready",
   "station_id": "5861989eb6e0c00001edb2b2",
   "tags": [
-    "ds_Aggregation_Average",
+    "ds_Aggregate_Average",
     "ds_Medium_Air",
     "ds_Variable_Direction",
     "dt_Unit_DegreeAngle"

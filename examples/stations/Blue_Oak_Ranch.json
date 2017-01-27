@@ -13,5 +13,15 @@
 			575
 		],
 		"type": "Point"
-	}
+	},
+  "external_links": [
+    {
+      "title" : "Sensor database",
+      "url" : "http://sensor.berkeley.edu/index_BORR.html"
+    }, 
+    {
+      "title" : "Reserve website",
+      "url" : "http://blueoakranchreserve.net"
+    }
+  ]
 }

@@ -32,8 +32,8 @@
     },
     {
       "definition": "TBD",
-      "label": "Sum",
-      "name": "Sum"
+      "label": "Cumulative",
+      "name": "Cumulative"
     }
   ]
 }

@@ -10,6 +10,37 @@ FROM datastreams as ds, variables as v
 WHERE ds.variableid = v.variableid 
 AND mc_name = 'UCNRS';
 
+
+mysql> desc datastreams;
++---------------------+----------------------+------+-----+---------+----------------+
+| Field               | Type                 | Null | Key | Default | Extra          |
++---------------------+----------------------+------+-----+---------+----------------+
+| DatastreamID        | bigint(20) unsigned  | NO   | PRI | NULL    | auto_increment |
+| DatastreamName      | varchar(255)         | NO   | UNI | NULL    |                |
+| StationName         | varchar(255)         | NO   | MUL | NULL    |                |
+| SiteCode            | varchar(50)          | NO   |     | NULL    |                |
+| VariableCode        | varchar(50)          | NO   | MUL | NULL    |                |
+| MethodName          | varchar(255)         | NO   | MUL | NULL    |                |
+| DeviceName          | varchar(255)         | YES  |     | NULL    |                |
+| FieldName           | varchar(50)          | NO   |     | NULL    |                |
+| Comments            | text                 | YES  |     | NULL    |                |
+| Contact             | varchar(96)          | YES  |     | NULL    |                |
+| DataQualityIncoming | varchar(50)          | YES  |     | NULL    |                |
+| DataQualityCurrent  | varchar(50)          | YES  |     | NULL    |                |
+| RangeMin            | decimal(8,2)         | YES  |     | NULL    |                |
+| RangeMax            | decimal(8,2)         | YES  |     | NULL    |                |
+| StartDate           | datetime             | YES  |     | NULL    |                |
+| EndDate             | datetime             | YES  |     | NULL    |                |
+| StationID           | smallint(5) unsigned | NO   | MUL | NULL    |                |
+| VariableID          | smallint(5) unsigned | NO   | MUL | NULL    |                |
+| MethodID            | smallint(5) unsigned | NO   | MUL | NULL    |                |
+| SiteID              | smallint(5) unsigned | YES  |     | NULL    |                |
+| DeviceID            | smallint(5) unsigned | YES  |     | NULL    |                |
+| ConvertedDSID       | smallint(5) unsigned | YES  | MUL | NULL    |                |
+| MC_Name             | varchar(255)         | YES  | MUL | NULL    |                |
+| CurrStartDate       | datetime             | YES  |     | NULL    |                |
++---------------------+----------------------+------+-----+---------+----------------+
+24 rows in set (0.00 sec)
 -- variables table
 | Field               | Type                | Null | Key | Default | Extra          |
 +---------------------+---------------------+------+-----+---------+----------------+
@@ -28,6 +59,9 @@ AND mc_name = 'UCNRS';
 | GeneralCategory     | varchar(50)         | NO   |     | NULL    |                |
 | NoDataValue         | double              | YES  |     | NULL    |                |
 
+
+mysql> desc sites;
+ siteid,  Latitude,Longitude,LatLongDatumName,Elevation_m
 
 SELECT 
 VariableID,

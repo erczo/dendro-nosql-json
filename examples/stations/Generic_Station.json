@@ -63,5 +63,14 @@
     "581434a8650aad2999d57288"
   ],
   "utc_offset": -28800,
-  "website_url": "http://..."
+  "external_links": [
+    {
+      "title" : "Sensor database",
+      "url" : "http://sensor.berkeley.edu/index_BORR.html"
+    }, 
+    {
+      "title" : "Reserve website",
+      "url" : "http://blueoakranchreserve.net"
+    }
+  ]
 }

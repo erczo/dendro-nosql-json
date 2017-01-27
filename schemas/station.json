@@ -91,9 +91,20 @@
       "items": {"$ref": "#/definitions/objectId"}
     },
     "utc_offset": {"type": "number"},
-    "website_url": {
-      "type": "string",
-      "format": "uri"
+
+    "external_links" : { 
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title" : "string",
+          "website_url": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required":["website_url"]
+      } 
     }
   },
   "definitions": {

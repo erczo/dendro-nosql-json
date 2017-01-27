@@ -30,6 +30,7 @@
     },
     "is_active": {"type": "boolean"},
     "is_stationary": {"type": "boolean"},
+    "media_caption": {"type": "String" },
     "media": {
       "type": "array",
       "minItems": 4,

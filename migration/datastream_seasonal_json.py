@@ -43,13 +43,14 @@ dslist = {
 }
 
 dsfile_prefix = 'Legacy_Datastream_'
+fpath = '../examples/datastreams/'
 
 for dsid,dsname in dslist.items():
     print(dsid,dsname)
 
     # acode = prefix to datastreamid for seasonal min=1,avg=2,max=3
     for acode,agg in {10000:'Minimum',20000:'Average',30000:'Maximum'}.items():
-        with open(dsfile_prefix+str(dsid)+'.json') as json_data:
+        with open(fpath+dsfile_prefix+str(dsid)+'.json') as json_data:
             d = json.load(json_data)
             # Define new parameters for JSON
             name = d['name']+' Seasonal '+agg
@@ -76,6 +77,6 @@ for dsid,dsname in dslist.items():
             
             # Export JSON to file
             print(json.dumps(d,indent=2,sort_keys=True))
-            #dsfile = dsfile_prefix+'Seasonal_'+dsids+'.json'
-            #    with open(dsfile, 'w') as f:
-            #         json.dump(d, f, indent=2,sort_keys=True)
+            dsfile = fpath+dsfile_prefix+'Seasonal_'+str(dsids)+'.json'
+            with open(dsfile, 'w') as f:
+                json.dump(d, f, indent=2,sort_keys=True)

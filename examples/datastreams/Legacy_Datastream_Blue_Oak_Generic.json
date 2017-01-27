@@ -4,7 +4,7 @@
 	"state": "ready",
 	"description": "TBD",
 	"enabled": true,
-	"station_id": "587d6c09699c930001713eab",
+	"station_id": "5861989eb6e0c00001edb2b2",
 	"tags": [
 		"AGGREGATE2",
 		"MEDIUM3",
@@ -24,9 +24,9 @@
 	}],
 	"geo": {
 		"coordinates": [
-		  -123.630833,
-		  39.739167,
-		  383.7
+			-121.73638,
+			37.381666,
+			575
 		],
 		"type": "Point"
 	},

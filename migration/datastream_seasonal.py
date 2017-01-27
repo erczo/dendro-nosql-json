@@ -22,6 +22,7 @@ import mysql.connector
 import datetime as dt
 import pandas as pd
 import re
+import os
 
 def odm_connect(pwfilepath,boo_dev=False):
     # NOTE: password file should NEVER be uploaded to github!
@@ -64,7 +65,11 @@ now = dt.datetime.now()
 year_current = now.year
 
 # Use ODM_DEV or production ODM
-booDev = False
+booDev = True
+# go to git base directory outside repository
+gitpath = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))+os.sep
+pwfile = gitpath+'odm.pw'
+print(gitpath)
 
 for dsid,dsname in dslist.items():
     print(dsid,dsname)
@@ -72,18 +77,18 @@ for dsid,dsname in dslist.items():
         print('TRUE! I found Precipitation:',dsid,dsname)
 
     # Connect to Sensor Database and get oldest year for DSID
-    conn = odm_connect('odm.pw',boo_dev=booDev)
+    conn = odm_connect(pwfile,boo_dev=booDev)
     sql_oldest_year = 'SELECT min(year(LocalDateTime)) '+\
     ' FROM odm.datavalues_UCNRS '+\
-    ' WHERE DatastreamID = 3077'
+    ' WHERE DatastreamID = '+str(dsid)
     cursor = conn.cursor()
     cursor.execute(sql_oldest_year)
     year_oldest = cursor.fetchall()[0][0]
-    print('Oldest Year: ',year_oldest)
+    print(dsid,dsname+' Oldest Year: ',year_oldest)
     conn.close()
 
     for year in range(year_oldest+1,year_current):
-        print('Year: ',year)
+        print('\t Year: ',year)
         
         sql_daily = 'CREATE TEMPORARY TABLE ztemp_date '+\
         'SELECT date(localdatetime) as ldate, '+\
@@ -97,7 +102,7 @@ for dsid,dsname in dslist.items():
         'GROUP BY date(localdatetime) '+\
         'ORDER BY date(localdatetime)'
         #print(sql_daily)
-        conn = odm_connect('odm.pw',boo_dev=booDev)
+        conn = odm_connect(pwfile,boo_dev=booDev)
         cursor = conn.cursor()
         cursor.execute(sql_daily)
     
@@ -117,7 +122,7 @@ for dsid,dsname in dslist.items():
         dsidmin = 10000+dsid
         dsidavg = 20000+dsid
         dsidmax = 30000+dsid
-        
+        '''
         for i in range(0,len(df)):
             month =  df['month'][i]
             mmin = df['min_avg'][i]
@@ -145,4 +150,5 @@ for dsid,dsname in dslist.items():
             
         cursor.close()
         conn.close()
+        '''
 print('DONE!')

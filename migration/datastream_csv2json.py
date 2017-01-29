@@ -13,13 +13,17 @@ import json
 import pandas as pd
 
 path = '../examples/datastreams/'
-datastream_csv = 'angelo_datastreams_code.csv'
-json_template = 'Legacy_Datastream_Angelo_Generic.json'
 dsfile_prefix = 'Legacy_Datastream_'
+#datastream_csv = 'angelo_datastreams_code.csv'
+#json_template = 'Legacy_Datastream_Angelo_Generic.json'
+datastream_csv = 'borr_datastreams_code.csv'
+json_template = 'Legacy_Datastream_Blue_Oak_Generic.json'
 
-df = pd.read_csv(datastream_csv)
+dfall = pd.read_csv(datastream_csv)
+df = dfall[dfall['DASHBOARD9'] == 1] # select only the datastreams used in dashboard. 
 rows = len(df)
 columns = len(df.columns)
+
 for i in range(1,rows):
     name = df.iloc[i,0]
     aggregate = 'ds_Aggregate_'+str(df.iloc[i,1])
@@ -35,7 +39,7 @@ for i in range(1,rows):
         attributes = { 'height' : { 'height' : hdvalue, 'units' : hdunits } }
     if(hd == 'depth'):
         attributes = { 'depth' : { 'depth' : hdvalue, 'units' : hdunits } }
-    print(i,dsid,name,aggregate,medium,variable,units,attributes)      
+    #print(i,dsid,name,aggregate,medium,variable,units,attributes)      
     with open(path+json_template) as json_data:
         d = json.load(json_data)
         d['name'] = name
@@ -43,8 +47,9 @@ for i in range(1,rows):
         d['attributes'] = attributes
         d['datapoints_config'][0]['begins_at'] = datestart
         d['datapoints_config'][0]['params']['query']['datastream_id'] = dsid
-        print(json.dumps(d,indent=2,sort_keys=True))
+        #print(json.dumps(d,indent=2,sort_keys=True))
         dsfile = path+dsfile_prefix+dsid+'.json'
+        print(dsfile)
         with open(dsfile, 'w') as f:
              json.dump(d, f, indent=2,sort_keys=True)
 print('DONE!')

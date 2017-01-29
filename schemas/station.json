@@ -30,11 +30,9 @@
     },
     "is_active": {"type": "boolean"},
     "is_stationary": {"type": "boolean"},
-    "media_caption": {"type": "String" },
     "media": {
       "type": "array",
-      "minItems": 4,
-      "maxItems": 7,
+      "minItems": 1,
       "items": {
         "type": "object",
         "properties": {
@@ -55,11 +53,9 @@
             "type": "string",
             "enum": ["photo"]
           },
-          "url": {
-            "type": "string",
-            "format": "uri"
-          }
-        }
+          "caption": { "type": "String" }
+        },
+        "required":["sizes", "type"]
       }
     },
     "members": {
@@ -97,6 +93,7 @@
       "type": "array",
       "items": {
         "type": "object",
+        "minItems": 1,
         "properties": {
           "title" : "string",
           "website_url": {
@@ -104,7 +101,7 @@
             "format": "uri"
           }
         },
-        "required":["website_url"]
+        "required":["title", "website_url"]
       } 
     }
   },
@@ -122,7 +119,11 @@
       "type": "object",
       "properties": {
         "h": {"type": "number"},
-        "w": {"type": "number"}
+        "w": {"type": "number"},
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
       }
     },
     "slugId": {

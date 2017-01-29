@@ -1,43 +1,41 @@
 {
-  "derivation_description": null,
-  "station_id": "587d6c09699c930001713eab",
-  "source_type": "sensor",
-  "name": "Soil Temp Deg C 20 in Angelo Avg",
-  "description": "TBD",
-  "enabled": true,
-  "tags": [
-    "ds_Aggregate_Average",
-    "ds_Medium_Soil",
-    "ds_Variable_Temperature",
-    "dt_Unit_DegreeCelsius"
-  ],
+  "attributes": {
+    "depth": {
+      "depth": "2", 
+      "units": "Inches"
+    }
+  }, 
   "datapoints_config": [
     {
-      "begins_at": "2013-05-07T15:10:00.000Z",
+      "begins_at": "2013-05-07T15:10:00.000Z", 
       "params": {
         "query": {
-          "compact": true,
-          "datastream_id": "3373",
+          "compact": true, 
+          "datastream_id": "3373", 
           "time_adjust": -28800
         }
-      },
+      }, 
       "path": "/legacy/datavalues"
     }
-  ],
-  "state": "ready",
+  ], 
+  "description": "TBD", 
+  "enabled": true, 
   "geo": {
     "coordinates": [
-      -123.630833,
-      39.739167,
+      -123.630833, 
+      39.739167, 
       383.7
-    ],
+    ], 
     "type": "Point"
-  },
-  "derived": false,
-  "attributes": {
-    "height": {
-      "units": "Inches",
-      "height": "2"
-    }
-  }
+  }, 
+  "name": "Soil Temp Deg C 20 in Angelo Avg", 
+  "source_type": "sensor", 
+  "state": "ready", 
+  "station_id": "587d6c09699c930001713eab", 
+  "tags": [
+    "ds_Aggregate_Average", 
+    "ds_Medium_Soil", 
+    "ds_Variable_Temperature", 
+    "dt_Unit_DegreeCelsius"
+  ]
 }

@@ -23,19 +23,21 @@
       "sizes": {
         "large": {
           "h": 800,
-          "w": 400
+          "w": 400,
+          "url": "http://..."
         },
         "medium": {
           "h": 400,
-          "w": 200
+          "w": 200,
+          "url": "http://..."
         },
         "thumb": {
           "h": 160,
-          "w": 160
+          "w": 160,
+          "url": "http://..."
         }
       },
       "type": "photo",
-      "url": "http://...",
       "video_info": {}
     }
   ],

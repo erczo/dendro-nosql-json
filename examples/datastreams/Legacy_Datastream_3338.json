@@ -1,43 +1,41 @@
 {
-  "derivation_description": null,
-  "station_id": "587d6c09699c930001713eab",
-  "source_type": "sensor",
-  "name": "Wind Direction Deg Angelo Avg",
-  "description": "TBD",
-  "enabled": true,
-  "tags": [
-    "ds_Aggregate_Average",
-    "ds_Medium_Air",
-    "ds_Variable_Direction",
-    "dt_Unit_DegreeAngle"
-  ],
+  "attributes": {
+    "depth": {
+      "depth": "8", 
+      "units": "Inches"
+    }
+  }, 
   "datapoints_config": [
     {
-      "begins_at": "2013-05-07T15:10:00.000Z",
+      "begins_at": "2013-05-07T15:10:00.000Z", 
       "params": {
         "query": {
-          "compact": true,
-          "datastream_id": "3338",
+          "compact": true, 
+          "datastream_id": "3338", 
           "time_adjust": -28800
         }
-      },
+      }, 
       "path": "/legacy/datavalues"
     }
-  ],
-  "state": "ready",
+  ], 
+  "description": "TBD", 
+  "enabled": true, 
   "geo": {
     "coordinates": [
-      -123.630833,
-      39.739167,
+      -123.630833, 
+      39.739167, 
       383.7
-    ],
+    ], 
     "type": "Point"
-  },
-  "derived": false,
-  "attributes": {
-    "height": {
-      "units": "Inches",
-      "height": "2"
-    }
-  }
+  }, 
+  "name": "Wind Direction Deg Angelo Avg", 
+  "source_type": "sensor", 
+  "state": "ready", 
+  "station_id": "587d6c09699c930001713eab", 
+  "tags": [
+    "ds_Aggregate_Average", 
+    "ds_Medium_Air", 
+    "ds_Variable_Direction", 
+    "dt_Unit_DegreeAngle"
+  ]
 }

@@ -14,7 +14,6 @@
 import mysql.connector
 import datetime as dt
 import pandas as pd
-import re
 import os
 
 def odm_connect(pwfilepath,boo_dev=False):
@@ -35,16 +34,17 @@ def odm_connect(pwfilepath,boo_dev=False):
     return cnx
 
 dslist = {
-    #3061:'Total Solar Radiation W m2 Blue Oak Avg',
     3082:'Precipitation mm Blue Oak',
-    #3329:'Total Solar Radiation W m2 Angelo Avg',
     3350:'Precipitation mm Angelo'
+    #3061:'Total Solar Radiation W m2 Blue Oak Avg',
+    #3329:'Total Solar Radiation W m2 Angelo Avg',
 }
 
 # Get current day
 today = dt.date.today()
 today_f =  dt.datetime.strftime(today,"%Y-%m-%d %H:%M:%S")
 print(today_f)
+
 # Use ODM_DEV or production ODM
 booDev = True
 
@@ -59,80 +59,69 @@ for dsid,dsname in dslist.items():
     # Seasonal Derived Datastream ID Code      
     dsidcumday = 40000+dsid     # Cumulative for one day (24h) midnight to midnight
     
+    # CHECKS      
+    booRecordsExist = False # Is this a first time run or do records already exist?
+    booSkip = False         # Skip this datastream, because it is up to date     
+                                          
     # Get most recent day in record for cumulative DSID
     # if there is no records yet, script will do the entire datastream - current day
+    sql_check = 'SELECT count(*) FROM datavalues_seasonal WHERE DatastreamID = '+str(dsidcumday)
     conn = odm_connect(pwfile,boo_dev=booDev)
-    sql_last_entry = 'SELECT max(LocalDateTime) '+\
-    ' FROM odm.datavalues_UCNRS '+\
-    ' WHERE DatastreamID = '+str(dsidcumday)
     cursor = conn.cursor()
-    cursor.execute(sql_last_entry)
-    if(cursor.rowcount > 0):
-        last_date = cursor.fetchall()[0][0]
+    cursor.execute(sql_check)
+    entries = cursor.fetchall()[0][0]
+    print(dsname,dsidcumday,' record count" ',entries)
+    if(entries > 0):
+        sql_last_entry = 'SELECT max(LocalDateTime) FROM datavalues_seasonal WHERE DatastreamID = '+str(dsidcumday)
+        #print(sql_last_entry)
         booRecordsExist = True
-        last_date_f = dt.datetime.strftime(last_date,"%Y-%m-%d %H:%M:%S")
-        print(dsid,dsname+' last date: ',last_date_f)
-    else:
-        booRecordsExist = False            
-    conn.close()
-    print('Do previous records exist?',booRecordsExist)
-    
-    sql_daily = 'CREATE TEMPORARY TABLE ztemp_date '+\
-    'SELECT date(localdatetime) as ldate, '+\
-    'count(*) as count_hour, '+\
-    'sum(DataValue) as sum '+\
-    'FROM odm.datavalues_UCNRS '+\
-    "WHERE datastreamid = "+str(dsid)
-    if(booRecordsExist == True):       
-        sql_daily+" AND LocalDateTime > '"+last_date_f+"' "+\
-    sql_daily+" AND LocalDateTime < '"+today_f+"' "+\
-    'GROUP BY date(localdatetime) '+\
-    'ORDER BY date(localdatetime)'
-    print(sql_daily)
-    '''
-    conn = odm_connect(pwfile,boo_dev=booDev)
-    cursor = conn.cursor()
-    cursor.execute(sql_daily)
-
-    sql_monthly = 'SELECT month(ldate) as month, '+\
-    'count(*) as count_month, '+\
-    'sum(count_hour) as count_hour, '+\
-    'avg(min) as min_avg, '+\
-    'avg(avg) as avg_avg, '+\
-    'avg(max) as max_avg, '+\
-    'min(sum) as min_sum, '+\
-    'avg(sum) as avg_sum, '+\
-    'max(sum) as max_sum '+\
-    'FROM ztemp_date GROUP BY month(ldate)'
-    #print(sql_monthly)
-    df = pd.read_sql_query(sql_monthly,con=conn)
-    
-    for i in range(0,len(df)):
-        month =  df['month'][i]
-        mmin = df['min_avg'][i]
-        mavg = df['avg_avg'][i]
-        mmax = df['max_avg'][i]
-        mminsum = df['min_sum'][i]
-        mavgsum = df['avg_sum'][i]
-        mmaxsum = df['max_sum'][i]
+        cursor.execute(sql_last_entry)
+        last_date_day = cursor.fetchall()[0][0]
+        last_date_day = last_date_day.date()
+        last_date_day_f = dt.datetime.strftime(last_date_day,"%Y-%m-%d %H:%M:%S")
+        print(dsid,dsname+'    day last date: ',last_date_day_f)
         
-        # Insert monthly values into the datavalues_seasonal table
-        SeasonDateTime = str(year)+'-'+str(month).zfill(2)+'-01 00:00:00'
-        print(SeasonDateTime,dsid,dsname,' INSERTING')
-        # DataValue,ValueAccuracy,SeasonDateTime,UTCOffset,QualifierID,DerivedFromID,QualityControlLevelCode,DatastreamID  
-        sql_insert = 'INSERT into datavalues_seasonal (DataValue,LocalDateTime,'+\
-        'UTCOffset,QualifierID,DerivedFromID,QualityControlLevelCode,DatastreamID) '+\
-        'Values (%s,%s,%s,%s,%s,%s,%s)'
-        if(re.match('Precipitation',dsname)):
-            cursor.execute(sql_insert,(float(mminsum),SeasonDateTime,-8,2,dsid,2,dsidmin))
-            cursor.execute(sql_insert,(float(mavgsum),SeasonDateTime,-8,2,dsid,2,dsidavg))
-            cursor.execute(sql_insert,(float(mmaxsum),SeasonDateTime,-8,2,dsid,2,dsidmax))
-        else:   
-            cursor.execute(sql_insert,(float(mmin),SeasonDateTime,-8,2,dsid,2,dsidmin))
-            cursor.execute(sql_insert,(float(mavg),SeasonDateTime,-8,2,dsid,2,dsidavg))
-            cursor.execute(sql_insert,(float(mmax),SeasonDateTime,-8,2,dsid,2,dsidmax))
-    '''    
-    cursor.close()
-    conn.close()
+        # Check if there are enough new records to create another 24 hour aggregate
+        sql_last_entry = 'SELECT max(LocalDateTime) FROM odm.datavalues_UCNRS WHERE DatastreamID = '+str(dsid)
+        cursor.execute(sql_last_entry)
+        last_date_source = cursor.fetchall()[0][0]
+        last_date_source_f = dt.datetime.strftime(last_date_day,"%Y-%m-%d %H:%M:%S")
+        print(dsid,dsname+' source last date: ',last_date_day_f)
 
+        # Compare the two days
+        last_date_source_d = last_date_source.date()
+        if(last_date_day == last_date_source_d):
+            booSkip = True
+            print('SKIPPING ',dsid,dsidcumday,' ALREADY UP TO DATE')                
+    print('Do previous records exist?',booRecordsExist)
+    cursor.close()
+
+    if(booSkip == False):
+        #  Aggregates readings to a daily level place into Panda Table
+        sql_daily = 'SELECT date(localdatetime) as ldate, '+\
+        'count(*) as count, '+\
+        'sum(DataValue) as sum '+\
+        'FROM odm.datavalues_UCNRS '+\
+        "WHERE datastreamid = "+str(dsid)
+        if(booRecordsExist == True):       
+            sql_daily = sql_daily+" AND LocalDateTime > '"+last_date_f+"' "
+        sql_daily = sql_daily + " AND LocalDateTime < '"+today_f+"' "+\
+        'GROUP BY date(localdatetime) '+\
+        'ORDER BY date(localdatetime)'
+        #print(sql_daily)
+        df = pd.read_sql_query(sql_daily,con=conn)
+        cursor = conn.cursor()
+        # Insert each day into the seasonal table
+        for i in range(0,len(df)):
+            # Insert daily values into the datavalues_seasonal table
+            SeasonDateTime = dt.datetime.strftime(df.iloc[i,0],"%Y-%m-%d 00:00:00")
+            daysum = float(df.iloc[i,2])
+            print('INSERT ',SeasonDateTime,dsidcumday,dsname,daysum)
+            # DataValue,ValueAccuracy,SeasonDateTime,UTCOffset,QualifierID,DerivedFromID,QualityControlLevelCode,DatastreamID  
+            sql_insert = 'INSERT into datavalues_seasonal (DataValue,LocalDateTime,'+\
+            'UTCOffset,QualifierID,DerivedFromID,QualityControlLevelCode,DatastreamID) '+\
+            'Values (%s,%s,%s,%s,%s,%s,%s)'
+            cursor.execute(sql_insert,(daysum,SeasonDateTime,-8,2,dsid,2,dsidcumday))
+        cursor.close()
+    conn.close()
 print('DONE!')

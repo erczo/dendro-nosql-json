@@ -1,10 +1,5 @@
 {
-  "attributes": {
-    "depth": {
-      "depth": "2", 
-      "units": "Inches"
-    }
-  }, 
+  "attributes": {}, 
   "datapoints_config": [
     {
       "begins_at": "2013-05-07T15:10:00.000Z", 

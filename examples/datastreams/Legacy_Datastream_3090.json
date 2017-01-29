@@ -1,0 +1,41 @@
+{
+  "attributes": {
+    "height": {
+      "height": "10", 
+      "units": "Inches"
+    }
+  }, 
+  "datapoints_config": [
+    {
+      "begins_at": "2011-06-03T13:00:00.000Z", 
+      "params": {
+        "query": {
+          "compact": true, 
+          "datastream_id": "3090", 
+          "time_adjust": -28800
+        }
+      }, 
+      "path": "/legacy/datavalues"
+    }
+  ], 
+  "description": "TBD", 
+  "enabled": true, 
+  "geo": {
+    "coordinates": [
+      -121.73638, 
+      37.381666, 
+      575
+    ], 
+    "type": "Point"
+  }, 
+  "name": "Air Temp Deg C 10 m Blue Oak Avg", 
+  "source_type": "sensor", 
+  "state": "ready", 
+  "station_id": "5861989eb6e0c00001edb2b2", 
+  "tags": [
+    "ds_Aggregate_Average", 
+    "ds_Medium_Air", 
+    "ds_Variable_Temperature", 
+    "dt_Unit_DegreeCelsius"
+  ]
+}

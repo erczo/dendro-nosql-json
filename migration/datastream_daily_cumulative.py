@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 ########################################
-# Datastream Cumulation Aggregates Creator
+# Datastream Daily Cumulation Aggregates Creator
 # @author: collin bode
 # @email: collin@berkeley.edu
 # date: 2017-01-28
@@ -46,7 +46,7 @@ today_f =  dt.datetime.strftime(today,"%Y-%m-%d %H:%M:%S")
 print(today_f)
 
 # Use ODM_DEV or production ODM
-booDev = True
+booDev = False
 
 # go to git base directory outside repository
 gitpath = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))+os.sep
@@ -104,13 +104,14 @@ for dsid,dsname in dslist.items():
         'FROM odm.datavalues_UCNRS '+\
         "WHERE datastreamid = "+str(dsid)
         if(booRecordsExist == True):       
-            sql_daily = sql_daily+" AND LocalDateTime > '"+last_date_f+"' "
+            sql_daily = sql_daily+" AND LocalDateTime > '"+last_date_day_f+"' "
         sql_daily = sql_daily + " AND LocalDateTime < '"+today_f+"' "+\
         'GROUP BY date(localdatetime) '+\
         'ORDER BY date(localdatetime)'
         #print(sql_daily)
         df = pd.read_sql_query(sql_daily,con=conn)
         cursor = conn.cursor()
+        
         # Insert each day into the seasonal table
         for i in range(0,len(df)):
             # Insert daily values into the datavalues_seasonal table

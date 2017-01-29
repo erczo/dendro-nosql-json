@@ -1,0 +1,40 @@
+{
+  "attributes": {}, 
+  "datapoints_config": [
+    {
+      "begins_at": "2011-06-03T13:00:00.000Z", 
+      "params": {
+        "query": {
+          "compact": true, 
+          "datastream_id": 23069, 
+          "time_adjust": -28800
+        }
+      }, 
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ], 
+  "derived_from_datastream_ids": [
+    3069
+  ], 
+  "description": "TBD", 
+  "enabled": true, 
+  "geo": {
+    "coordinates": [
+      -121.73638, 
+      37.381666, 
+      575
+    ], 
+    "type": "Point"
+  }, 
+  "name": "Wind Speed m s Blue Oak Avg Seasonal Average", 
+  "source_type": "sensor", 
+  "state": "ready", 
+  "station_id": "5861989eb6e0c00001edb2b2", 
+  "tags": [
+    "ds_Aggregate_Average", 
+    "ds_Function_Seasonal", 
+    "ds_Medium_Air", 
+    "ds_Variable_Speed", 
+    "dt_Unit_MeterPerSecond"
+  ]
+}

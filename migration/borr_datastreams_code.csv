@@ -44,11 +44,11 @@ Total Solar Radiation W m2 Blue Oak Avg,Average,Solar,Radiation,WattPerSquareMet
 Total Solar Radiation W m2 Blue Oak Max,Maximum,Solar,Radiation,WattPerSquareMeter,2011-06-03T13:00:00.000Z,3063,,,,,Solar Radiation Max W/m^2
 Total Solar Radiation W m2 Blue Oak Min,Minimum,Solar,Radiation,WattPerSquareMeter,2011-06-03T13:00:00.000Z,3064,,,,,Solar Radiation Max W/m^2
 Total Solar Radiation W m2 Blue Oak Std,StandardDeviation,Solar,Radiation,WattPerSquareMeter,2011-06-03T13:00:00.000Z,3065,,,,,Solar Radiation Std W/m^2
-Volumetric Water Content Per 4 in horiz Blue Oak Avg,Average,Soil,Moisture,Percent,2011-06-03T13:00:00.000Z,3107,,,,,Soil Moisture Pct Avg
+Volumetric Water Content Per 4 in horiz Blue Oak Avg,Average,Soil,Moisture,Percent,2011-06-03T13:00:00.000Z,3107,,,,1,Soil Moisture Pct Avg
 Wind Direction Deg Blue Oak Avg,Average,Air,Direction,DegreeAngle,2011-06-03T13:00:00.000Z,3071,,,,1,Wind Direction Degrees
 Wind Direction Deg Blue Oak Std,StandardDeviation,Air,Direction,DegreeAngle,2011-06-03T13:00:00.000Z,3072,,,,,Wind Direction Standard Deviation
 Wind Gust m s Blue Oak Max,Maximum,Air,Speed,MeterPerSecond,2011-06-03T13:00:00.000Z,3073,,,,1,Wind Gust MS
 Wind Speed Deg Blue Oak Std,StandardDeviation,Air,Speed,MilePerHour,2011-06-03T13:00:00.000Z,3062,,,,,Wind Speed Stdev MPH
-Wind Speed m s Blue Oak Avg,Average,Air,Speed,MeterPerSecond,2011-06-03T13:00:00.000Z,3069,,,,,Wind Speed Avg MS
+Wind Speed m s Blue Oak Avg,Average,Air,Speed,MeterPerSecond,2011-06-03T13:00:00.000Z,3069,,,,1,Wind Speed Avg MS
 Wind Speed m s Blue Oak Min,Minimum,Air,Speed,MeterPerSecond,2011-06-03T13:00:00.000Z,3074,,,,,Wind Speed Min MS
 Wind Vector Magnitude m s Blue Oak,NULL,Air,Velocity,MeterPerSecond,2011-06-03T13:00:00.000Z,3070,,,,,Wind Vector Magnitude MS

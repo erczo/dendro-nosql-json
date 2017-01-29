@@ -26,19 +26,19 @@ import re
 dslist = {
     3077:'Air Temp Deg C Blue Oak Avg',
     3105:'Soil Temp Deg C 20 in Blue Oak Avg',
-    3106:'Soil Moisture VWC Blue Oak Avg',
+    3107:'Soil Moisture VWC Blue Oak Avg',
     3069:'Wind Speed m s Blue Oak Avg',
     3080:'Relative Humidity Per Blue Oak Avg',
     3081:'Barometric Pressure mbar Blue Oak Avg',
-    #3061:'Total Solar Radiation W m2 Blue Oak Avg',
-    #3082:'Precipitation mm Blue Oak',
+    3061:'Total Solar Radiation W m2 Blue Oak Avg',
+    3082:'Precipitation mm Blue Oak',
     3355:'Air Temp Deg C 2 m Angelo Avg',
     3373:'Soil Temp Deg C 20 in Angelo Avg',
-    3374:'Soil Moisture VWC Angelo Avg',
+    3375:'Soil Moisture VWC Angelo Avg',
     3336:'Wind Speed m s Angelo Avg',
     3348:'Relative Humidity Per Angelo Avg',
     3349:'Barometric Pressure mbar Angelo Avg',
-    #3329:'Total Solar Radiation W m2 Angelo Avg',
+    3329:'Total Solar Radiation W m2 Angelo Avg',
     3350:'Precipitation mm Angelo'
 }
 
@@ -47,9 +47,11 @@ fpath = '../examples/datastreams/'
 
 for dsid,dsname in dslist.items():
     print(dsid,dsname)
-
+    aggregation_list = {10000:'Minimum',20000:'Average',30000:'Maximum'}
+    if(re.match('Precipitation',dsname)):
+        aggregation_list[40000] = 'Cumulative'
     # acode = prefix to datastreamid for seasonal min=1,avg=2,max=3
-    for acode,agg in {10000:'Minimum',20000:'Average',30000:'Maximum'}.items():
+    for acode,agg in aggregation_list.items():
         with open(fpath+dsfile_prefix+str(dsid)+'.json') as json_data:
             d = json.load(json_data)
             # Define new parameters for JSON
@@ -58,9 +60,12 @@ for dsid,dsname in dslist.items():
             seasonal_tag = 'ds_Function_Seasonal'
             aggregate_tag = 'ds_Aggregate_'+agg
             path = "/legacy/datavalues-seasonal"
+            attributes = d['attributes']
             print(dsids,name,'Aggregate tag: '+aggregate_tag)
             
             # Assign parameters
+            if(acode == 40000):
+                attributes["time_aggregation"] = "daily"
             d['name'] = name
             d['derived_from_datastream_ids'] = [dsid]
             d['datapoints_config'][0]['params']['query']['datastream_id'] = dsids

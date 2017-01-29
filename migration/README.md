@@ -4,7 +4,7 @@ Create "Rosetta Stone" tables to pair Sensor Database ODM vocabularies with Dend
 Python and JSON code and csv tables.  
 
 ## Two phases to this work.
-Phase I. Provide the minimum required information to make Dendro work, not to bring over all information.  Some flaggin of important fields and tables will be useful.
+Phase I. Provide the minimum required information to make Dendro work, not to bring over all information.  Some flagging of important fields and tables will be useful.
 Phase II. Permanent transition. What values are required to not lose existing information?
 Phase III. This may be synonemous with phase II.  Create ODM 1.1 complianted tagging.  
 

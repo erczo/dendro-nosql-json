@@ -44,11 +44,11 @@ Total Solar Radiation W m2 Angelo Avg,Average,Solar,Radiation,WattPerSquareMeter
 Total Solar Radiation W m2 Angelo Max,Maximum,Solar,Radiation,WattPerSquareMeter,2013-05-07T15:10:00.000Z,3330,,,,,Solar Radiation Max W/m^2
 Total Solar Radiation W m2 Angelo Min,Minimum,Solar,Radiation,WattPerSquareMeter,2013-05-07T15:10:00.000Z,3331,,,,,Solar Radiation Max W/m^2
 Total Solar Radiation W m2 Angelo Std,StandardDeviation,Solar,Radiation,WattPerSquareMeter,2013-05-07T15:10:00.000Z,3332,,,,,Solar Radiation Std W/m^2
-Volumetric Water Content Per 4 in horiz Angelo Avg,Average,Soil,Moisture,Percent,2013-05-07T15:10:00.000Z,3375,,,,,Soil Moisture Pct Avg
+Volumetric Water Content Per 4 in horiz Angelo Avg,Average,Soil,Moisture,Percent,2013-05-07T15:10:00.000Z,3375,,,,1,Soil Moisture Pct Avg
 Wind Direction Deg Angelo Avg,Average,Air,Direction,DegreeAngle,2013-05-07T15:10:00.000Z,3338,,,,1,Wind Direction Degrees
 Wind Direction Deg Angelo Std,StandardDeviation,Air,Direction,DegreeAngle,2013-05-07T15:10:00.000Z,3339,,,,,Wind Direction Standard Deviation
 Wind Gust m s Angelo Max,Maximum,Air,Speed,MeterPerSecond,2013-05-07T15:10:00.000Z,3340,,,,1,Wind Gust MS
 Wind Speed Deg Angelo Std,StandardDeviation,Air,Speed,MilePerHour,2013-05-07T15:10:00.000Z,3341,,,,,Wind Speed Stdev MPH
-Wind Speed m s Angelo Avg,Average,Air,Speed,MeterPerSecond,2013-05-07T15:10:00.000Z,3336,,,,,Wind Speed Avg MS
+Wind Speed m s Angelo Avg,Average,Air,Speed,MeterPerSecond,2013-05-07T15:10:00.000Z,3336,,,,1,Wind Speed Avg MS
 Wind Speed m s Angelo Min,Minimum,Air,Speed,MeterPerSecond,2013-05-07T15:10:00.000Z,3342,,,,,Wind Speed Min MS
 Wind Vector Magnitude m s Angelo,NULL,Air,Velocity,MeterPerSecond,2013-05-07T15:10:00.000Z,3337,,,,,Wind Vector Magnitude MS

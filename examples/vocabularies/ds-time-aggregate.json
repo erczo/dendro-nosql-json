@@ -1,0 +1,49 @@
+{
+  "_id": "ds-time-aggregate",
+  "created_at": "2017-01-31T09:30:00Z",
+  "description": "TBD",
+  "label": "Time Aggregate",
+  "scheme_id": "ds",
+  "terms": [
+    {
+      "definition": "TBD",
+      "label": "WaterYear"
+    },
+    {
+      "definition": "TBD",
+      "label": "Year"
+    },
+    {
+      "definition": "TBD",
+      "label": "Month"
+    },
+    {
+      "definition": "TBD",
+      "label": "Week"
+    },
+    {
+      "definition": "TBD",
+      "label": "Day"
+    },
+    {
+      "definition": "TBD",
+      "label": "Hour"
+    },
+        {
+      "definition": "TBD",
+      "label": "30 Minutes"
+    },
+    {
+      "definition": "TBD",
+      "label": "15 Minutes"
+    },
+    {
+      "definition": "TBD",
+      "label": "10 Minutes"
+    },
+    {
+      "definition": "TBD",
+      "label": "5 Minutes"
+    }
+  ]
+}

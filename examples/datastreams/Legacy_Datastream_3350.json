@@ -1,36 +1,35 @@
 {
-  "attributes": {}, 
   "datapoints_config": [
     {
-      "begins_at": "2013-05-07T15:10:00.000Z", 
+      "begins_at": "2013-05-07T15:10:00.000Z",
       "params": {
         "query": {
-          "compact": true, 
-          "datastream_id": "3350", 
+          "compact": true,
+          "datastream_id": 3350,
           "time_adjust": -28800
         }
-      }, 
+      },
       "path": "/legacy/datavalues"
     }
-  ], 
-  "description": "TBD", 
-  "enabled": true, 
+  ],
+  "description": "TBD",
+  "enabled": true,
   "geo": {
     "coordinates": [
-      -123.630833, 
-      39.739167, 
+      -123.630833,
+      39.739167,
       383.7
-    ], 
+    ],
     "type": "Point"
-  }, 
-  "name": "Precipitation mm Angelo", 
-  "source_type": "sensor", 
-  "state": "ready", 
-  "station_id": "587d6c09699c930001713eab", 
+  },
+  "name": "Precipitation mm Angelo",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "587d6c09699c930001713eab",
   "tags": [
-    "ds_Aggregate_Cumulative", 
-    "ds_Medium_Precipitation", 
-    "ds_Variable_Height", 
+    "ds_Aggregate_Cumulative",
+    "ds_Medium_Precipitation",
+    "ds_Variable_Height",
     "dt_Unit_Millimeter"
   ]
 }

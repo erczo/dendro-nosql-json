@@ -32,24 +32,27 @@ for datastream_csv,json_template in reserve_list.items():
         variable = 'ds_Variable_'+str(df.iloc[i,3])
         units = 'dt_Unit_'+str(df.iloc[i,4])
         datestart = df.iloc[i,5]
-        dsid = str(df.iloc[i,6])
+        dsid = int(df.iloc[i,6])
         hd = df.iloc[i,7]
-        hdvalue = df.iloc[i,8]
+        hdvalue = float(df.iloc[i,8])
         hdunits = str(df.iloc[i,9])
+        attributes = {}
         if(hd == 'height'):
             attributes = { 'height' : { 'height' : hdvalue, 'units' : hdunits } }
         if(hd == 'depth'):
             attributes = { 'depth' : { 'depth' : hdvalue, 'units' : hdunits } }
         print(i,dsid,name,aggregate,medium,variable,units,attributes)      
-        with open(path+json_template) as json_data:
+        with open(json_template) as json_data:
             d = json.load(json_data)
             d['name'] = name
             d['tags'] = [aggregate,medium,variable,units]
-            d['attributes'] = attributes
+            if(attributes != {}):
+                print(dsid,'Adding Attributes')
+                d['attributes'] = attributes
             d['datapoints_config'][0]['begins_at'] = datestart
             d['datapoints_config'][0]['params']['query']['datastream_id'] = dsid
             #print(json.dumps(d,indent=2,sort_keys=True))
-            dsfile = path+dsfile_prefix+dsid+'.json'
+            dsfile = path+dsfile_prefix+str(dsid)+'.json'
             #print(dsfile)
             with open(dsfile, 'w') as f:
                  json.dump(d, f, indent=2,sort_keys=True)

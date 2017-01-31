@@ -20,7 +20,7 @@
 # solar - daily cumulative <-- did not implement
 ########################################
 import json
-import os
+#import os
 import re
 
 dslist = {
@@ -56,16 +56,23 @@ for dsid,dsname in dslist.items():
             d = json.load(json_data)
             # Define new parameters for JSON
             name = d['name']+' Seasonal '+agg
-            dsids = acode+int(dsid) # dsids = datastream id seasonal
+            dsids = int(acode+int(dsid)) # dsids = datastream id seasonal
             seasonal_tag = 'ds_Function_Seasonal'
             aggregate_tag = 'ds_Aggregate_'+agg
             path = "/legacy/datavalues-seasonal"
-            attributes = d['attributes']
+            # check for attribute existance
+            attributes = {}
+            for key in d.keys():
+                if(key == 'attributes'):
+                    attributes = d['attributes']
             print(dsids,name,'Aggregate tag: '+aggregate_tag)
-            
-            # Assign parameters
+            # Add Interval tag if using a daily aggregate            
             if(acode == 40000):
-                attributes["time_aggregation"] = "daily"
+                interval_tag = 'ds_Interval_Day'
+
+            # Assign parameters
+            if(len(attributes) > 0):
+                d['attributes'] = attributes
             d['name'] = name
             d['derived_from_datastream_ids'] = [dsid]
             d['datapoints_config'][0]['params']['query']['datastream_id'] = dsids
@@ -76,7 +83,10 @@ for dsid,dsname in dslist.items():
                     #print('Found Aggregate! Removing.',tag)
                     taglist.remove(tag)
             taglist.append(aggregate_tag)
-            taglist.append(seasonal_tag)
+            if(acode == 40000):
+                taglist.append(interval_tag)
+            else:
+                taglist.append(seasonal_tag)                
             taglist.sort()
             d['tags'] = taglist
             

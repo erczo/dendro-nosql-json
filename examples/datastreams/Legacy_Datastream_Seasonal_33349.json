@@ -1,40 +1,39 @@
 {
-  "attributes": {}, 
   "datapoints_config": [
     {
-      "begins_at": "2013-05-07T15:10:00.000Z", 
+      "begins_at": "2013-05-07T15:10:00.000Z",
       "params": {
         "query": {
-          "compact": true, 
-          "datastream_id": 33349, 
+          "compact": true,
+          "datastream_id": 33349,
           "time_adjust": -28800
         }
-      }, 
+      },
       "path": "/legacy/datavalues-seasonal"
     }
-  ], 
+  ],
   "derived_from_datastream_ids": [
     3349
-  ], 
-  "description": "TBD", 
-  "enabled": true, 
+  ],
+  "description": "TBD",
+  "enabled": true,
   "geo": {
     "coordinates": [
-      -123.630833, 
-      39.739167, 
+      -123.630833,
+      39.739167,
       383.7
-    ], 
+    ],
     "type": "Point"
-  }, 
-  "name": "Barometric Pressure mbar Angelo Avg Seasonal Maximum", 
-  "source_type": "sensor", 
-  "state": "ready", 
-  "station_id": "587d6c09699c930001713eab", 
+  },
+  "name": "Barometric Pressure mbar Angelo Avg Seasonal Maximum",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "587d6c09699c930001713eab",
   "tags": [
-    "ds_Aggregate_Maximum", 
-    "ds_Function_Seasonal", 
-    "ds_Medium_Air", 
-    "ds_Variable_BarometricPressure", 
+    "ds_Aggregate_Maximum",
+    "ds_Function_Seasonal",
+    "ds_Medium_Air",
+    "ds_Variable_BarometricPressure",
     "dt_Unit_Millibar"
   ]
 }

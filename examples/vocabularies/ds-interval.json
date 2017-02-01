@@ -2,7 +2,7 @@
   "_id": "ds-interval",
   "created_at": "2017-01-31T09:30:00Z",
   "description": "TBD",
-  "label": "Time Interval",
+  "label": "Interval",
   "scheme_id": "ds",
   "terms": [
     {

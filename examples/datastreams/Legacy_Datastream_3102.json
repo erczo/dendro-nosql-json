@@ -1,10 +1,13 @@
 {
   "attributes": {
-    "depth": 8,
-    "unit": "Inch"
+    "depth": {
+      "depth": 8.0,
+      "units": "Inches"
+    }
   },
   "datapoints_config": [
     {
+      "begins_at": "2011-06-03T13:00:00.000Z",
       "params": {
         "query": {
           "compact": true,
@@ -12,17 +15,25 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues-ucnrs"
+      "path": "/legacy/datavalues"
     }
   ],
-  "derived": false,
+  "description": "TBD",
   "enabled": true,
+  "geo": {
+    "coordinates": [
+      -121.73638,
+      37.381666,
+      575
+    ],
+    "type": "Point"
+  },
   "name": "Soil Temp Deg C 8 in Blue Oak Avg",
   "source_type": "sensor",
   "state": "ready",
   "station_id": "5861989eb6e0c00001edb2b2",
   "tags": [
-    "ds_Aggregation_Average",
+    "ds_Aggregate_Average",
     "ds_Medium_Soil",
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"

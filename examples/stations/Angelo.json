@@ -6,6 +6,7 @@
 	"slug": "angelo",
 	"full_name": "Angelo Reserve South Meadow Weather Station",
 	"station_type": "weather",
+	"time_zone": "PST",
 	"utc_offset": -28800,
 	"geo": {
 		"coordinates": [
@@ -14,5 +15,15 @@
 			383.7
 		],
 		"type": "Point"
-	}
+	},
+  "external_links": [
+	  {
+	    "title" : "Sensor database",
+	    "url" : "http://sensor.berkeley.edu/index_ucnrs.html"
+	  }, 
+	  {
+	    "title" : "Reserve website",
+	    "url" : "http://angelo.berkeley.edu"
+	  }
+	]
 }

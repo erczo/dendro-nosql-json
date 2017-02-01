@@ -1,0 +1,53 @@
+{
+  "_id": "ds-interval",
+  "created_at": "2017-01-31T09:30:00Z",
+  "description": "TBD",
+  "label": "Interval",
+  "scheme_id": "ds",
+  "terms": [
+    {
+      "definition": "TBD",
+      "label": "WaterYear"
+    },
+    {
+      "definition": "TBD",
+      "label": "Year"
+    },
+    {
+      "definition": "TBD",
+      "label": "Month"
+    },
+    {
+      "definition": "TBD",
+      "label": "Week"
+    },
+    {
+      "definition": "TBD",
+      "label": "Day"
+    },
+    {
+      "definition": "TBD",
+      "label": "Hour"
+    },
+    {
+      "definition": "TBD",
+      "label": "30Minute"
+    },
+    {
+      "definition": "TBD",
+      "label": "15Minute"
+    },
+    {
+      "definition": "TBD",
+      "label": "10Minute"
+    },
+    {
+      "definition": "TBD",
+      "label": "5Minute"
+    },
+    {
+      "definition": "TBD",
+      "label": "Minute"
+    }
+  ]
+}

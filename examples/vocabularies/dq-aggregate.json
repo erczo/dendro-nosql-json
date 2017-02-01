@@ -1,0 +1,39 @@
+{
+  "_id": "dq-aggregate",
+  "created_at": "2016-11-15T16:30:00Z",
+  "description": "TBD",
+  "label": "Aggregate",
+  "scheme_id": "dq",
+  "terms": [
+    {
+      "definition": "TBD",
+      "label": "Average",
+      "name": "Average/Mean"
+    },
+    {
+      "definition": "TBD",
+      "label": "Maximum",
+      "name": "Maximum"
+    },
+    {
+      "definition": "TBD",
+      "label": "Median",
+      "name": "Median"
+    },
+    {
+      "definition": "TBD",
+      "label": "Minimum",
+      "name": "Minimum"
+    },
+    {
+      "definition": "TBD",
+      "label": "StandardDeviation",
+      "name": "Standard Deviation"
+    },
+    {
+      "definition": "TBD",
+      "label": "Cumulative",
+      "name": "Cumulative"
+    }
+  ]
+}

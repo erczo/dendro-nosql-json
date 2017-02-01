@@ -1,0 +1,33 @@
+{
+	"name": "NAME1",
+	"source_type": "sensor",
+	"state": "ready",
+	"description": "TBD",
+	"enabled": true,
+	"station_id": "587d6c09699c930001713eab",
+	"tags": [
+		"AGGREGATE2",
+		"MEDIUM3",
+		"VARIABLE4",
+		"UNITS5"
+	],
+	"datapoints_config": [{
+		"begins_at": "DATESTART6",
+		"params": {
+			"query": {
+				"compact": true,
+				"datastream_id": "DSID7",
+				"time_adjust": -28800
+			}
+		},
+		"path": "/legacy/datavalues"
+	}],
+	"geo": {
+		"coordinates": [
+		  -123.630833,
+		  39.739167,
+		  383.7
+		],
+		"type": "Point"
+	}
+}

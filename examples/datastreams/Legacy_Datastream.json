@@ -47,7 +47,8 @@
   "geo": {
     "coordinates": [
       -122.431297,
-      37.773972
+      37.773972,
+      575
     ],
     "type": "Point"
   },
@@ -57,7 +58,7 @@
   "state": "ready",
   "station_id": null,
   "tags": [
-    "ds_Aggregation_Average",
+    "ds_Aggregate_Average",
     "ds_Medium_Air",
     "ds_Variable_Temperature",
     "dt_Unit_DegreeCelsius"

@@ -1,0 +1,54 @@
+NAME1,AGGREGATE2,MEDIUM3,VARIABLE4,UNITS5,DATESTART6,DSID7,HEIGHTDEPTH8,VALUE8,UNITS8,DASHBOARD9,Variable Code
+Air Temp Deg C 10 m Blue Oak Avg,Average,Air,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3090,height,10,Inches,1,Air Temp C Avg
+Air Temp Deg C 10 m Blue Oak Max,Maximum,Air,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3088,height,10,Inches,,Air Temp C Max
+Air Temp Deg C 10 m Blue Oak Min,Minimum,Air,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3089,height,10,Inches,,Air Temp C Min
+Air Temp Deg C 2 m Blue Oak Avg,Average,Air,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3087,height,2,Inches,1,Air Temp C Avg
+Air Temp Deg C 2 m Blue Oak Max,Maximum,Air,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3085,height,2,Inches,,Air Temp C Max
+Air Temp Deg C 2 m Blue Oak Min,Minimum,Air,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3086,height,2,Inches,,Air Temp C Min
+Air Temp Deg C Blue Oak Avg,Average,Air,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3077,,,,1,Air Temp C Avg
+Air Temp Deg C Blue Oak Max,Maximum,Air,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3075,,,,,Air Temp C Max
+Air Temp Deg C Blue Oak Min,Minimum,Air,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3076,,,,,Air Temp C Min
+Air Temp Delta Deg C 10m-2m Blue Oak Avg,Average,Air,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3093,height,2-Oct,Inches,,Air Temp Delta C Avg
+Air Temp Delta Deg C 10m-2m Blue Oak Max,Maximum,Air,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3091,height,2-Oct,Inches,,Air Temp Delta C Max
+Air Temp Delta Deg C 10m-2m Blue Oak Min,Minimum,Air,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3092,height,2-Oct,Inches,,Air Temp Delta C Min
+Barometric Pressure mbar Blue Oak Avg,Average,Air,BarometricPressure,Millibar,2011-06-03T13:00:00.000Z,3081,,,,1,Barometric Pressure mb
+Battery Voltage volts Blue Oak Avg,Average,Battery,Voltage,Millivolt ,2011-06-03T13:00:00.000Z,3112,,,,,Battery Voltage Avg
+Battery Voltage volts Blue Oak Max,Maximum,Battery,Voltage,Millivolt ,2011-06-03T13:00:00.000Z,3110,,,,,Battery Voltage Max
+Battery Voltage volts Blue Oak Min,Minimum,Battery,Voltage,Millivolt ,2011-06-03T13:00:00.000Z,3111,,,,,Battery Voltage Min
+Datalogger Panel Temp Deg C Blue Oak,None,Instrument,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3113,,,,,Logger Temp c
+PAR um m2 Blue Oak Avg,Average,Solar,PhotosyntheticallyActiveRadiation,Micromole,2011-06-03T13:00:00.000Z,3066,,,,1,PAR umole
+PAR um m2 Blue Oak Max,Maximum,Solar,PhotosyntheticallyActiveRadiation,Micromole,2011-06-03T13:00:00.000Z,3067,,,,,PAR umole
+PAR um m2 Blue Oak Min,Minimum,Solar,PhotosyntheticallyActiveRadiation,Micromole,2011-06-03T13:00:00.000Z,3068,,,,,PAR umole
+Precipitation mm Blue Oak,Cumulative,Precipitation,Height,Millimeter,2011-06-03T13:00:00.000Z,3082,,,,1,Rainfall mm
+Precipitation mm Blue Oak Cumulative,Cumulative,Precipitation,Height,Millimeter,2011-06-03T13:00:00.000Z,3083,,,,,Derived Cumulative Precipitation
+Rain Gage Temp Deg C Blue Oak,NULL,Instrument,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3084,,,,,Rain Gauge Temp C
+Relative Humidity Per Blue Oak Avg,Average,Air,Moisture,Percent,2011-06-03T13:00:00.000Z,3080,,,,1,Rel Humidity Per Avg
+Relative Humidity Per Blue Oak Max,Maximum,Air,Moisture,Percent,2011-06-03T13:00:00.000Z,3078,,,,,Rel Humidity Per Max
+Relative Humidity Per Blue Oak Min,Minimum,Air,Moisture,Percent,2011-06-03T13:00:00.000Z,3079,,,,,Rel Humidity Per Min
+Soil Moisture TDR freq 4 in horiz Blue Oak,Count,Soil,DielectricStrength,VoltPerMeter,2011-06-03T13:00:00.000Z,3114,,,,,Dielectric
+Soil Moisture VWC Blue Oak Avg,Average,Soil,Moisture,Percent,2011-06-03T13:00:00.000Z,3106,,,,,Soil Moisture Pct Avg
+Soil Temp Deg C 2 in Blue Oak Avg,Average,Soil,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3096,depth,2,Inches,1,Soil Temp C Avg
+Soil Temp Deg C 2 in Blue Oak Max,Maximum,Soil,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3094,depth,2,Inches,,Soil Temp C Max
+Soil Temp Deg C 2 in Blue Oak Min,Minimum,Soil,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3095,depth,2,Inches,,Soil Temp C Min
+Soil Temp Deg C 20 in Blue Oak Avg,Average,Soil,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3105,,,,1,Soil Temp C Avg
+Soil Temp Deg C 20 in Blue Oak Max,Maximum,Soil,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3103,depth,20,Inches,,Soil Temp C Max
+Soil Temp Deg C 20 in Blue Oak Min,Minimum,Soil,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3104,,,,,Soil Temp C Min
+Soil Temp Deg C 4 in Blue Oak Avg,Average,Soil,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3099,depth,4,Inches,1,Soil Temp C Avg
+Soil Temp Deg C 4 in Blue Oak Max,Maximum,Soil,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3097,depth,4,Inches,,Soil Temp C Max
+Soil Temp Deg C 4 in Blue Oak Min,Minimum,Soil,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3098,depth,4,Inches,,Soil Temp C Min
+Soil Temp Deg C 8 in Blue Oak Avg,Average,Soil,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3102,depth,8,Inches,1,Soil Temp C Avg
+Soil Temp Deg C 8 in Blue Oak Max,Maximum,Soil,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3100,depth,8,Inches,,Soil Temp C Max
+Soil Temp Deg C 8 in Blue Oak Min,Minimum,Soil,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3101,depth,8,Inches,,Soil Temp C Min
+TDR freq 1 Blue Oak,Count,Soil,Count,Count,2011-06-03T13:00:00.000Z,3109,,,,,Unknown
+Total Solar Radiation W m2 Blue Oak Avg,Average,Solar,Radiation,WattPerSquareMeter,2011-06-03T13:00:00.000Z,3061,,,,1,Solar Radiation Avg W/m^2
+Total Solar Radiation W m2 Blue Oak Max,Maximum,Solar,Radiation,WattPerSquareMeter,2011-06-03T13:00:00.000Z,3063,,,,,Solar Radiation Max W/m^2
+Total Solar Radiation W m2 Blue Oak Min,Minimum,Solar,Radiation,WattPerSquareMeter,2011-06-03T13:00:00.000Z,3064,,,,,Solar Radiation Max W/m^2
+Total Solar Radiation W m2 Blue Oak Std,StandardDeviation,Solar,Radiation,WattPerSquareMeter,2011-06-03T13:00:00.000Z,3065,,,,,Solar Radiation Std W/m^2
+Volumetric Water Content Per 4 in horiz Blue Oak Avg,Average,Soil,Moisture,Percent,2011-06-03T13:00:00.000Z,3107,,,,1,Soil Moisture Pct Avg
+Wind Direction Deg Blue Oak Avg,Average,Air,Direction,DegreeAngle,2011-06-03T13:00:00.000Z,3071,,,,1,Wind Direction Degrees
+Wind Direction Deg Blue Oak Std,StandardDeviation,Air,Direction,DegreeAngle,2011-06-03T13:00:00.000Z,3072,,,,,Wind Direction Standard Deviation
+Wind Gust m s Blue Oak Max,Maximum,Air,Speed,MeterPerSecond,2011-06-03T13:00:00.000Z,3073,,,,1,Wind Gust MS
+Wind Speed Deg Blue Oak Std,StandardDeviation,Air,Speed,MilePerHour,2011-06-03T13:00:00.000Z,3062,,,,,Wind Speed Stdev MPH
+Wind Speed m s Blue Oak Avg,Average,Air,Speed,MeterPerSecond,2011-06-03T13:00:00.000Z,3069,,,,1,Wind Speed Avg MS
+Wind Speed m s Blue Oak Min,Minimum,Air,Speed,MeterPerSecond,2011-06-03T13:00:00.000Z,3074,,,,,Wind Speed Min MS
+Wind Vector Magnitude m s Blue Oak,NULL,Air,Velocity,MeterPerSecond,2011-06-03T13:00:00.000Z,3070,,,,,Wind Vector Magnitude MS

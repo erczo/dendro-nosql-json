@@ -36,6 +36,12 @@
       "name": "Centimeter Per Hour"
     },
     {
+      "abbreviation": "count",
+      "definition": "TBD",
+      "label": "Count",
+      "name": "Count"
+    },
+    {
       "abbreviation": "m^3/s",
       "definition": "TBD",
       "label": "CubicMeterPerSecond",

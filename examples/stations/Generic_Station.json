@@ -23,19 +23,21 @@
       "sizes": {
         "large": {
           "h": 800,
-          "w": 400
+          "w": 400,
+          "url": "http://..."
         },
         "medium": {
           "h": 400,
-          "w": 200
+          "w": 200,
+          "url": "http://..."
         },
         "thumb": {
           "h": 160,
-          "w": 160
+          "w": 160,
+          "url": "http://..."
         }
       },
       "type": "photo",
-      "url": "http://...",
       "video_info": {}
     }
   ],
@@ -58,9 +60,19 @@
   "place_id": "581434a8650aad2999d57288",
   "slug": "blue-oak-ranch",
   "station_type": "weather",
+  "time_zone": "PST",
   "thing_ids": [
     "581434a8650aad2999d57288"
   ],
   "utc_offset": -28800,
-  "website_url": "http://..."
+  "external_links": [
+    {
+      "title" : "Sensor database",
+      "url" : "http://sensor.berkeley.edu/index_BORR.html"
+    }, 
+    {
+      "title" : "Reserve website",
+      "url" : "http://blueoakranchreserve.net"
+    }
+  ]
 }

@@ -1,6 +1,5 @@
 {
   "_id": "di",
-  "created_at": "2016-11-15T16:30:00Z",
   "description": "A collection of controlled vocabularies for internal use in the Dendro system.",
   "name": "Dendro Internal Controlled Vocabularies"
 }

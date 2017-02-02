@@ -1,6 +1,5 @@
 {
   "_id": "dq-aggregate",
-  "created_at": "2016-11-15T16:30:00Z",
   "description": "TBD",
   "label": "Aggregate",
   "scheme_id": "dq",
@@ -12,18 +11,15 @@
     },
     {
       "definition": "TBD",
-      "label": "Maximum",
-      "name": "Maximum"
+      "label": "Maximum"
     },
     {
       "definition": "TBD",
-      "label": "Median",
-      "name": "Median"
+      "label": "Median"
     },
     {
       "definition": "TBD",
-      "label": "Minimum",
-      "name": "Minimum"
+      "label": "Minimum"
     },
     {
       "definition": "TBD",
@@ -32,8 +28,7 @@
     },
     {
       "definition": "TBD",
-      "label": "Cumulative",
-      "name": "Cumulative"
+      "label": "Cumulative"
     }
   ]
 }

@@ -2,16 +2,27 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
-    "_id": {"$ref": "#/definitions/objectId"},
-    "activated_at": {"$ref": "#/definitions/isoDate"},
-    "datastreams_ids": {
-      "type": "array",
-      "items": {"$ref": "#/definitions/objectId"}
+    "_id": {
+      "$ref": "#/definitions/objectId"
     },
-    "created_at": {"$ref": "#/definitions/isoDate"},
-    "deactivated_at": {"$ref": "#/definitions/isoDate"},
-    "enabled": {"type": "boolean"},
-    "full_name": {"type": "string"},
+    "activated_at": {
+      "$ref": "#/definitions/isoDate"
+    },
+    "deactivated_at": {
+      "$ref": "#/definitions/isoDate"
+    },
+    "created_at": {
+      "$ref": "#/definitions/isoDate"
+    },
+    "updated_at": {
+      "$ref": "#/definitions/isoDate"
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "full_name": {
+      "type": "string"
+    },
     "geo": {
       "type": "object",
       "properties": {
@@ -19,7 +30,9 @@
           "type": "array",
           "minItems": 2,
           "maxItems": 3,
-          "items": {"type": "number"}
+          "items": {
+            "type": "number"
+          }
         },
         "type": {
           "type": "string",
@@ -28,8 +41,12 @@
       },
       "required": ["coordinates", "type"]
     },
-    "is_active": {"type": "boolean"},
-    "is_stationary": {"type": "boolean"},
+    "is_active": {
+      "type": "boolean"
+    },
+    "is_stationary": {
+      "type": "boolean"
+    },
     "media": {
       "type": "array",
       "minItems": 1,
@@ -39,23 +56,39 @@
           "sizes": {
             "type": "object",
             "properties": {
-              "large": {"$ref": "#/definitions/mediaSize"},
-              "medium": {"$ref": "#/definitions/mediaSize"},
-              "medium_2x": {"$ref": "#/definitions/mediaSize"},
-              "small": {"$ref": "#/definitions/mediaSize"},
-              "small_2x": {"$ref": "#/definitions/mediaSize"},
-              "thumb": {"$ref": "#/definitions/mediaSize"},
-              "thumb_2x": {"$ref": "#/definitions/mediaSize"}
+              "large": {
+                "$ref": "#/definitions/mediaSize"
+              },
+              "medium": {
+                "$ref": "#/definitions/mediaSize"
+              },
+              "medium_2x": {
+                "$ref": "#/definitions/mediaSize"
+              },
+              "small": {
+                "$ref": "#/definitions/mediaSize"
+              },
+              "small_2x": {
+                "$ref": "#/definitions/mediaSize"
+              },
+              "thumb": {
+                "$ref": "#/definitions/mediaSize"
+              },
+              "thumb_2x": {
+                "$ref": "#/definitions/mediaSize"
+              }
             },
-            "required": ["large", "medium", "small","thumb"]
+            "required": ["large", "medium", "small", "thumb"]
           },
           "type": {
             "type": "string",
             "enum": ["photo"]
           },
-          "caption": { "type": "String" }
+          "caption": {
+            "type": "string"
+          }
         },
-        "required":["sizes", "type"]
+        "required": ["sizes", "type"]
       }
     },
     "members": {
@@ -63,46 +96,65 @@
       "items": {
         "type": "object",
         "properties": {
-          "organization_id": {"$ref": "#/definitions/objectId"},
-          "person_id": {"$ref": "#/definitions/objectId"},
+          "organization_id": {
+            "$ref": "#/definitions/objectId"
+          },
+          "person_id": {
+            "$ref": "#/definitions/objectId"
+          },
           "roles": {
             "type": "array",
-            "items": {"type": "string"},
+            "items": {
+              "type": "string"
+            },
             "minItems": 1
           }
         },
         "required": ["roles"]
       }
     },
-    "name": {"type": "string"},
-    "place_id": {"$ref": "#/definitions/objectId"},
-    "slug": {"$ref": "#/definitions/slugId"},
+    "name": {
+      "type": "string"
+    },
+    "place_id": {
+      "$ref": "#/definitions/objectId"
+    },
+    "slug": {
+      "$ref": "#/definitions/slugId"
+    },
     "station_type": {
       "type": "string",
       "enum": ["weather"]
     },
-    "time_zone": {"type": "string"},
+    "time_zone": {
+      "type": "string"
+    },
     "thing_ids": {
       "type": "array",
       "minItems": 1,
-      "items": {"$ref": "#/definitions/objectId"}
+      "items": {
+        "$ref": "#/definitions/objectId"
+      }
     },
-    "utc_offset": {"type": "number"},
-
-    "external_links" : { 
+    "utc_offset": {
+      "type": "number"
+    },
+    "external_links": {
       "type": "array",
       "items": {
         "type": "object",
         "minItems": 1,
         "properties": {
-          "title" : "string",
-          "website_url": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
             "type": "string",
             "format": "uri"
           }
         },
-        "required":["title", "website_url"]
-      } 
+        "required": ["title", "url"]
+      }
     }
   },
   "definitions": {
@@ -118,8 +170,12 @@
     "mediaSize": {
       "type": "object",
       "properties": {
-        "h": {"type": "number"},
-        "w": {"type": "number"},
+        "h": {
+          "type": "number"
+        },
+        "w": {
+          "type": "number"
+        },
         "url": {
           "type": "string",
           "format": "uri"
@@ -131,6 +187,6 @@
       "pattern": "^[a-z0-9-]+$"
     }
   },
-  "required": ["enabled", "is_active", "is_stationary", "name", "station_type", "time_zone","utc_offset"],
+  "required": ["enabled", "is_active", "is_stationary", "name", "station_type", "time_zone", "utc_offset"],
   "additionalProperties": false
 }

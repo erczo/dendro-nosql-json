@@ -1,6 +1,5 @@
 {
   "_id": "ds-medium",
-  "created_at": "2016-11-15T16:30:00Z",
   "description": "TBD",
   "label": "Medium",
   "scheme_id": "ds",
@@ -15,7 +14,8 @@
     },
     {
       "definition": "TBD",
-      "label": "GroundWater"
+      "label": "GroundWater",
+      "name": "Ground Water"
     },
     {
       "definition": "TBD",
@@ -55,7 +55,8 @@
     },
     {
       "definition": "TBD",
-      "label": "SurfaceWater"
+      "label": "SurfaceWater",
+      "name": "Surface Water"
     },
     {
       "definition": "TBD",

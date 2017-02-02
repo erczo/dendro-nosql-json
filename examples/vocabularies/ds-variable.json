@@ -1,13 +1,13 @@
 {
   "_id": "ds-variable",
-  "created_at": "2016-11-15T16:30:00Z",
   "description": "TBD",
   "label": "Variable",
   "scheme_id": "ds",
   "terms": [
     {
       "definition": "TBD",
-      "label": "BarometricPressure"
+      "label": "BarometricPressure",
+      "name": "Barometric Pressure"
     },
     {
       "definition": "TBD",
@@ -19,7 +19,8 @@
     },
     {
       "definition": "TBD",
-      "label": "DielectricStrength"
+      "label": "DielectricStrength",
+      "name": "Dielectric Strength"
     },
     {
       "definition": "TBD",
@@ -51,7 +52,8 @@
     },
     {
       "definition": "TBD",
-      "label": "PhotosyntheticallyActiveRadiation"
+      "label": "PhotosyntheticallyActiveRadiation",
+      "name": "Photosynthetically Active Radiation"
     },
     {
       "definition": "TBD",
@@ -59,11 +61,13 @@
     },
     {
       "definition": "TBD",
-      "label": "RelativeHumidity"
+      "label": "RelativeHumidity",
+      "name": "Relative Humidity"
     },
     {
       "definition": "TBD",
-      "label": "SolarRadiation"
+      "label": "SolarRadiation",
+      "name": "Solar Radiation"
     },
     {
       "definition": "TBD",
@@ -87,7 +91,8 @@
     },
     {
       "definition": "TBD",
-      "label": "VaporPressureDeficit"
+      "label": "VaporPressureDeficit",
+      "name": "Vapor Pressure Deficit"
     },
     {
       "definition": "TBD",
@@ -103,7 +108,8 @@
     },
     {
       "definition": "TBD",
-      "label": "VolumetricWaterContent"
+      "label": "VolumetricWaterContent",
+      "name": "Volumetric Water Content"
     }
   ]
 }

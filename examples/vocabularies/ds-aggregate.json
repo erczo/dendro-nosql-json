@@ -1,13 +1,13 @@
 {
   "_id": "ds-aggregate",
-  "created_at": "2016-11-15T16:30:00Z",
   "description": "TBD",
   "label": "Aggregate",
   "scheme_id": "ds",
   "terms": [
     {
       "definition": "TBD",
-      "label": "Average"
+      "label": "Average",
+      "name": "Average/Mean"
     },
     {
       "definition": "TBD",
@@ -23,11 +23,12 @@
     },
     {
       "definition": "TBD",
-      "label": "StandardDeviation"
+      "label": "StandardDeviation",
+      "name": "Standard Deviation"
     },
     {
       "definition": "TBD",
-      "label": "Sum"
+      "label": "Cumulative"
     }
   ]
 }

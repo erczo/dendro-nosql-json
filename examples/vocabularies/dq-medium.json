@@ -1,14 +1,12 @@
 {
   "_id": "dq-medium",
-  "created_at": "2016-11-15T16:30:00Z",
   "description": "TBD",
   "label": "Medium",
   "scheme_id": "dq",
   "terms": [
     {
       "definition": "TBD",
-      "label": "Air",
-      "name": "Air"
+      "label": "Air"
     },
     {
       "definition": "TBD",
@@ -22,38 +20,31 @@
     },
     {
       "definition": "TBD",
-      "label": "Other",
-      "name": "Other"
+      "label": "Other"
     },
     {
       "definition": "TBD",
-      "label": "Precipitation",
-      "name": "Precipitation"
+      "label": "Precipitation"
     },
     {
       "definition": "TBD",
-      "label": "Rock",
-      "name": "Rock"
+      "label": "Rock"
     },
     {
       "definition": "TBD",
-      "label": "Saprolite",
-      "name": "Saprolite"
+      "label": "Saprolite"
     },
     {
       "definition": "TBD",
-      "label": "Sediment",
-      "name": "Sediment"
+      "label": "Sediment"
     },
     {
       "definition": "TBD",
-      "label": "Snow",
-      "name": "Snow"
+      "label": "Snow"
     },
     {
       "definition": "TBD",
-      "label": "Soil",
-      "name": "Soil"
+      "label": "Soil"
     },
     {
       "definition": "TBD",
@@ -62,13 +53,11 @@
     },
     {
       "definition": "TBD",
-      "label": "Tissue",
-      "name": "Tissue"
+      "label": "Tissue"
     },
     {
       "definition": "TBD",
-      "label": "Unknown",
-      "name": "Unknown"
+      "label": "Unknown"
     }
   ]
 }

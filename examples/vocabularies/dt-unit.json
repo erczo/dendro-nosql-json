@@ -1,6 +1,5 @@
 {
   "_id": "dt-unit",
-  "created_at": "2016-11-15T16:30:00Z",
   "description": "TBD",
   "label": "Unit",
   "scheme_id": "dt",
@@ -8,26 +7,22 @@
     {
       "abbreviation": "A",
       "definition": "TBD",
-      "label": "Ampere",
-      "name": "Ampere"
+      "label": "Ampere"
     },
     {
       "abbreviation": "bar",
       "definition": "TBD",
-      "label": "Bar",
-      "name": "Bar"
+      "label": "Bar"
     },
     {
       "abbreviation": "cbar",
       "definition": "TBD",
-      "label": "Centibar",
-      "name": "Centibar"
+      "label": "Centibar"
     },
     {
       "abbreviation": "cm",
       "definition": "TBD",
-      "label": "Centimeter",
-      "name": "Centimeter"
+      "label": "Centimeter"
     },
     {
       "abbreviation": "cm/hr",
@@ -38,8 +33,7 @@
     {
       "abbreviation": "count",
       "definition": "TBD",
-      "label": "Count",
-      "name": "Count"
+      "label": "Count"
     },
     {
       "abbreviation": "m^3/s",
@@ -50,8 +44,7 @@
     {
       "abbreviation": "dB",
       "definition": "TBD",
-      "label": "Decibel",
-      "name": "Decibel"
+      "label": "Decibel"
     },
     {
       "abbreviation": "dS/m",
@@ -80,26 +73,22 @@
     {
       "abbreviation": "ft",
       "definition": "TBD",
-      "label": "Foot",
-      "name": "Foot"
+      "label": "Foot"
     },
     {
       "abbreviation": "s^-1",
       "definition": "TBD",
-      "label": "Hertz",
-      "name": "Hertz"
+      "label": "Hertz"
     },
     {
       "abbreviation": "in",
       "definition": "TBD",
-      "label": "Inch",
-      "name": "Inch"
+      "label": "Inch"
     },
     {
       "abbreviation": "K",
       "definition": "TBD",
-      "label": "Kelvin",
-      "name": "Kelvin"
+      "label": "Kelvin"
     },
     {
       "abbreviation": "kJ/m^2",
@@ -110,8 +99,7 @@
     {
       "abbreviation": "lx",
       "definition": "TBD",
-      "label": "Lux",
-      "name": "Lux"
+      "label": "Lux"
     },
     {
       "abbreviation": "MJ/m^2",
@@ -128,8 +116,7 @@
     {
       "abbreviation": "m",
       "definition": "TBD",
-      "label": "Meter",
-      "name": "Meter"
+      "label": "Meter"
     },
     {
       "abbreviation": "m/d",
@@ -146,8 +133,7 @@
     {
       "abbreviation": "µmol",
       "definition": "TBD",
-      "label": "Micromole",
-      "name": "Micromole"
+      "label": "Micromole"
     },
     {
       "abbreviation": "mi/hr",
@@ -158,14 +144,12 @@
     {
       "abbreviation": "mb",
       "definition": "TBD",
-      "label": "Millibar",
-      "name": "Millibar"
+      "label": "Millibar"
     },
     {
       "abbreviation": "mm",
       "definition": "TBD",
-      "label": "Millimeter",
-      "name": "Millimeter"
+      "label": "Millimeter"
     },
     {
       "abbreviation": "mm/d",
@@ -182,8 +166,7 @@
     {
       "abbreviation": "mV",
       "definition": "TBD",
-      "label": "Millivolt",
-      "name": "Millivolt"
+      "label": "Millivolt"
     },
     {
       "abbreviation": "'",
@@ -200,8 +183,7 @@
     {
       "abbreviation": "mol",
       "definition": "TBD",
-      "label": "Mole",
-      "name": "Mole"
+      "label": "Mole"
     },
     {
       "abbreviation": "NTU",
@@ -212,8 +194,7 @@
     {
       "abbreviation": "ohm",
       "definition": "TBD",
-      "label": "Ohm",
-      "name": "Ohm"
+      "label": "Ohm"
     },
     {
       "abbreviation": "ppm",
@@ -224,8 +205,7 @@
     {
       "abbreviation": "%",
       "definition": "TBD",
-      "label": "Percent",
-      "name": "Percent"
+      "label": "Percent"
     },
     {
       "abbreviation": "psi",
@@ -242,8 +222,7 @@
     {
       "abbreviation": "V",
       "definition": "TBD",
-      "label": "Volt",
-      "name": "Volt"
+      "label": "Volt"
     },
     {
       "abbreviation": "V/m",

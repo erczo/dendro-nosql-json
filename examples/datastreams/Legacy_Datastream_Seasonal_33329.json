@@ -12,19 +12,8 @@
       "path": "/legacy/datavalues-seasonal"
     }
   ],
-  "derived_from_datastream_ids": [
-    3329
-  ],
-  "description": "TBD",
+  "description": "This Datastream is derived from the legacy datastreamid: 3329",
   "enabled": true,
-  "geo": {
-    "coordinates": [
-      -123.630833,
-      39.739167,
-      383.7
-    ],
-    "type": "Point"
-  },
   "name": "Total Solar Radiation W m2 Angelo Avg Seasonal Maximum",
   "source_type": "sensor",
   "state": "ready",

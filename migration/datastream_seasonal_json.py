@@ -73,8 +73,9 @@ for dsid,dsname in dslist.items():
             # Assign parameters
             if(len(attributes) > 0):
                 d['attributes'] = attributes
+            d['description'] = "This Datastream is derived from the legacy datastreamid: "+str(dsid)
             d['name'] = name
-            d['derived_from_datastream_ids'] = [dsid]
+            #d['derived_from_datastream_ids'] = [dsid]
             d['datapoints_config'][0]['params']['query']['datastream_id'] = dsids
             d['datapoints_config'][0]['path'] = path
             taglist = d['tags']

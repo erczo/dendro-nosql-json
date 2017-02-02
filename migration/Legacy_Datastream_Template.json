@@ -4,7 +4,7 @@
 	"state": "ready",
 	"description": "TBD",
 	"enabled": true,
-	"station_id": "587d6c09699c930001713eab",
+	"station_id": "TBD",
 	"tags": [
 		"AGGREGATE2",
 		"MEDIUM3",
@@ -20,14 +20,6 @@
 				"time_adjust": -28800
 			}
 		},
-		"path": "/legacy/datavalues"
-	}],
-	"geo": {
-		"coordinates": [
-		  -123.630833,
-		  39.739167,
-		  383.7
-		],
-		"type": "Point"
-	}
+		"path": "/legacy/datavalues-ucnrs"
+	}]
 }

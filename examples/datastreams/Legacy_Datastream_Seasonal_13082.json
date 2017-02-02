@@ -12,19 +12,8 @@
       "path": "/legacy/datavalues-seasonal"
     }
   ],
-  "derived_from_datastream_ids": [
-    3082
-  ],
-  "description": "TBD",
+  "description": "This Datastream is derived from the legacy datastreamid: 3082",
   "enabled": true,
-  "geo": {
-    "coordinates": [
-      -121.73638,
-      37.381666,
-      575
-    ],
-    "type": "Point"
-  },
   "name": "Precipitation mm Blue Oak Seasonal Minimum",
   "source_type": "sensor",
   "state": "ready",

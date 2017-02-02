@@ -12,19 +12,8 @@
       "path": "/legacy/datavalues-seasonal"
     }
   ],
-  "derived_from_datastream_ids": [
-    3080
-  ],
-  "description": "TBD",
+  "description": "This Datastream is derived from the legacy datastreamid: 3080",
   "enabled": true,
-  "geo": {
-    "coordinates": [
-      -121.73638,
-      37.381666,
-      575
-    ],
-    "type": "Point"
-  },
   "name": "Relative Humidity Per Blue Oak Avg Seasonal Minimum",
   "source_type": "sensor",
   "state": "ready",

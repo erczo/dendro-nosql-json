@@ -9,19 +9,11 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues"
+      "path": "/legacy/datavalues-ucnrs"
     }
   ],
   "description": "TBD",
   "enabled": true,
-  "geo": {
-    "coordinates": [
-      -121.73638,
-      37.381666,
-      575
-    ],
-    "type": "Point"
-  },
   "name": "Air Temp Deg C Blue Oak Avg",
   "source_type": "sensor",
   "state": "ready",

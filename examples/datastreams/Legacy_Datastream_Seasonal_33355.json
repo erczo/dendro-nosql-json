@@ -18,19 +18,8 @@
       "path": "/legacy/datavalues-seasonal"
     }
   ],
-  "derived_from_datastream_ids": [
-    3355
-  ],
-  "description": "TBD",
+  "description": "This Datastream is derived from the legacy datastreamid: 3355",
   "enabled": true,
-  "geo": {
-    "coordinates": [
-      -123.630833,
-      39.739167,
-      383.7
-    ],
-    "type": "Point"
-  },
   "name": "Air Temp Deg C 2 m Angelo Avg Seasonal Maximum",
   "source_type": "sensor",
   "state": "ready",

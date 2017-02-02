@@ -12,19 +12,8 @@
       "path": "/legacy/datavalues-seasonal"
     }
   ],
-  "derived_from_datastream_ids": [
-    3348
-  ],
-  "description": "TBD",
+  "description": "This Datastream is derived from the legacy datastreamid: 3348",
   "enabled": true,
-  "geo": {
-    "coordinates": [
-      -123.630833,
-      39.739167,
-      383.7
-    ],
-    "type": "Point"
-  },
   "name": "Relative Humidity Per Angelo Avg Seasonal Minimum",
   "source_type": "sensor",
   "state": "ready",

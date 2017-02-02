@@ -12,19 +12,8 @@
       "path": "/legacy/datavalues-seasonal"
     }
   ],
-  "derived_from_datastream_ids": [
-    3336
-  ],
-  "description": "TBD",
+  "description": "This Datastream is derived from the legacy datastreamid: 3336",
   "enabled": true,
-  "geo": {
-    "coordinates": [
-      -123.630833,
-      39.739167,
-      383.7
-    ],
-    "type": "Point"
-  },
   "name": "Wind Speed m s Angelo Avg Seasonal Average",
   "source_type": "sensor",
   "state": "ready",

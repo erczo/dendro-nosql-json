@@ -9,19 +9,11 @@
           "time_adjust": -28800
         }
       },
-      "path": "/legacy/datavalues"
+      "path": "/legacy/datavalues-ucnrs"
     }
   ],
   "description": "TBD",
   "enabled": true,
-  "geo": {
-    "coordinates": [
-      -123.630833,
-      39.739167,
-      383.7
-    ],
-    "type": "Point"
-  },
   "name": "Wind Gust m s Angelo Max",
   "source_type": "sensor",
   "state": "ready",

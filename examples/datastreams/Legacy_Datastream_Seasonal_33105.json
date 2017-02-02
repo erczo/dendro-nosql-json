@@ -12,19 +12,8 @@
       "path": "/legacy/datavalues-seasonal"
     }
   ],
-  "derived_from_datastream_ids": [
-    3105
-  ],
-  "description": "TBD",
+  "description": "This Datastream is derived from the legacy datastreamid: 3105",
   "enabled": true,
-  "geo": {
-    "coordinates": [
-      -121.73638,
-      37.381666,
-      575
-    ],
-    "type": "Point"
-  },
   "name": "Soil Temp Deg C 20 in Blue Oak Avg Seasonal Maximum",
   "source_type": "sensor",
   "state": "ready",

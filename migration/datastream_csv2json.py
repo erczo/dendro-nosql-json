@@ -13,13 +13,14 @@ import json
 import pandas as pd
 
 path = '../examples/datastreams/'
+json_template = 'Legacy_Datastream_Template.json'
 dsfile_prefix = 'Legacy_Datastream_'
 reserve_list = {
-    'angelo_datastreams_code.csv':'Legacy_Datastream_Angelo_Generic.json',
-    'borr_datastreams_code.csv':'Legacy_Datastream_Blue_Oak_Generic.json' 
+    'angelo_datastreams_code.csv':'587d6c09699c930001713eab',
+    'borr_datastreams_code.csv':'5861989eb6e0c00001edb2b2' 
 }
 
-for datastream_csv,json_template in reserve_list.items():
+for datastream_csv,stationid in reserve_list.items():
     dfall = pd.read_csv(datastream_csv)
     df = dfall[dfall['DASHBOARD9'] == 1] # select only the datastreams used in dashboard. 
     rows = len(df)
@@ -51,6 +52,7 @@ for datastream_csv,json_template in reserve_list.items():
                 d['attributes'] = attributes
             d['datapoints_config'][0]['begins_at'] = datestart
             d['datapoints_config'][0]['params']['query']['datastream_id'] = dsid
+            d['station_id'] = stationid
             #print(json.dumps(d,indent=2,sort_keys=True))
             dsfile = path+dsfile_prefix+str(dsid)+'.json'
             #print(dsfile)

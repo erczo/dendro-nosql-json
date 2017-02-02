@@ -156,6 +156,12 @@
       "name": "Mile Per Hour"
     },
     {
+      "abbreviation": "mb",
+      "definition": "TBD",
+      "label": "Millibar",
+      "name": "Millibar"
+    },
+    {
       "abbreviation": "mm",
       "definition": "TBD",
       "label": "Millimeter",

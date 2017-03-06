@@ -15,6 +15,7 @@ import mysql.connector
 import datetime as dt
 import pandas as pd
 import os
+import sys
 
 def odm_connect(pwfilepath,boo_dev=False):
     # NOTE: password file should NEVER be uploaded to github!
@@ -43,9 +44,12 @@ booDev = False
 
 
 # go to git base directory outside repository
-gitpath = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))+os.sep
+if(sys.platform == 'linux'):
+    gitpath = '/home/collin/git/'    
+else:
+    gitpath = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))+os.sep
 pwfile = gitpath+'odm.pw'
-print(gitpath)
+print(pwfile)
 
 # Establish database connection
 conn = odm_connect(pwfile,boo_dev=booDev)

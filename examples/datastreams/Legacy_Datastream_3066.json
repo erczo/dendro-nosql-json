@@ -1,27 +1,27 @@
 {
   "datapoints_config": [
     {
-      "begins_at": "2011-06-03T13:00:00.000Z",
+      "begins_at": "2011-06-03T13:00:00.000Z", 
       "params": {
         "query": {
-          "compact": true,
-          "datastream_id": 3066,
+          "compact": true, 
+          "datastream_id": 3066, 
           "time_adjust": -28800
         }
-      },
+      }, 
       "path": "/legacy/datavalues-ucnrs"
     }
-  ],
-  "description": "TBD",
-  "enabled": true,
-  "name": "PAR um m2 Blue Oak Avg",
-  "source_type": "sensor",
-  "state": "ready",
-  "station_id": "5861989eb6e0c00001edb2b2",
+  ], 
+  "description": "TBD", 
+  "enabled": true, 
+  "name": "PAR um m2 Blue Oak Avg", 
+  "source_type": "sensor", 
+  "state": "ready", 
+  "station_id": "5861989eb6e0c00001edb2b2", 
   "tags": [
-    "ds_Aggregate_Average",
-    "ds_Medium_Solar",
-    "ds_Variable_PhotosyntheticallyActiveRadiation",
-    "dt_Unit_Micromole"
+    "ds_Aggregate_Average", 
+    "ds_Medium_Solar", 
+    "ds_Variable_PhotosyntheticallyActiveRadiation", 
+    "dt_Unit_MicromolePerSquareMeter"
   ]
 }

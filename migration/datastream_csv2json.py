@@ -39,9 +39,9 @@ for datastream_csv,stationid in reserve_list.items():
         hdunits = str(df.iloc[i,9])
         attributes = {}
         if(hd == 'height'):
-            attributes = { 'height' : { 'height' : hdvalue, 'units' : hdunits } }
+            attributes = { 'height' : { 'value' : hdvalue, 'units' : hdunits } }
         if(hd == 'depth'):
-            attributes = { 'depth' : { 'depth' : hdvalue, 'units' : hdunits } }
+            attributes = { 'depth' : { 'value' : hdvalue, 'units' : hdunits } }
         print(i,dsid,name,aggregate,medium,variable,units,attributes)      
         with open(json_template) as json_data:
             d = json.load(json_data)

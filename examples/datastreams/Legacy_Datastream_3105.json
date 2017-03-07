@@ -1,27 +1,27 @@
 {
   "datapoints_config": [
     {
-      "begins_at": "2011-06-03T13:00:00.000Z",
+      "begins_at": "2011-06-03T13:00:00.000Z", 
       "params": {
         "query": {
-          "compact": true,
-          "datastream_id": 3105,
+          "compact": true, 
+          "datastream_id": 3105, 
           "time_adjust": -28800
         }
-      },
+      }, 
       "path": "/legacy/datavalues-ucnrs"
     }
-  ],
-  "description": "TBD",
-  "enabled": true,
-  "name": "Soil Temp Deg C 20 in Blue Oak Avg",
-  "source_type": "sensor",
-  "state": "ready",
-  "station_id": "5861989eb6e0c00001edb2b2",
+  ], 
+  "description": "TBD", 
+  "enabled": true, 
+  "name": "Soil Temp Deg C 20 in Blue Oak Avg", 
+  "source_type": "sensor", 
+  "state": "ready", 
+  "station_id": "5861989eb6e0c00001edb2b2", 
   "tags": [
-    "ds_Aggregate_Average",
-    "ds_Medium_Soil",
-    "ds_Variable_Temperature",
+    "ds_Aggregate_Average", 
+    "ds_Medium_Soil", 
+    "ds_Variable_Temperature", 
     "dt_Unit_DegreeCelsius"
   ]
 }

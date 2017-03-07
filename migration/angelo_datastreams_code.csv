@@ -16,9 +16,9 @@ Battery Voltage volts Angelo Avg,Average,Battery,Voltage,Millivolt ,2013-05-07T1
 Battery Voltage volts Angelo Max,Maximum,Battery,Voltage,Millivolt ,2013-05-07T15:10:00.000Z,3378,,,,,Battery Voltage Max
 Battery Voltage volts Angelo Min,Minimum,Battery,Voltage,Millivolt ,2013-05-07T15:10:00.000Z,3379,,,,,Battery Voltage Min
 Datalogger Panel Temp Deg C Angelo,None,Instrument,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3381,,,,,Logger Temp c
-PAR um m2 Angelo Avg,Average,Solar,PhotosyntheticallyActiveRadiation,Micromole,2013-05-07T15:10:00.000Z,3333,,,,1,PAR umole
-PAR um m2 Angelo Max,Maximum,Solar,PhotosyntheticallyActiveRadiation,Micromole,2013-05-07T15:10:00.000Z,3334,,,,,PAR umole
-PAR um m2 Angelo Min,Minimum,Solar,PhotosyntheticallyActiveRadiation,Micromole,2013-05-07T15:10:00.000Z,3335,,,,,PAR umole
+PAR um m2 Angelo Avg,Average,Solar,PhotosyntheticallyActiveRadiation,MicromolePerSquareMeter,2013-05-07T15:10:00.000Z,3333,,,,1,PAR umole
+PAR um m2 Angelo Max,Maximum,Solar,PhotosyntheticallyActiveRadiation,MicromolePerSquareMeter,2013-05-07T15:10:00.000Z,3334,,,,,PAR umole
+PAR um m2 Angelo Min,Minimum,Solar,PhotosyntheticallyActiveRadiation,MicromolePerSquareMeter,2013-05-07T15:10:00.000Z,3335,,,,,PAR umole
 Precipitation mm Angelo,Cumulative,Precipitation,Height,Millimeter,2013-05-07T15:10:00.000Z,3350,,,,1,Rainfall mm
 Precipitation mm Angelo Cumulative,Cumulative,Precipitation,Height,Millimeter,2013-05-07T15:10:00.000Z,3351,,,,,Derived Cumulative Precipitation
 Rain Gage Temp Deg C Angelo,NULL,Instrument,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3352,,,,,Rain Gauge Temp C

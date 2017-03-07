@@ -1,27 +1,27 @@
 {
   "datapoints_config": [
     {
-      "begins_at": "2013-05-07T15:10:00.000Z", 
+      "begins_at": "2013-05-07T15:10:00.000Z",
       "params": {
         "query": {
-          "compact": true, 
-          "datastream_id": 3340, 
+          "compact": true,
+          "datastream_id": 3340,
           "time_adjust": -28800
         }
-      }, 
+      },
       "path": "/legacy/datavalues-ucnrs"
     }
-  ], 
-  "description": "TBD", 
-  "enabled": true, 
-  "name": "Wind Gust m s Angelo Max", 
-  "source_type": "sensor", 
-  "state": "ready", 
-  "station_id": "587d6c09699c930001713eab", 
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "name": "Wind Gust m s Angelo Max",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "587d6c09699c930001713eab",
   "tags": [
-    "ds_Aggregate_Maximum", 
-    "ds_Medium_Air", 
-    "ds_Variable_Speed", 
+    "ds_Aggregate_Maximum",
+    "ds_Medium_Air",
+    "ds_Variable_Speed",
     "dt_Unit_MeterPerSecond"
   ]
 }

@@ -1,27 +1,27 @@
 {
   "datapoints_config": [
     {
-      "begins_at": "2011-06-03T13:00:00.000Z", 
+      "begins_at": "2011-06-03T13:00:00.000Z",
       "params": {
         "query": {
-          "compact": true, 
-          "datastream_id": 3081, 
+          "compact": true,
+          "datastream_id": 3081,
           "time_adjust": -28800
         }
-      }, 
+      },
       "path": "/legacy/datavalues-ucnrs"
     }
-  ], 
-  "description": "TBD", 
-  "enabled": true, 
-  "name": "Barometric Pressure mbar Blue Oak Avg", 
-  "source_type": "sensor", 
-  "state": "ready", 
-  "station_id": "5861989eb6e0c00001edb2b2", 
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "name": "Barometric Pressure mbar Blue Oak Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "5861989eb6e0c00001edb2b2",
   "tags": [
-    "ds_Aggregate_Average", 
-    "ds_Medium_Air", 
-    "ds_Variable_BarometricPressure", 
+    "ds_Aggregate_Average",
+    "ds_Medium_Air",
+    "ds_Variable_BarometricPressure",
     "dt_Unit_Millibar"
   ]
 }

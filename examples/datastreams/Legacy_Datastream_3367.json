@@ -1,33 +1,33 @@
 {
   "attributes": {
     "depth": {
-      "depth": 4.0,
-      "units": "Inches"
+      "units": "Inches", 
+      "value": 4.0
     }
-  },
+  }, 
   "datapoints_config": [
     {
-      "begins_at": "2013-05-07T15:10:00.000Z",
+      "begins_at": "2013-05-07T15:10:00.000Z", 
       "params": {
         "query": {
-          "compact": true,
-          "datastream_id": 3367,
+          "compact": true, 
+          "datastream_id": 3367, 
           "time_adjust": -28800
         }
-      },
+      }, 
       "path": "/legacy/datavalues-ucnrs"
     }
-  ],
-  "description": "TBD",
-  "enabled": true,
-  "name": "Soil Temp Deg C 4 in Angelo Avg",
-  "source_type": "sensor",
-  "state": "ready",
-  "station_id": "587d6c09699c930001713eab",
+  ], 
+  "description": "TBD", 
+  "enabled": true, 
+  "name": "Soil Temp Deg C 4 in Angelo Avg", 
+  "source_type": "sensor", 
+  "state": "ready", 
+  "station_id": "587d6c09699c930001713eab", 
   "tags": [
-    "ds_Aggregate_Average",
-    "ds_Medium_Soil",
-    "ds_Variable_Temperature",
+    "ds_Aggregate_Average", 
+    "ds_Medium_Soil", 
+    "ds_Variable_Temperature", 
     "dt_Unit_DegreeCelsius"
   ]
 }

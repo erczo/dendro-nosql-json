@@ -7,6 +7,10 @@
     {
       "definition": "TBD",
       "label": "Seasonal"
-    }
+    },
+    {
+      "definition": "TBD",
+      "label": "Forecast"
+    }    
   ]
 }

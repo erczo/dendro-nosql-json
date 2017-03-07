@@ -16,9 +16,9 @@ Battery Voltage volts Blue Oak Avg,Average,Battery,Voltage,Millivolt ,2011-06-03
 Battery Voltage volts Blue Oak Max,Maximum,Battery,Voltage,Millivolt ,2011-06-03T13:00:00.000Z,3110,,,,,Battery Voltage Max
 Battery Voltage volts Blue Oak Min,Minimum,Battery,Voltage,Millivolt ,2011-06-03T13:00:00.000Z,3111,,,,,Battery Voltage Min
 Datalogger Panel Temp Deg C Blue Oak,None,Instrument,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3113,,,,,Logger Temp c
-PAR um m2 Blue Oak Avg,Average,Solar,PhotosyntheticallyActiveRadiation,Micromole,2011-06-03T13:00:00.000Z,3066,,,,1,PAR umole
-PAR um m2 Blue Oak Max,Maximum,Solar,PhotosyntheticallyActiveRadiation,Micromole,2011-06-03T13:00:00.000Z,3067,,,,,PAR umole
-PAR um m2 Blue Oak Min,Minimum,Solar,PhotosyntheticallyActiveRadiation,Micromole,2011-06-03T13:00:00.000Z,3068,,,,,PAR umole
+PAR um m2 Blue Oak Avg,Average,Solar,PhotosyntheticallyActiveRadiation,MicromolePerSquareMeter,2011-06-03T13:00:00.000Z,3066,,,,1,PAR umole
+PAR um m2 Blue Oak Max,Maximum,Solar,PhotosyntheticallyActiveRadiation,MicromolePerSquareMeter,2011-06-03T13:00:00.000Z,3067,,,,,PAR umole
+PAR um m2 Blue Oak Min,Minimum,Solar,PhotosyntheticallyActiveRadiation,MicromolePerSquareMeter,2011-06-03T13:00:00.000Z,3068,,,,,PAR umole
 Precipitation mm Blue Oak,Cumulative,Precipitation,Height,Millimeter,2011-06-03T13:00:00.000Z,3082,,,,1,Rainfall mm
 Precipitation mm Blue Oak Cumulative,Cumulative,Precipitation,Height,Millimeter,2011-06-03T13:00:00.000Z,3083,,,,,Derived Cumulative Precipitation
 Rain Gage Temp Deg C Blue Oak,NULL,Instrument,Temperature,DegreeCelsius,2011-06-03T13:00:00.000Z,3084,,,,,Rain Gauge Temp C

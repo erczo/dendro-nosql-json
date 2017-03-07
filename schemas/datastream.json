@@ -96,9 +96,12 @@
     "name": {
       "type": "string"
     },
+    "source": {
+      "type": "string"
+    },    
     "source_type": {
       "type": "string",
-      "enum": ["sensor"]
+      "enum": ["sensor","service"]
     },
     "state": {
       "type": "string",

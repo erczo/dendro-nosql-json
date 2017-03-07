@@ -136,6 +136,12 @@
       "label": "Micromole"
     },
     {
+      "abbreviation": "µmol/m^2",
+      "definition": "TBD",
+      "label": "MicromolePerSquareMeter",
+      "name": "Micromole Per Square Meter"
+    },
+    {
       "abbreviation": "mi/hr",
       "definition": "TBD",
       "label": "MilePerHour",

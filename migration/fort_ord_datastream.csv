@@ -1,0 +1,33 @@
+datastreamid,datastreamname ,stationname,variableid,variablecode 
+4190,Air Temp Deg C Fort Ord Avg,Fort Ord,3,Air Temp C
+4192,Air Temp Deg C Fort Ord Min,Fort Ord,204,Air Temp C Min
+4193,Air Temp Deg C Fort Ord Max,Fort Ord,205,Air Temp C Max
+4194,Barometric Pressure mbar Fort Ord Avg ,Fort Ord,15,Barometric Pressure mb
+4195,Battery Voltage volts Fort Ord Avg ,Fort Ord,229,Battery Voltage Avg
+4196,Battery Voltage volts Fort Ord Max ,Fort Ord,227,Battery Voltage Max
+4197,Battery Voltage volts Fort Ord Min ,Fort Ord,228,Battery Voltage Min
+4198,Datalogger Panel Temp Deg C Fort Ord,Fort Ord,20,Logger Temp c 
+4199,PAR um m2 Fort Ord Avg ,Fort Ord,5,PAR umole 
+4200,PAR um m2 Fort Ord Max ,Fort Ord,5,PAR umole 
+4201,PAR um m2 Fort Ord Min ,Fort Ord,5,PAR umole 
+4202,Precipitation mm Fort Ord Cumulative,Fort Ord,6,Rainfall Cumulative mm
+4203,Precipitation mm Fort Ord ,Fort Ord,35,Rainfall mm
+4204,Relative Humidity Per Fort Ord Avg ,Fort Ord,209,Rel Humidity Per Avg 
+4205,Relative Humidity Per Fort Ord Max ,Fort Ord,207,Rel Humidity Per Max 
+4206,Relative Humidity Per Fort Ord Min ,Fort Ord,208,Rel Humidity Per Min 
+4207,Volumetric Water Content Per 2 in vertical Fort Ord,Fort Ord,69,Soil Moisture Pct 
+4208,Soil Moisture TDR freq 4 in horizontal Fort Ord,Fort Ord,27,Dielectric
+4209,Soil Moisture TDR freq 2 in vertical Fort Ord ,Fort Ord,27,Dielectric
+4210,Volumetric Water Content Per 4 in horiz Fort Ord,Fort Ord,69,Soil Moisture Pct 
+4211,Soil Temp Deg C 2 in Fort Ord Avg ,Fort Ord,217,Soil Temp C Avg
+4212,Total Solar Radiation W m2 Fort Ord Avg,Fort Ord,61,Solar Radiation Avg W/m^2 
+4213,Total Solar Radiation W m2 Fort Ord Max,Fort Ord,197,Solar Radiation Max W/m^2 
+4214,Total Solar Radiation W m2 Fort Ord Min,Fort Ord,198,Solar Radiation Min W/m^2 
+4215,Total Solar Radiation W m2 Fort Ord Std,Fort Ord,199,Solar Radiation Std W/m^2 
+4216,Wind Direction Deg Fort Ord Avg,Fort Ord,9,Wind Direction Degrees
+4217,Wind Direction Deg Fort Ord Std,Fort Ord,28,Wind Direction Standard Deviation 
+4218,Wind Gust m s Fort Ord Max ,Fort Ord,201,Wind Gust MS 
+4219,Wind Speed m s Fort Ord Avg,Fort Ord,181,Wind Speed Avg MPH
+4220,Wind Speed m s Fort Ord Min,Fort Ord,183,Wind Speed Min MPH
+4221,Wind Speed Deg Fort Ord Std,Fort Ord,184,Wind Speed Stdev MPH 
+4222,Wind Vector Magnitude m s Fort Ord ,Fort Ord,200,Wind Vector Magnitude MS 

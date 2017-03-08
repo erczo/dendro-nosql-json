@@ -1,0 +1,25 @@
+datastreamid,datastreamname,stationname,variableid,variablecode 
+3597,Total Solar Radiation W m2 Jepson Avg ,Jepson ,61,Solar Radiation Avg W/m^2
+3598,PAR um m2 Jepson Avg,Jepson,5,PAR umole
+3599,Wind Speed m s Jepson Avg ,Jepson ,16,Wind Speed Avg MS
+3600,Wind Direction Deg Jepson Avg ,Jepson,9,Wind Direction Degrees 
+3601,Wind Gust m s Jepson Max,Jepson,201,Wind Gust MS 
+3602,Air Temp Deg C Jepson Avg ,Jepson,206,Air Temp C Avg 
+3603,Relative Humidity Per Jepson Avg,Jepson,209,Rel Humidity Per Avg 
+3604,Barometric Pressure mbar Jepson Avg ,Jepson ,15,Barometric Pressure mb 
+3605,Precipitation mm Jepson ,Jepson ,35,Rainfall mm
+3606,Precipitation mm Jepson Cumulative,Jepson,210,Derived Cumulative Precipitation 
+3607,Rain Gage Temp Deg C Jepson ,Jepson,211,Rain Gauge Temp C
+3608,Air Temp Deg C 2 m Jepson Avg ,Jepson,206,Air Temp C Avg 
+3609,Air Temp Deg C 10 m Jepson Min,Jepson,204,Air Temp C Min 
+3610,Air Temp Delta Deg C 10m-2m Jepson Avg,Jepson,214,Air Temp Delta C Avg 
+3611,Soil Temp Deg C 2 in Jepson Avg ,Jepson,217,Soil Temp C Avg
+3612,Soil Temp Deg C 4 in Jepson Avg ,Jepson,217,Soil Temp C Avg
+3613,Soil Temp Deg C 8 in Jepson Avg ,Jepson,217,Soil Temp C Avg
+3614,Soil Temp Deg C 20 in Jepson Avg,Jepson,217,Soil Temp C Avg
+3615,Soil Moisture VWC Jepson Avg,Jepson ,59,Soil Moisture Pct Avg
+3616,Volumetric Water Content Per 4 in horiz Jepson Avg,Jepson ,59,Soil Moisture Pct Avg
+3617,Battery Voltage volts Jepson Avg,Jepson,229,Battery Voltage Avg
+3618,Datalogger Panel Temp Deg C Jepson,Jepson ,20,Logger Temp c
+3619,TX FORWARD POWER Jepson ,Jepson,189,Unknown
+3620,TX REFLECTED POWER Jepson ,Jepson,189,Unknown

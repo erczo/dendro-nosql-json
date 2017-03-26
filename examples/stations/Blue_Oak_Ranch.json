@@ -1,5 +1,4 @@
 {
-  "_id": "5861989eb6e0c00001edb2b2",
   "enabled": true,
   "external_links": [
     {
@@ -11,6 +10,12 @@
       "url": "http://blueoakranchreserve.net"
     }
   ],
+  "external_refs": [
+    {
+      "identifier": "334",
+      "type": "legacy_station_stationid"
+    }
+  ],
   "is_active": true,
   "is_stationary": true,
   "name": "Blue Oak Ranch Reserve",
@@ -18,9 +23,9 @@
   "station_type": "weather",
   "geo": {
     "coordinates": [
+      37.38166599999,
       -121.73638,
-      37.381666,
-      575
+      574.548
     ],
     "type": "Point"
   },

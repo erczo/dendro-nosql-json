@@ -4,10 +4,6 @@
     {
       "title": "Sensor database",
       "url": "http://sensor.berkeley.edu/index_ucnrs.html"
-    },
-    {
-      "title": "Reserve website",
-      "url": "http://fortordreserve.ucsc.edu/"
     }
   ],
   "external_refs": [
@@ -18,8 +14,8 @@
   ],
   "geo": {
     "coordinates": [
-      36.666667,
       -121.766667,
+      36.666667,
       30.0
     ],
     "type": "Point"

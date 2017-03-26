@@ -4,30 +4,26 @@
     {
       "title": "Sensor database",
       "url": "http://sensor.berkeley.edu/index_ucnrs.html"
-    },
-    {
-      "title": "Reserve website",
-      "url": "http://fortordreserve.ucsc.edu/"
     }
   ],
   "external_refs": [
     {
-      "identifier": "342",
+      "identifier": "335",
       "type": "legacy_station_stationid"
     }
   ],
   "geo": {
     "coordinates": [
-      36.666667,
-      -121.766667,
-      30.0
+      -123.63083300000001,
+      39.739167,
+      383.7
     ],
     "type": "Point"
   },
   "is_active": true,
   "is_stationary": true,
-  "name": "Fort Ord",
-  "slug": "fort-ord",
+  "name": "Angelo South",
+  "slug": "angelo-south",
   "station_type": "weather",
   "time_zone": "PST",
   "utc_offset": -28800

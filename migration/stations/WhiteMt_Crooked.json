@@ -4,30 +4,26 @@
     {
       "title": "Sensor database",
       "url": "http://sensor.berkeley.edu/index_ucnrs.html"
-    },
-    {
-      "title": "Reserve website",
-      "url": "http://fortordreserve.ucsc.edu/"
     }
   ],
   "external_refs": [
     {
-      "identifier": "342",
+      "identifier": "362",
       "type": "legacy_station_stationid"
     }
   ],
   "geo": {
     "coordinates": [
-      36.666667,
-      -121.766667,
-      30.0
+      -118.20443999999999,
+      37.54305,
+      3094.0248
     ],
     "type": "Point"
   },
   "is_active": true,
   "is_stationary": true,
-  "name": "Fort Ord",
-  "slug": "fort-ord",
+  "name": "WhiteMt Crooked",
+  "slug": "whitemt-crooked",
   "station_type": "weather",
   "time_zone": "PST",
   "utc_offset": -28800

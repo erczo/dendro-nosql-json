@@ -3,31 +3,27 @@
   "external_links": [
     {
       "title": "Sensor database",
-      "url": "http://sensor.berkeley.edu/index_ucnrs.html"
-    },
-    {
-      "title": "Reserve website",
-      "url": "http://fortordreserve.ucsc.edu/"
+      "url": "http://sensor.berkeley.edu/"
     }
   ],
   "external_refs": [
     {
-      "identifier": "342",
+      "identifier": "6",
       "type": "legacy_station_stationid"
     }
   ],
   "geo": {
     "coordinates": [
-      36.666667,
-      -121.766667,
-      30.0
+      -123.6441405,
+      39.72916645,
+      451.8
     ],
     "type": "Point"
   },
   "is_active": true,
   "is_stationary": true,
-  "name": "Fort Ord",
-  "slug": "fort-ord",
+  "name": "Riv Level 2_1",
+  "slug": "riv-level-2_1",
   "station_type": "weather",
   "time_zone": "PST",
   "utc_offset": -28800

@@ -53,6 +53,26 @@
     "enabled": {
       "type": "boolean"
     },
+    "external_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "minItems": 1,
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": ["identifier"]
+      }
+    },
     "geo": {
       "type": "object",
       "properties": {

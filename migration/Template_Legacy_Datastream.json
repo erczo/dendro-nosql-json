@@ -4,6 +4,12 @@
 	"state": "ready",
 	"description": "TBD",
 	"enabled": true,
+	"external_refs": [
+    {
+      "identifier": "DATASTREAMID",
+      "type": "legacy_datastreams_datastreamid"
+    }
+  ],
 	"station_id": "TBD",
 	"tags": [
 		"AGGREGATE2",

@@ -1,16 +1,16 @@
 NAME1,AGGREGATE2,MEDIUM3,VARIABLE4,UNITS5,DATESTART6,DSID7,HEIGHTDEPTH8,VALUE8,UNITS8,DASHBOARD9,Variable Code
-Air Temp Deg C 10 m Angelo Avg,Average,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3358,height,10,Inches,1,Air Temp C Avg
-Air Temp Deg C 10 m Angelo Max,Maximum,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3356,height,10,Inches,,Air Temp C Max
-Air Temp Deg C 10 m Angelo Min,Minimum,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3357,height,10,Inches,,Air Temp C Min
-Air Temp Deg C 2 m Angelo Avg,Average,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3355,height,2,Inches,1,Air Temp C Avg
-Air Temp Deg C 2 m Angelo Max,Maximum,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3353,height,2,Inches,,Air Temp C Max
-Air Temp Deg C 2 m Angelo Min,Minimum,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3354,height,2,Inches,,Air Temp C Min
+Air Temp Deg C 10 m Angelo Avg,Average,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3358,height,10,Inch,1,Air Temp C Avg
+Air Temp Deg C 10 m Angelo Max,Maximum,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3356,height,10,Inch,,Air Temp C Max
+Air Temp Deg C 10 m Angelo Min,Minimum,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3357,height,10,Inch,,Air Temp C Min
+Air Temp Deg C 2 m Angelo Avg,Average,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3355,height,2,Inch,1,Air Temp C Avg
+Air Temp Deg C 2 m Angelo Max,Maximum,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3353,height,2,Inch,,Air Temp C Max
+Air Temp Deg C 2 m Angelo Min,Minimum,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3354,height,2,Inch,,Air Temp C Min
 Air Temp Deg C Angelo Avg,Average,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3345,,,,1,Air Temp C Avg
 Air Temp Deg C Angelo Max,Maximum,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3343,,,,,Air Temp C Max
 Air Temp Deg C Angelo Min,Minimum,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3344,,,,,Air Temp C Min
-Air Temp Delta Deg C 10m-2m Angelo Avg,Average,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3361,height,2-Oct,Inches,,Air Temp Delta C Avg
-Air Temp Delta Deg C 10m-2m Angelo Max,Maximum,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3359,height,2-Oct,Inches,,Air Temp Delta C Max
-Air Temp Delta Deg C 10m-2m Angelo Min,Minimum,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3360,height,2-Oct,Inches,,Air Temp Delta C Min
+Air Temp Delta Deg C 10m-2m Angelo Avg,Average,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3361,height,2-Oct,Inch,,Air Temp Delta C Avg
+Air Temp Delta Deg C 10m-2m Angelo Max,Maximum,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3359,height,2-Oct,Inch,,Air Temp Delta C Max
+Air Temp Delta Deg C 10m-2m Angelo Min,Minimum,Air,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3360,height,2-Oct,Inch,,Air Temp Delta C Min
 Barometric Pressure mbar Angelo Avg,Average,Air,BarometricPressure,Millibar,2013-05-07T15:10:00.000Z,3349,,,,1,Barometric Pressure mb
 Battery Voltage volts Angelo Avg,Average,Battery,Voltage,Millivolt ,2013-05-07T15:10:00.000Z,3380,,,,,Battery Voltage Avg
 Battery Voltage volts Angelo Max,Maximum,Battery,Voltage,Millivolt ,2013-05-07T15:10:00.000Z,3378,,,,,Battery Voltage Max
@@ -27,18 +27,18 @@ Relative Humidity Per Angelo Max,Maximum,Air,Moisture,Percent,2013-05-07T15:10:0
 Relative Humidity Per Angelo Min,Minimum,Air,Moisture,Percent,2013-05-07T15:10:00.000Z,3347,,,,,Rel Humidity Per Min
 Soil Moisture TDR freq 4 in horiz Angelo,Count,Soil,DielectricStrength,VoltPerMeter,2013-05-07T15:10:00.000Z,3377,,,,,Dielectric
 Soil Moisture VWC Angelo Avg,Average,Soil,Moisture,Percent,2013-05-07T15:10:00.000Z,3374,,,,,Soil Moisture Pct Avg
-Soil Temp Deg C 2 in Angelo Avg,Average,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3364,depth,2,Inches,1,Soil Temp C Avg
-Soil Temp Deg C 2 in Angelo Max,Maximum,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3362,depth,2,Inches,,Soil Temp C Max
-Soil Temp Deg C 2 in Angelo Min,Minimum,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3363,depth,2,Inches,,Soil Temp C Min
+Soil Temp Deg C 2 in Angelo Avg,Average,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3364,depth,2,Inch,1,Soil Temp C Avg
+Soil Temp Deg C 2 in Angelo Max,Maximum,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3362,depth,2,Inch,,Soil Temp C Max
+Soil Temp Deg C 2 in Angelo Min,Minimum,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3363,depth,2,Inch,,Soil Temp C Min
 Soil Temp Deg C 20 in Angelo Avg,Average,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3373,,,,1,Soil Temp C Avg
-Soil Temp Deg C 20 in Angelo Max,Maximum,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3371,depth,20,Inches,,Soil Temp C Max
+Soil Temp Deg C 20 in Angelo Max,Maximum,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3371,depth,20,Inch,,Soil Temp C Max
 Soil Temp Deg C 20 in Angelo Min,Minimum,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3372,,,,,Soil Temp C Min
-Soil Temp Deg C 4 in Angelo Avg,Average,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3367,depth,4,Inches,1,Soil Temp C Avg
-Soil Temp Deg C 4 in Angelo Max,Maximum,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3365,depth,4,Inches,,Soil Temp C Max
-Soil Temp Deg C 4 in Angelo Min,Minimum,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3366,depth,4,Inches,,Soil Temp C Min
-Soil Temp Deg C 8 in Angelo Avg,Average,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3370,depth,8,Inches,1,Soil Temp C Avg
-Soil Temp Deg C 8 in Angelo Max,Maximum,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3368,depth,8,Inches,,Soil Temp C Max
-Soil Temp Deg C 8 in Angelo Min,Minimum,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3369,depth,8,Inches,,Soil Temp C Min
+Soil Temp Deg C 4 in Angelo Avg,Average,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3367,depth,4,Inch,1,Soil Temp C Avg
+Soil Temp Deg C 4 in Angelo Max,Maximum,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3365,depth,4,Inch,,Soil Temp C Max
+Soil Temp Deg C 4 in Angelo Min,Minimum,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3366,depth,4,Inch,,Soil Temp C Min
+Soil Temp Deg C 8 in Angelo Avg,Average,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3370,depth,8,Inch,1,Soil Temp C Avg
+Soil Temp Deg C 8 in Angelo Max,Maximum,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3368,depth,8,Inch,,Soil Temp C Max
+Soil Temp Deg C 8 in Angelo Min,Minimum,Soil,Temperature,DegreeCelsius,2013-05-07T15:10:00.000Z,3369,depth,8,Inch,,Soil Temp C Min
 TDR freq 1 Angelo,Count,Soil,Count,Count,2013-05-07T15:10:00.000Z,3376,,,,,Unknown
 Total Solar Radiation W m2 Angelo Avg,Average,Solar,Radiation,WattPerSquareMeter,2013-05-07T15:10:00.000Z,3329,,,,1,Solar Radiation Avg W/m^2
 Total Solar Radiation W m2 Angelo Max,Maximum,Solar,Radiation,WattPerSquareMeter,2013-05-07T15:10:00.000Z,3330,,,,,Solar Radiation Max W/m^2

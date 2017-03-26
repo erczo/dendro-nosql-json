@@ -36,7 +36,7 @@ for datastream_csv,stationid in reserve_list.items():
         dsid = int(df.iloc[i,6])
         hd = df.iloc[i,7]
         hdvalue = float(df.iloc[i,8])
-        hdunits = str(df.iloc[i,9])
+        hdunits = 'dt_Unit_'+str(df.iloc[i,9])
         attributes = {}
         if(hd == 'height'):
             attributes = { 'height' : { 'value' : hdvalue, 'unit' : hdunits } }

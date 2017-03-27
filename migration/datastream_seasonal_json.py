@@ -20,7 +20,7 @@
 # solar - daily cumulative <-- did not implement
 ########################################
 import json
-#import os
+import os
 import re
 
 dslist = {
@@ -42,8 +42,10 @@ dslist = {
     3350:'Precipitation mm Angelo'
 }
 
+# go to git base directory outside repository
+fpath = os.path.dirname(__file__)+os.sep+'datastreams'+os.sep
+#fpath = '../examples/datastreams/'
 dsfile_prefix = 'Legacy_Datastream_'
-fpath = '../examples/datastreams/'
 
 for dsid,dsname in dslist.items():
     print(dsid,dsname)
@@ -59,16 +61,20 @@ for dsid,dsname in dslist.items():
             dsids = int(acode+int(dsid)) # dsids = datastream id seasonal
             seasonal_tag = 'ds_Function_Seasonal'
             aggregate_tag = 'ds_Aggregate_'+agg
-            path = "/legacy/datavalues-seasonal"
+
             # check for attribute existance
             attributes = {}
             for key in d.keys():
                 if(key == 'attributes'):
                     attributes = d['attributes']
             print(dsids,name,'Aggregate tag: '+aggregate_tag)
-            # Add Interval tag if using a daily aggregate            
+
+            # Add Interval tag if using a daily aggregate 
+            # path is seasonal unless precip
+            path = "/legacy/datavalues-seasonal"
             if(acode == 40000):
                 interval_tag = 'ds_Interval_Day'
+                path = "/legacy/datavalues-day"
 
             # Assign parameters
             if(len(attributes) > 0):

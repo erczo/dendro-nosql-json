@@ -1,0 +1,17 @@
+PREF,SUFF,AGGREGATE,MEDIUM,VARIABLE,UNITS,HEIGHTDEPTH,HEIGHTDEPTH_VALUE,HEIGHTDEPTH_UNITS,VARIABLECODE
+Air Temp Deg C 10 m ,Avg,Average,Air,Temperature,DegreeCelsius,height,10,Inch,Air Temp C Avg
+Air Temp Deg C 2 m ,Avg,Average,Air,Temperature,DegreeCelsius,height,2,Inch,Air Temp C Avg
+Air Temp Deg C ,Avg,Average,Air,Temperature,DegreeCelsius,,,,Air Temp C Avg
+Barometric Pressure mbar ,Avg,Average,Air,BarometricPressure,Millibar,,,,Barometric Pressure mb
+PAR um m2 ,Avg,Average,Solar,PhotosyntheticallyActiveRadiation,MicromolePerSquareMeter,,,,PAR umole
+Precipitation mm ,Avg,Cumulative,Precipitation,Height,Millimeter,,,,Rainfall mm
+Relative Humidity Per ,Avg,Average,Air,Moisture,Percent,,,,Rel Humidity Per Avg
+Soil Temp Deg C 2 in ,Avg,Average,Soil,Temperature,DegreeCelsius,depth,2,Inch,Soil Temp C Avg
+Soil Temp Deg C 20 in ,Avg,Average,Soil,Temperature,DegreeCelsius,,,,Soil Temp C Avg
+Soil Temp Deg C 4 in ,Avg,Average,Soil,Temperature,DegreeCelsius,depth,4,Inch,Soil Temp C Avg
+Soil Temp Deg C 8 in ,Avg,Average,Soil,Temperature,DegreeCelsius,depth,8,Inch,Soil Temp C Avg
+Total Solar Radiation W m2 ,Avg,Average,Solar,Radiation,WattPerSquareMeter,,,,Solar Radiation Avg W/m^2
+Volumetric Water Content Per 4 in horiz ,Avg,Average,Soil,Moisture,Percent,,,,Soil Moisture Pct Avg
+Wind Direction Deg ,Avg,Average,Air,Direction,DegreeAngle,,,,Wind Direction Degrees
+Wind Gust m s ,Max,Maximum,Air,Speed,MeterPerSecond,,,,Wind Gust MS
+Wind Speed m s ,Avg,Average,Air,Speed,MeterPerSecond,,,,Wind Speed Avg MS

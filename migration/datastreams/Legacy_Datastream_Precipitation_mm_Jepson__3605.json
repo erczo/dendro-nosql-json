@@ -1,0 +1,37 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2013-04-30T09:50:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3605,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": 3605,
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": 344,
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Precipitation mm Jepson ",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": 344,
+  "tags": [
+    "ds_Aggregate_Cumulative",
+    "ds_Medium_Precipitation",
+    "ds_Variable_Height",
+    "dt_Unit_Millimeter"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2010-09-29T10:10:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3426,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": 3426,
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": 337,
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Barometric Pressure mbar Deep Canyon Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": 337,
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Air",
+    "ds_Variable_BarometricPressure",
+    "dt_Unit_Millibar"
+  ]
+}

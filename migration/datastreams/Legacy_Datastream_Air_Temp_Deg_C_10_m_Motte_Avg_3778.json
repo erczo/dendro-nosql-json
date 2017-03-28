@@ -1,0 +1,43 @@
+{
+  "attributes": {
+    "height": {
+      "unit": "dt_Unit_Meter",
+      "value": 10.0
+    }
+  },
+  "datapoints_config": [
+    {
+      "begins_at": "2010-09-28T10:30:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3778,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": 3778,
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": 351,
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Air Temp Deg C 10 m Motte Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": 351,
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ]
+}

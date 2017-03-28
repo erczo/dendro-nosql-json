@@ -1,0 +1,37 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2010-09-30T17:50:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4057,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": 4057,
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": 359,
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Volumetric Water Content Per 4 in horiz Granites Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": 359,
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Soil",
+    "ds_Variable_Moisture",
+    "dt_Unit_Percent"
+  ]
+}

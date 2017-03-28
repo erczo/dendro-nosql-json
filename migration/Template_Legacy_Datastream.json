@@ -8,9 +8,13 @@
 	    {
 	      "identifier": "DATASTREAMID",
 	      "type": "odm.datastreams.datastreamid"
+	    },
+	    {
+	      "identifier": "STATIONID",
+	      "type": "odm.stations.stationid"
 	    }
     ],
-	"station_id": "TBD",
+	"station_id": "MONGOID",
 	"tags": [
 		"AGGREGATE",
 		"MEDIUM",

@@ -1,0 +1,37 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2016-07-09T02:50:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3676,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": 3676,
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": 346,
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Wind Direction Deg BigCreek Whale Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": 346,
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Air",
+    "ds_Variable_Direction",
+    "dt_Unit_DegreeAngle"
+  ]
+}

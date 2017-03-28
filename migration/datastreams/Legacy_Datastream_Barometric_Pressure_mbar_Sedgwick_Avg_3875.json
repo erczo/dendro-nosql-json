@@ -1,0 +1,37 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2011-05-18T14:50:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3875,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": 3875,
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": 355,
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Barometric Pressure mbar Sedgwick Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": 355,
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Air",
+    "ds_Variable_BarometricPressure",
+    "dt_Unit_Millibar"
+  ]
+}

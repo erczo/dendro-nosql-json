@@ -67,7 +67,7 @@ i = 0
 for (stationid,station_name) in stations:
     stationscount += 1
     print('XX',stationscount,stationid,station_name)
-    
+        
     for i in range(0,rows):
         # Construct variables for JSON from DataFrame
         pref = df.iloc[i,0].strip()
@@ -111,14 +111,16 @@ for (stationid,station_name) in stations:
             d['name'] = name
             d['tags'] = [aggregate,medium,variable,units]
             # add external references to the sensor database id's
-            d['external_refs'][0]['identifier'] = dsid
-            d['external_refs'][1]['identifier'] = stationid
+            d['external_refs'][0]['identifier'] = str(dsid)
+            d['external_refs'][1]['identifier'] = str(stationid)
             if(attributes != {}):
                 print(dsid,'Adding Attributes')
                 d['attributes'] = attributes
             d['datapoints_config'][0]['begins_at'] = dt.datetime.strftime(datestart,"%Y-%m-%dT%H:%M:%SZ")
             d['datapoints_config'][0]['params']['query']['datastream_id'] = dsid
-            d['station_id'] = stationid
+            #if(medium == 'Precipitation'):
+            #    d['datapoints_config'][0]['path'] = "/legacy/datavalues-day"
+            #d['station_id'] = stationid
             #print(json.dumps(d,indent=2,sort_keys=True))
             # Export to JSON
             dsname = name.replace(' ','_')

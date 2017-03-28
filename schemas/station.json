@@ -139,12 +139,15 @@
     "place_id": {
       "$ref": "#/definitions/objectId"
     },
+    "organization_id": {
+      "$ref": "#/definitions/objectId"
+    },
     "slug": {
       "$ref": "#/definitions/slugId"
     },
     "station_type": {
       "type": "string",
-      "enum": ["weather"]
+      "enum": ["weather","research"]
     },
     "time_zone": {
       "type": "string"

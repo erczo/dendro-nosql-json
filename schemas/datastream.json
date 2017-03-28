@@ -116,12 +116,15 @@
     "name": {
       "type": "string"
     },
+    "organization_id": {
+      "$ref": "#/definitions/objectId"
+    },
     "source": {
       "type": "string"
     },    
     "source_type": {
       "type": "string",
-      "enum": ["sensor","service"]
+      "enum": ["sensor","service","procedure"]
     },
     "state": {
       "type": "string",

@@ -9,7 +9,7 @@
   "external_refs": [
     {
       "identifier": "335",
-      "type": "legacy_station_stationid"
+      "type": "odm.station.stationid"
     }
   ],
   "geo": {
@@ -22,6 +22,208 @@
   },
   "is_active": true,
   "is_stationary": true,
+  "media": [
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_1080,w_1080/ucac.S2_km2f6j.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_480,w_480/ucac.S2_km2f6j.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_960,w_960/ucac.S2_km2f6j.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_240,w_240/ucac.S2_km2f6j.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_480,w_480/ucac.S2_km2f6j.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_60,w_60/ucac.S2_km2f6j.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_120,w_120/ucac.S2_km2f6j.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_1080,w_1080/ucac.SW2_zzq98j.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_480,w_480/ucac.SW2_zzq98j.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_960,w_960/ucac.SW2_zzq98j.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_240,w_240/ucac.SW2_zzq98j.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_480,w_480/ucac.SW2_zzq98j.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_60,w_60/ucac.SW2_zzq98j.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_120,w_120/ucac.SW2_zzq98j.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_1080,w_1080/ucac.NW2_hgkvpc.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_480,w_480/ucac.NW2_hgkvpc.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_960,w_960/ucac.NW2_hgkvpc.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_240,w_240/ucac.NW2_hgkvpc.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_480,w_480/ucac.NW2_hgkvpc.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_60,w_60/ucac.NW2_hgkvpc.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_120,w_120/ucac.NW2_hgkvpc.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_1080,w_1080/ucac.NE2_prujf0.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_480,w_480/ucac.NE2_prujf0.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_960,w_960/ucac.NE2_prujf0.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_240,w_240/ucac.NE2_prujf0.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_480,w_480/ucac.NE2_prujf0.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_60,w_60/ucac.NE2_prujf0.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_120,w_120/ucac.NE2_prujf0.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_1080,w_1080/ucac.SE2_fh8gfe.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_480,w_480/ucac.SE2_fh8gfe.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_960,w_960/ucac.SE2_fh8gfe.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_240,w_240/ucac.SE2_fh8gfe.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_480,w_480/ucac.SE2_fh8gfe.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_60,w_60/ucac.SE2_fh8gfe.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/newleaf/image/upload/c_fill,g_center,h_120,w_120/ucac.SE2_fh8gfe.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    }
+  ],
   "name": "Angelo South",
   "slug": "angelo-south",
   "station_type": "weather",

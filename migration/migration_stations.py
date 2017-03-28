@@ -16,7 +16,37 @@ import json
 import pandas as pd
 import os
 
-# go to git base directory outside repository
+
+# WRCC has codes for each UC weather station
+station_list = {'Hastings':'ucha',
+    'Blue Oak Ranch':'ucbo',
+    'Angelo South':'ucac',
+    'Bodega':'ucbm',
+    'Deep Canyon':'ucde',
+    'Burns':'ucbu',
+    'Chickering':'ucca',
+    'Elliott':'ucel',
+    'James':'ucja',
+    'Jepson':'ucjp',
+    'Rancho Marino':'ucrm',
+    'BigCreek Whale':'whpt',
+    'BigCreek Highlands':'hipk',
+    'BigCreek Gatehouse':'ucbc',
+    'McLaughlin':'ucmc',
+    'Motte':'ucmo',
+    'Santa Cruz Island':'ucsc',
+    'Sedgwick':'ucse',
+    'SNARL':'ucsh',
+    'Anza Borrego':'ucab',
+    'Stunt Ranch':'ucsr',
+    'Granites':'ucgr',
+    'WhiteMt Summit':'wmtn',
+    'WhiteMt Barcroft':'barc',
+    'WhiteMt Crooked':'croo',
+    'Younger':'ucyl',
+    'Sagehen Creek':'sagh'}
+
+# Set path to current directory
 path = os.path.dirname(__file__)+os.sep
 print(path)
 json_path = path+'Template_Legacy_Station.json'
@@ -40,7 +70,18 @@ for i in range(0,rows):
     elev = df.iloc[i,3]
     mc = df.iloc[i,4].strip()
     stationid = df.iloc[i,5]
-    print(station_name,mc)
+            
+    # Get the DRI code for the station
+    dri_code = ''
+    for s,d in station_list.items():
+        if(s == station_name):
+            dri_code = d
+    if(dri_code == ''):
+        print(station_name+' not in WRCC DRI codes. Skipping')
+        continue
+    print(station_name,mc,dri_code)
+    
+    # Assign variable to JSON template
     with open(json_path) as json_data:
         d = json.load(json_data)
         d['geo']['coordinates'] = [long,lat,elev]
@@ -49,9 +90,20 @@ for i in range(0,rows):
         if(mc != 'UCNRS'):
             d['external_links'][0]['url'] = 'http://sensor.berkeley.edu/'
         d['external_refs'][0]['identifier'] = str(stationid)
+        # Assuming the images do not change, 
+        # the following will assign DRI 4 digit code to the image urls
+        for j in range(0,len(d['media'])):
+            for msize in d['media'][j]['sizes']:
+                old_url = d['media'][j]['sizes'][msize]['url']
+                new_url = old_url.replace('DRICODE',dri_code)
+                d['media'][j]['sizes'][msize]['url'] = new_url
+                #print(d['media'][j]['sizes'][msize]['url'])               
+
+       # Export the DOM to JSON file
         station_filename = station_name.replace(' ','_')+'.json'
         print(station_filename)
-        print(json.dumps(d,indent=2,sort_keys=True))
+        #print(json.dumps(d,indent=2,sort_keys=True))
         with open(station_path+station_filename, 'w') as f:
             json.dump(d, f, indent=2,sort_keys=True)
+        
 print('DONE!')

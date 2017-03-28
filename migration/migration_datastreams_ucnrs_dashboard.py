@@ -6,20 +6,21 @@
 # @email: collin@berkeley.edu
 # Created on Tue Jan 17 19:40:41 2017
 #
-# Requires: CSV file with fields to be altered: migration_datastreams_ucnrs_dashboard
-#           json template file: Template_Legacy_Datastream.json
+# Requires: 
+#   migration_datastreams_ucnrs_dashboard.csv: CSV file with fields to be altered.
+#   Template_Legacy_Datastream.json: json template file.
+#   migration_stations.py must be run first
 ########################################
 import json
 import pandas as pd
 import mysql.connector
+import os
 
-path = '../examples/datastreams/'
-json_template = 'Legacy_Datastream_Template.json'
+path = os.path.dirname(__file__)+os.sep
+dspath = path+'datastreams'
+json_template = 'Template_Legacy_Datastream.json'
 dsfile_prefix = 'Legacy_Datastream_'
-reserve_list = {
-    'angelo_datastreams_code.csv':'587d6c09699c930001713eab',
-    'borr_datastreams_code.csv':'5861989eb6e0c00001edb2b2' 
-}
+
 
 for datastream_csv,stationid in reserve_list.items():
     dfall = pd.read_csv(datastream_csv)

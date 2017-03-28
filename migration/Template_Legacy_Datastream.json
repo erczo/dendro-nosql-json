@@ -1,31 +1,33 @@
 {
-	"name": "NAME1",
+	"name": "NAME",
 	"source_type": "sensor",
 	"state": "ready",
 	"description": "TBD",
 	"enabled": true,
 	"external_refs": [
-    {
-      "identifier": "DATASTREAMID",
-      "type": "legacy_datastreams_datastreamid"
-    }
-  ],
+	    {
+	      "identifier": "DATASTREAMID",
+	      "type": "odm.datastreams.datastreamid"
+	    }
+    ],
 	"station_id": "TBD",
 	"tags": [
-		"AGGREGATE2",
-		"MEDIUM3",
-		"VARIABLE4",
-		"UNITS5"
+		"AGGREGATE",
+		"MEDIUM",
+		"VARIABLE",
+		"UNITS"
 	],
-	"datapoints_config": [{
-		"begins_at": "DATESTART6",
-		"params": {
-			"query": {
-				"compact": true,
-				"datastream_id": "DSID7",
-				"time_adjust": -28800
-			}
-		},
-		"path": "/legacy/datavalues-ucnrs"
-	}]
+	"datapoints_config": [
+		{
+			"begins_at": "DATESTART",
+			"params": {
+				"query": {
+					"compact": true,
+					"datastream_id": "DSID",
+					"time_adjust": -28800
+				}
+			},
+			"path": "/legacy/datavalues-ucnrs"
+		}
+	]
 }

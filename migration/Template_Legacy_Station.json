@@ -9,12 +9,12 @@
   "external_refs": [
     {
       "identifier": "STATIONID",
-      "type": "legacy_station_stationid"
+      "type": "odm.station.stationid"
     }
   ],
   "is_active": true,
   "is_stationary": true,
-    "media": [
+  "media": [
     {
       "sizes": {
         "large": {

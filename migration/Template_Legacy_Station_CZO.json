@@ -1,0 +1,233 @@
+{
+  "enabled": false,
+  "external_links": [
+    {
+      "title": "Sensor database",
+      "url": "http://sensor.berkeley.edu/index_ucnrs.html"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "STATIONID",
+      "type": "odm.station.stationid"
+    }
+  ],
+  "geo": {
+    "coordinates": [
+      "LONG",
+      "LAT",
+      "ELEV"
+    ],
+    "type": "Point"
+  },
+  "is_active": true,
+  "is_stationary": true,
+  "media": [
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/DRICODE.p1.jpg"
+        },
+        "medium_2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/DRICODE.p1.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/DRICODE.p1.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/DRICODE.p1.jpg"
+        },
+        "small_2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/DRICODE.p1.jpg"
+        },
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/DRICODE.p1.jpg"
+        },
+        "thumb_2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/DRICODE.p1.jpg"
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/DRICODE.p2.jpg"
+        },
+        "medium_2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/DRICODE.p2.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/DRICODE.p2.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/DRICODE.p2.jpg"
+        },
+        "small_2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/DRICODE.p2.jpg"
+        },
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/DRICODE.p2.jpg"
+        },
+        "thumb_2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/DRICODE.p2.jpg"
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/DRICODE.p3.jpg"
+        },
+        "medium_2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/DRICODE.p3.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/DRICODE.p3.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/DRICODE.p3.jpg"
+        },
+        "small_2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/DRICODE.p3.jpg"
+        },
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/DRICODE.p3.jpg"
+        },
+        "thumb_2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/DRICODE.p3.jpg"
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/DRICODE.p4.jpg"
+        },
+        "medium_2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/DRICODE.p4.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/DRICODE.p4.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/DRICODE.p4.jpg"
+        },
+        "small_2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/DRICODE.p4.jpg"
+        },
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/DRICODE.p4.jpg"
+        },
+        "thumb_2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/DRICODE.p4.jpg"
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "w": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/DRICODE.p5.jpg"
+        },
+        "medium_2x": {
+          "h": 960,
+          "w": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/DRICODE.p5.jpg"
+        },
+        "medium": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/DRICODE.p5.jpg"
+        },
+        "small": {
+          "h": 240,
+          "w": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/DRICODE.p5.jpg"
+        },
+        "small_2x": {
+          "h": 480,
+          "w": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/DRICODE.p5.jpg"
+        },
+        "thumb": {
+          "h": 60,
+          "w": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/DRICODE.p5.jpg"
+        },
+        "thumb_2x": {
+          "h": 120,
+          "w": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/DRICODE.p5.jpg"
+        }
+      },
+      "type": "photo"
+    }
+  ],
+  "name": "STATIONNAME",
+  "organization_id":"ORGID",
+  "slug": "STATIONSLUG",
+  "station_type": "weather",
+  "time_zone": "PST",
+  "utc_offset": -28800
+}

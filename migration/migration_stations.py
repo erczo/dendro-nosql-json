@@ -57,7 +57,6 @@ org_id = organization_list['UCNRS']
 # Set path to current directory
 path = os.path.dirname(__file__)+os.sep
 print(path)
-json_path = os.path.join(path,'Template_Legacy_Station.json')
 csv_path = path+'stations_legacy.csv'
 station_path = path+'stations'+os.sep
 
@@ -70,11 +69,15 @@ columns = len(df.columns)
 for i in range(0,rows):
     station_name =  df.iloc[i,0].strip()
     station_slug = station_name.replace(' ','-').lower()
+    station_slug = station_slug.replace('_','')
+    station_slug = station_slug.replace('level-','level')
     if(station_name == 'Angelo'):
         station_name = 'Angelo Reserve South Meadow'
         station_slug = 'angelo-south'
-    lat = df.iloc[i,1]
-    long = df.iloc[i,2]
+    #lat = "{0:.6f}".format(df.iloc[i,1])
+    #long = "{0:.6f}".format(df.iloc[i,2])
+    lat = round(float(df.iloc[i,1]),6)
+    long = round(float(df.iloc[i,2]),6)
     elev = df.iloc[i,3]
     mc = df.iloc[i,4].strip()
     stationid = df.iloc[i,5]
@@ -91,6 +94,13 @@ for i in range(0,rows):
             print(station_name+' not in WRCC DRI codes. Skipping')
             continue
     print(station_name,mc,dri_code)
+    #print(station_name,'\t',station_slug)
+    
+    # JSON Station Template - depends on the organization
+    if(mc == 'UCNRS'):
+        json_path = os.path.join(path,'Template_Legacy_Station_UCNRS.json')   
+    else:
+        json_path = os.path.join(path,'Template_Legacy_Station_CZO.json')
     
     # Assign variable to JSON template
     with open(json_path) as json_data:

@@ -18,7 +18,7 @@ import os
 
 
 # WRCC has codes for each UC weather station
-station_list = {'Hastings':'ucha',
+ucnrs_station_list = {'Hastings':'ucha',
     'Blue Oak Ranch':'ucbo',
     'Angelo South':'ucac',
     'Bodega':'ucbm',
@@ -44,12 +44,19 @@ station_list = {'Hastings':'ucha',
     'WhiteMt Barcroft':'barc',
     'WhiteMt Crooked':'croo',
     'Younger':'ucyl',
-    'Sagehen Creek':'sagh'}
+    'Sagehen Creek':'sagh'
+}
+
+organization_list = {
+        'UCNRS':'58db17c424dc720001671378',
+        'ERCZO':'58db17e824dc720001671379'
+}
+org_id = organization_list['UCNRS']
 
 # Set path to current directory
 path = os.path.dirname(__file__)+os.sep
 print(path)
-json_path = path+'Template_Legacy_Station.json'
+json_path = os.path.join(path,'Template_Legacy_Station.json')
 csv_path = path+'stations_legacy.csv'
 station_path = path+'stations'+os.sep
 
@@ -73,9 +80,9 @@ for i in range(0,rows):
             
     # Get the DRI code for the station
     dri_code = ''
-    for s,d in station_list.items():
+    for s,dri in ucnrs_station_list.items():
         if(s == station_name):
-            dri_code = d
+            dri_code = dri
     if(dri_code == ''):
         print(station_name+' not in WRCC DRI codes. Skipping')
         continue
@@ -98,7 +105,8 @@ for i in range(0,rows):
                 new_url = old_url.replace('DRICODE',dri_code)
                 d['media'][j]['sizes'][msize]['url'] = new_url
                 #print(d['media'][j]['sizes'][msize]['url'])               
-
+        d['organization_id'] = org_id
+         
        # Export the DOM to JSON file
         station_filename = station_name.replace(' ','_')+'.json'
         print(station_filename)

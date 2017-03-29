@@ -13,6 +13,8 @@
 #   migration_datastreams_ucnrs_dashboard.csv: CSV file with fields to be altered.
 #   Template_Legacy_Datastream.json: json template file.
 #   migration_stations.py must be run first
+#
+# Note: 
 ########################################
 import json
 import pandas as pd

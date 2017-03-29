@@ -34,11 +34,13 @@ path = os.path.dirname(__file__)+os.sep+target+os.sep
 url = 'http://128.32.109.75/api/v1/'+target
 header = {"Content-Type":"application/json"}
 
-stations = requests.get(url,headers=header)
+# http://www.jaimegil.me/2012/12/26/a-python-restful-api-consumer.html
+response = requests.get(url,headers=header)
+assert response.status_code == 200
 
-for station in stations:
-    s = json.load(station)
-    print(json.dumps(s,indent=2,sort_keys=True))
+for station in response.json():
+    #s = json.load(station)
+    print(json.dumps(station,indent=2,sort_keys=True))
 
 '''
 for file in os.listdir(path):                      

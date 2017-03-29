@@ -20,7 +20,7 @@ import os
 # WRCC has codes for each UC weather station
 ucnrs_station_list = {'Hastings':'ucha',
     'Blue Oak Ranch':'ucbo',
-    'Angelo South':'ucac',
+    'Angelo Reserve South Meadow':'ucac',
     'Bodega':'ucbm',
     'Deep Canyon':'ucde',
     'Burns':'ucbu',
@@ -70,7 +70,7 @@ for i in range(0,rows):
     station_name =  df.iloc[i,0].strip()
     station_slug = station_name.replace(' ','-').lower()
     if(station_name == 'Angelo'):
-        station_name = 'Angelo South'
+        station_name = 'Angelo Reserve South Meadow'
         station_slug = 'angelo-south'
     lat = df.iloc[i,1]
     long = df.iloc[i,2]
@@ -84,8 +84,11 @@ for i in range(0,rows):
         if(s == station_name):
             dri_code = dri
     if(dri_code == ''):
-        print(station_name+' not in WRCC DRI codes. Skipping')
-        continue
+        if(mc != 'UCNRS'):
+            dri_code = station_slug
+        else:
+            print(station_name+' not in WRCC DRI codes. Skipping')
+            continue
     print(station_name,mc,dri_code)
     
     # Assign variable to JSON template

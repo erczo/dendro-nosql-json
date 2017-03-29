@@ -1,0 +1,233 @@
+{
+  "enabled": true,
+  "external_links": [
+    {
+      "title": "Sensor database",
+      "url": "http://sensor.berkeley.edu/index_ucnrs.html"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "335",
+      "type": "odm.station.stationid"
+    }
+  ],
+  "geo": {
+    "coordinates": [
+      -123.63083300000001,
+      39.739167,
+      383.7
+    ],
+    "type": "Point"
+  },
+  "is_active": true,
+  "is_stationary": true,
+  "media": [
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucac.S2.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucac.S2.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucac.S2.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucac.S2.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucac.S2.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucac.S2.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucac.S2.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucac.SW2.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucac.SW2.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucac.SW2.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucac.SW2.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucac.SW2.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucac.SW2.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucac.SW2.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucac.NW2.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucac.NW2.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucac.NW2.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucac.NW2.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucac.NW2.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucac.NW2.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucac.NW2.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucac.NE2.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucac.NE2.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucac.NE2.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucac.NE2.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucac.NE2.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucac.NE2.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucac.NE2.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucac.SE2.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucac.SE2.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucac.SE2.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucac.SE2.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucac.SE2.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucac.SE2.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucac.SE2.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    }
+  ],
+  "name": "Angelo Reserve South Meadow",
+  "organization_id": "58db17c424dc720001671378",
+  "slug": "angelo-south",
+  "station_type": "weather",
+  "time_zone": "PST",
+  "utc_offset": -28800
+}

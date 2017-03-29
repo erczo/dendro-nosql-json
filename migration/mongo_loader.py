@@ -29,26 +29,36 @@ target = 'stations'
 
 # Set paths
 path = os.path.dirname(__file__)+os.sep+target+os.sep
-
+tpath = path+'ztemp'+os.sep
+if(os.path.exists(tpath) == False):
+    os.mkdir(tpath)
+                      
+# http://www.jaimegil.me/2012/12/26/a-python-restful-api-consumer.html                      
 # Set URL
 url = 'http://128.32.109.75/api/v1/'+target
 header = {"Content-Type":"application/json"}
+r = requests.get(url,headers=header)
+assert r.status_code == 200
+rjson = r.json()
+total = rjson['total']
+print('Entries found: ',total)
 
-# http://www.jaimegil.me/2012/12/26/a-python-restful-api-consumer.html
-response = requests.get(url,headers=header)
-assert response.status_code == 200
+rdata = rjson['data']
+for entry in rdata:
+    print(entry['name'],entry['_id'])
+    fname = entry['name'].replace(' ','_')
+    ffile = tpath+fname+'.json'
+    print(ffile)
+    with open(ffile, 'w') as f:
+         json.dump(entry, f, indent=2,sort_keys=True)
 
-for station in response.json():
-    #s = json.load(station)
-    print(json.dumps(station,indent=2,sort_keys=True))
-
-'''
-for file in os.listdir(path):                      
+for file in os.listdir(path): 
     print(file)
     with open(path+file) as json_data:
         d = json.load(json_data)
-        print(json.dumps(d,indent=2,sort_keys=True))
-        #d['name'] = name
-    #requests.get(url)
-'''       
-                 
+        #print(json.dumps(d,indent=2,sort_keys=True))
+        for entry in rdata:
+            if(d['name'] == entry['name']):
+                print('MATCH! '+d['name'],entry['name'],entry['_id'])
+
+print('DONE!')                 

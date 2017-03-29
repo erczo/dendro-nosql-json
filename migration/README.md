@@ -26,3 +26,9 @@ sites:  Lat/long, elevation, datum.  Non-WGS84 datums will need to be converted 
 units: the UnitsType field may be useful in out ds-units vocabulary.  Not sure. 
 '''UnitsName,UnitsType,UnitsAbbreviation'''
 
+#### Order of Operation
+1. Organizations:  load any organization.json files into MondoDB.  Retrieve the organization_id's.  There are only a few orgs, so this can be done by hand.   
+2. Stations:  modify migration_station.py to include organization_ids. Export stations to json files.
+3. Station Load: use mongo_loader.py to load station json files into MongoDB, using API.  Be careful to either delete or to update records before the load, otherwise there will be duplicates in the database.  Check to make sure image file urls are correct.
+4. Datastreams: run migration_datastreams.py to export json files.  
+5. Datastream Load: use mongo_loader.py to load datastream json files into MongoDB using API.  As with Stations, make sure to avoid duplicates. 

@@ -1,6 +1,4 @@
 {
-  "_id": "58dbfdb31fb89100014f350f",
-  "created_at": "2017-03-29T18:32:19.035Z",
   "enabled": true,
   "external_links": [
     {
@@ -18,7 +16,7 @@
     "coordinates": [
       -121.766667,
       36.666667,
-      30
+      30.0
     ],
     "type": "Point"
   },
@@ -231,6 +229,5 @@
   "slug": "fort-ord",
   "station_type": "weather",
   "time_zone": "PST",
-  "updated_at": "2017-03-29T18:32:19.035Z",
   "utc_offset": -28800
 }

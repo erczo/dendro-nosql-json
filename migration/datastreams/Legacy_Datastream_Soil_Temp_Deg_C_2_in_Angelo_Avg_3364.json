@@ -1,0 +1,43 @@
+{
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Inch",
+      "value": 2.0
+    }
+  },
+  "datapoints_config": [
+    {
+      "begins_at": "2013-05-07T15:10:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3364,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "3364",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "335",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Soil Temp Deg C 2 in Angelo Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58dc50c31fb89100014f359d",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Soil",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ]
+}

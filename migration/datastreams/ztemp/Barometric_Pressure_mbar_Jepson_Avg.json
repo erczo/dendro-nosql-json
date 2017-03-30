@@ -1,0 +1,40 @@
+{
+  "_id": "58dc53131fb89100014f3612",
+  "created_at": "2017-03-30T00:36:35.371Z",
+  "datapoints_config": [
+    {
+      "begins_at": "2013-04-30T09:50:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3604,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "3604",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "344",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Barometric Pressure mbar Jepson Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58dc50c31fb89100014f35ae",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Air",
+    "ds_Variable_BarometricPressure",
+    "dt_Unit_Millibar"
+  ],
+  "updated_at": "2017-03-30T00:36:35.371Z"
+}

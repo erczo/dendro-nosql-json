@@ -1,0 +1,236 @@
+{
+  "_id": "58dc0fff1fb89100014f3598",
+  "created_at": "2017-03-29T19:50:23.795Z",
+  "enabled": false,
+  "external_links": [
+    {
+      "title": "Sensor database",
+      "url": "http://sensor.berkeley.edu/"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "49",
+      "type": "odm.station.stationid"
+    }
+  ],
+  "geo": {
+    "coordinates": [
+      -123.652766,
+      39.718457,
+      405.7
+    ],
+    "type": "Point"
+  },
+  "is_active": true,
+  "is_stationary": true,
+  "media": [
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/wsghqowl.p1.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/wsghqowl.p1.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/wsghqowl.p1.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/wsghqowl.p1.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/wsghqowl.p1.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/wsghqowl.p1.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/wsghqowl.p1.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/wsghqowl.p2.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/wsghqowl.p2.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/wsghqowl.p2.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/wsghqowl.p2.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/wsghqowl.p2.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/wsghqowl.p2.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/wsghqowl.p2.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/wsghqowl.p3.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/wsghqowl.p3.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/wsghqowl.p3.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/wsghqowl.p3.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/wsghqowl.p3.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/wsghqowl.p3.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/wsghqowl.p3.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/wsghqowl.p4.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/wsghqowl.p4.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/wsghqowl.p4.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/wsghqowl.p4.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/wsghqowl.p4.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/wsghqowl.p4.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/wsghqowl.p4.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/wsghqowl.p5.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/wsghqowl.p5.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/wsghqowl.p5.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/wsghqowl.p5.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/wsghqowl.p5.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/wsghqowl.p5.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/wsghqowl.p5.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    }
+  ],
+  "name": "WSGHQ_OWL",
+  "organization_id": "58db17c424dc720001671378",
+  "slug": "wsghqowl",
+  "station_type": "weather",
+  "time_zone": "PST",
+  "updated_at": "2017-03-29T19:50:23.795Z",
+  "utc_offset": -28800
+}

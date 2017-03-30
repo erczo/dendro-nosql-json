@@ -1,0 +1,31 @@
+{
+  "_id": "58a556df965a2900011a9c00",
+  "created_at": "2017-02-16T07:38:07.264Z",
+  "datapoints_config": [
+    {
+      "begins_at": "2013-05-07T15:10:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 13336,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 3336",
+  "enabled": true,
+  "name": "Wind Speed m s Angelo Avg Seasonal Minimum",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "589e8e6978ee340001d17152",
+  "tags": [
+    "ds_Aggregate_Minimum",
+    "ds_Function_Seasonal",
+    "ds_Medium_Air",
+    "ds_Variable_Speed",
+    "dt_Unit_MeterPerSecond"
+  ],
+  "updated_at": "2017-02-16T07:38:07.264Z"
+}

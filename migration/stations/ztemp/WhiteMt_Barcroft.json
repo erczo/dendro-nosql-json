@@ -1,0 +1,236 @@
+{
+  "_id": "58dc0fff1fb89100014f3595",
+  "created_at": "2017-03-29T19:50:23.690Z",
+  "enabled": true,
+  "external_links": [
+    {
+      "title": "Sensor database",
+      "url": "http://sensor.berkeley.edu/index_ucnrs.html"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "361",
+      "type": "odm.station.stationid"
+    }
+  ],
+  "geo": {
+    "coordinates": [
+      -118.23722,
+      37.58305,
+      3782.5679999999998
+    ],
+    "type": "Point"
+  },
+  "is_active": true,
+  "is_stationary": true,
+  "media": [
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/barc.S2.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/barc.S2.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/barc.S2.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/barc.S2.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/barc.S2.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/barc.S2.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/barc.S2.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/barc.SW2.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/barc.SW2.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/barc.SW2.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/barc.SW2.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/barc.SW2.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/barc.SW2.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/barc.SW2.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/barc.NW2.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/barc.NW2.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/barc.NW2.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/barc.NW2.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/barc.NW2.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/barc.NW2.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/barc.NW2.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/barc.NE2.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/barc.NE2.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/barc.NE2.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/barc.NE2.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/barc.NE2.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/barc.NE2.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/barc.NE2.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/barc.SE2.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/barc.SE2.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/barc.SE2.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/barc.SE2.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/barc.SE2.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/barc.SE2.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/barc.SE2.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    }
+  ],
+  "name": "WhiteMt Barcroft",
+  "organization_id": "58db17c424dc720001671378",
+  "slug": "whitemt-barcroft",
+  "station_type": "weather",
+  "time_zone": "PST",
+  "updated_at": "2017-03-29T19:50:23.690Z",
+  "utc_offset": -28800
+}

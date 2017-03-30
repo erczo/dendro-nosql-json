@@ -21,6 +21,7 @@ import pandas as pd
 import mysql.connector
 import os
 import datetime as dt
+import requests
 
 def odm_connect(pwfilepath,boo_dev=False):
     # NOTE: password file (pwfile) should NEVER be uploaded to github!
@@ -50,6 +51,24 @@ df = pd.read_csv(path+'migration_datastreams_ucnrs_dashboard.csv')
 rows = len(df)
 columns = len(df.columns)
 
+# Load the MongoDB list of stations and their ID's
+url = 'http://128.32.109.75/api/v1/stations'
+header = {"Content-Type":"application/json"}
+r = requests.get(url+'?$limit=2000',headers=header)  # note the addition of 2000 record limit 
+assert r.status_code == 200
+rjson = r.json()
+print('Mongo: stations found: ',rjson['total'])
+rdata = rjson['data']
+mongo_stations = {}
+for entry in rdata:
+    mname = entry['name']
+    if(mname == 'Angelo Reserve South Meadow'):
+        mname = 'Angelo'
+    mid = entry['_id']
+    mongo_stations[mname] = mid 
+    #print(mname,mid)
+
+
 #########
 # open database connection 
 gitpath = os.path.dirname(os.path.dirname(os.path.dirname(path)))+os.sep
@@ -66,9 +85,18 @@ stations = cursor.fetchall()
 stationscount = 0
 i = 0
 
+#stations = {(334,'Blue Oak Ranch')}
+
 for (stationid,station_name) in stations:
     stationscount += 1
-    print('XX',stationscount,stationid,station_name)
+    #print('XX',stationscount,stationid,station_name)
+    # Assign MongoID for Station to station_id
+    try:
+        mongo_id = mongo_stations[station_name]
+        #print(station_name,stationid,mongo_id)
+    except:
+        print(station_name+' is not in mongo. Skipping...')
+        continue
         
     for i in range(0,rows):
         # Construct variables for JSON from DataFrame
@@ -78,7 +106,11 @@ for (stationid,station_name) in stations:
             suf = ''
         else:
             suf = suf.strip()
-        name = pref+' '+station_name+' '+suf
+        if(stationid == 334):
+            station_short = station_name.replace(' Ranch','')
+            name = pref+' '+station_short+' '+suf
+        else:
+            name = pref+' '+station_name+' '+suf
         aggregate = 'ds_Aggregate_'+str(df.iloc[i,2])
         medium = 'ds_Medium_'+str(df.iloc[i,3])
         variable = 'ds_Variable_'+str(df.iloc[i,4])
@@ -122,7 +154,7 @@ for (stationid,station_name) in stations:
             d['datapoints_config'][0]['params']['query']['datastream_id'] = dsid
             #if(medium == 'Precipitation'):
             #    d['datapoints_config'][0]['path'] = "/legacy/datavalues-day"
-            #d['station_id'] = stationid
+            d['station_id'] = mongo_id
             #print(json.dumps(d,indent=2,sort_keys=True))
             # Export to JSON
             dsname = name.replace(' ','_')

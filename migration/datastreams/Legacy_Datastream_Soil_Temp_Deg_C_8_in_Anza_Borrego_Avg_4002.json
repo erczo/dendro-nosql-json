@@ -1,0 +1,43 @@
+{
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Inch",
+      "value": 8.0
+    }
+  },
+  "datapoints_config": [
+    {
+      "begins_at": "2013-04-30T13:40:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4002,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "4002",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "357",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Soil Temp Deg C 8 in Anza Borrego Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58dc50c31fb89100014f359e",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Soil",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ]
+}

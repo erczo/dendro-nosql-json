@@ -1,0 +1,30 @@
+{
+  "_id": "58a556cd965a2900011a9bfe",
+  "created_at": "2017-02-16T07:37:49.936Z",
+  "datapoints_config": [
+    {
+      "begins_at": "2013-05-07T15:10:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3375,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "name": "Volumetric Water Content Per 4 in horiz Angelo Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "589e8e6978ee340001d17152",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Soil",
+    "ds_Variable_Moisture",
+    "dt_Unit_Percent"
+  ],
+  "updated_at": "2017-02-16T07:37:49.936Z"
+}

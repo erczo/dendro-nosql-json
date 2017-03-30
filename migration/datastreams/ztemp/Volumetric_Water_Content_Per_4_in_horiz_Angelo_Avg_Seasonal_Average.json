@@ -1,0 +1,31 @@
+{
+  "_id": "58a5576c965a2900011a9c0e",
+  "created_at": "2017-02-16T07:40:28.266Z",
+  "datapoints_config": [
+    {
+      "begins_at": "2013-05-07T15:10:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 23375,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 3375",
+  "enabled": true,
+  "name": "Volumetric Water Content Per 4 in horiz Angelo Avg Seasonal Average",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "589e8e6978ee340001d17152",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Function_Seasonal",
+    "ds_Medium_Soil",
+    "ds_Variable_Moisture",
+    "dt_Unit_Percent"
+  ],
+  "updated_at": "2017-02-16T07:40:28.266Z"
+}

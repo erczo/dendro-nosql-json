@@ -1,0 +1,40 @@
+{
+  "_id": "58dc53141fb89100014f36ee",
+  "created_at": "2017-03-30T00:36:36.656Z",
+  "datapoints_config": [
+    {
+      "begins_at": "2011-01-31T16:50:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3285,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "3285",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "333",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Wind Direction Deg Hastings Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58dc50c31fb89100014f35ab",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Air",
+    "ds_Variable_Direction",
+    "dt_Unit_DegreeAngle"
+  ],
+  "updated_at": "2017-03-30T00:36:36.656Z"
+}

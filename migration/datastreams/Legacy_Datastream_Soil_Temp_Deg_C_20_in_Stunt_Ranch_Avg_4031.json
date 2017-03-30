@@ -1,0 +1,37 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2012-06-22T12:30:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4031,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "4031",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "358",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Soil Temp Deg C 20 in Stunt Ranch Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58dc50c41fb89100014f35c3",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Soil",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2011-02-01T13:40:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3667,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "3667",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "345",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Volumetric Water Content Per 4 in horiz Rancho Marino Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58dc50c31fb89100014f35b1",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Soil",
+    "ds_Variable_Moisture",
+    "dt_Unit_Percent"
+  ]
+}

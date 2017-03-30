@@ -19,10 +19,9 @@ import os
 import json
 import requests
 import glob
-import time
 
 # Set paths
-path = os.path.dirname(__file__)+'/'+target+'/'
+path = os.path.dirname(__file__)+'/stations/'
 tpath = path+'/'+'ztemp'+'/'
 if(os.path.exists(tpath) == False):
     os.mkdir(tpath)

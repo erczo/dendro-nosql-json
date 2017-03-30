@@ -1,0 +1,31 @@
+{
+  "_id": "58a5573d965a2900011a9c0a",
+  "created_at": "2017-02-16T07:39:41.577Z",
+  "datapoints_config": [
+    {
+      "begins_at": "2013-05-07T15:10:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 23349,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 3349",
+  "enabled": true,
+  "name": "Barometric Pressure mbar Angelo Avg Seasonal Average",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "589e8e6978ee340001d17152",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Function_Seasonal",
+    "ds_Medium_Air",
+    "ds_Variable_BarometricPressure",
+    "dt_Unit_Millibar"
+  ],
+  "updated_at": "2017-02-16T07:39:41.577Z"
+}

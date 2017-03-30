@@ -1,0 +1,31 @@
+{
+  "_id": "58a556ea965a2900011a9c01",
+  "created_at": "2017-02-16T07:38:18.372Z",
+  "datapoints_config": [
+    {
+      "begins_at": "2013-05-07T15:10:00.000Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 13348,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 3348",
+  "enabled": true,
+  "name": "Relative Humidity Per Angelo Avg Seasonal Minimum",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "589e8e6978ee340001d17152",
+  "tags": [
+    "ds_Aggregate_Minimum",
+    "ds_Function_Seasonal",
+    "ds_Medium_Air",
+    "ds_Variable_Moisture",
+    "dt_Unit_Percent"
+  ],
+  "updated_at": "2017-02-16T07:38:18.372Z"
+}

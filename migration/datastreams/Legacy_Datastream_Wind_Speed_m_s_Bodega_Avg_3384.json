@@ -1,0 +1,37 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2012-06-27T14:50:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3384,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "3384",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "336",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Wind Speed m s Bodega Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58dc50c31fb89100014f35a3",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Air",
+    "ds_Variable_Speed",
+    "dt_Unit_MeterPerSecond"
+  ]
+}

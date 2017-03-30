@@ -1,0 +1,37 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2009-12-31T22:30:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3566,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "3566",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "343",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Wind Gust m s James Max",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58dc50c31fb89100014f35ad",
+  "tags": [
+    "ds_Aggregate_Maximum",
+    "ds_Medium_Air",
+    "ds_Variable_Speed",
+    "dt_Unit_MeterPerSecond"
+  ]
+}

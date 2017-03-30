@@ -1,0 +1,37 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2011-12-14T14:20:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3712,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "3712",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "350",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Air Temp Deg C McLaughlin Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58dc50c31fb89100014f35af",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ]
+}

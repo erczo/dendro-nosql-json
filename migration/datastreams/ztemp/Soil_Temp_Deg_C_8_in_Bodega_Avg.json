@@ -1,0 +1,46 @@
+{
+  "_id": "58dc53141fb89100014f36a5",
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Inch",
+      "value": 8
+    }
+  },
+  "created_at": "2017-03-30T00:36:36.230Z",
+  "datapoints_config": [
+    {
+      "begins_at": "2012-06-27T14:50:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3398,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "3398",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "336",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Soil Temp Deg C 8 in Bodega Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58dc50c31fb89100014f35a3",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Soil",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ],
+  "updated_at": "2017-03-30T00:36:36.230Z"
+}

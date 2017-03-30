@@ -1,0 +1,40 @@
+{
+  "_id": "58dc53131fb89100014f3630",
+  "created_at": "2017-03-30T00:36:35.544Z",
+  "datapoints_config": [
+    {
+      "begins_at": "2011-05-18T14:50:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3859,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "3859",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "355",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "PAR um m2 Sedgwick Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58dc50c41fb89100014f35c0",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Solar",
+    "ds_Variable_PhotosyntheticallyActiveRadiation",
+    "dt_Unit_MicromolePerSquareMeter"
+  ],
+  "updated_at": "2017-03-30T00:36:35.544Z"
+}

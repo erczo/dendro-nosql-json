@@ -1,0 +1,37 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "1997-04-02T21:00:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 4167,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "4167",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "364",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Air Temp Deg C Sagehen Creek Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58dc50c41fb89100014f35bb",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ]
+}

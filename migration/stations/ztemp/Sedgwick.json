@@ -1,0 +1,236 @@
+{
+  "_id": "58dc0fff1fb89100014f358f",
+  "created_at": "2017-03-29T19:50:23.516Z",
+  "enabled": true,
+  "external_links": [
+    {
+      "title": "Sensor database",
+      "url": "http://sensor.berkeley.edu/index_ucnrs.html"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "355",
+      "type": "odm.station.stationid"
+    }
+  ],
+  "geo": {
+    "coordinates": [
+      -120.0416,
+      34.69388,
+      351.7392
+    ],
+    "type": "Point"
+  },
+  "is_active": true,
+  "is_stationary": true,
+  "media": [
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucse.S2.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucse.S2.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucse.S2.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucse.S2.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucse.S2.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucse.S2.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucse.S2.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucse.SW2.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucse.SW2.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucse.SW2.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucse.SW2.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucse.SW2.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucse.SW2.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucse.SW2.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucse.NW2.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucse.NW2.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucse.NW2.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucse.NW2.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucse.NW2.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucse.NW2.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucse.NW2.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucse.NE2.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucse.NE2.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucse.NE2.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucse.NE2.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucse.NE2.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucse.NE2.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucse.NE2.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/ucse.SE2.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucse.SE2.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/ucse.SE2.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/ucse.SE2.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/ucse.SE2.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/ucse.SE2.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/ucse.SE2.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    }
+  ],
+  "name": "Sedgwick",
+  "organization_id": "58db17c424dc720001671378",
+  "slug": "sedgwick",
+  "station_type": "weather",
+  "time_zone": "PST",
+  "updated_at": "2017-03-29T19:50:23.516Z",
+  "utc_offset": -28800
+}

@@ -1,0 +1,236 @@
+{
+  "_id": "58dc0fff1fb89100014f3583",
+  "created_at": "2017-03-29T19:50:23.089Z",
+  "enabled": false,
+  "external_links": [
+    {
+      "title": "Sensor database",
+      "url": "http://sensor.berkeley.edu/"
+    }
+  ],
+  "external_refs": [
+    {
+      "identifier": "6",
+      "type": "odm.station.stationid"
+    }
+  ],
+  "geo": {
+    "coordinates": [
+      -123.644141,
+      39.729166,
+      451.8
+    ],
+    "type": "Point"
+  },
+  "is_active": true,
+  "is_stationary": true,
+  "media": [
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/riv-level21.p1.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/riv-level21.p1.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/riv-level21.p1.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/riv-level21.p1.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/riv-level21.p1.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/riv-level21.p1.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/riv-level21.p1.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/riv-level21.p2.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/riv-level21.p2.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/riv-level21.p2.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/riv-level21.p2.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/riv-level21.p2.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/riv-level21.p2.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/riv-level21.p2.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/riv-level21.p3.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/riv-level21.p3.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/riv-level21.p3.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/riv-level21.p3.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/riv-level21.p3.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/riv-level21.p3.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/riv-level21.p3.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/riv-level21.p4.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/riv-level21.p4.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/riv-level21.p4.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/riv-level21.p4.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/riv-level21.p4.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/riv-level21.p4.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/riv-level21.p4.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    },
+    {
+      "sizes": {
+        "large": {
+          "h": 1080,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_1080,w_1080/riv-level21.p5.jpg",
+          "w": 1080
+        },
+        "medium": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/riv-level21.p5.jpg",
+          "w": 480
+        },
+        "medium_2x": {
+          "h": 960,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_960,w_960/riv-level21.p5.jpg",
+          "w": 960
+        },
+        "small": {
+          "h": 240,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_240,w_240/riv-level21.p5.jpg",
+          "w": 240
+        },
+        "small_2x": {
+          "h": 480,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_480,w_480/riv-level21.p5.jpg",
+          "w": 480
+        },
+        "thumb": {
+          "h": 60,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_60,w_60/riv-level21.p5.jpg",
+          "w": 60
+        },
+        "thumb_2x": {
+          "h": 120,
+          "url": "http://res.cloudinary.com/dendro/image/upload/c_fill,g_center,h_120,w_120/riv-level21.p5.jpg",
+          "w": 120
+        }
+      },
+      "type": "photo"
+    }
+  ],
+  "name": "Riv Level 2_1",
+  "organization_id": "58db17c424dc720001671378",
+  "slug": "riv-level21",
+  "station_type": "weather",
+  "time_zone": "PST",
+  "updated_at": "2017-03-29T19:50:23.089Z",
+  "utc_offset": -28800
+}

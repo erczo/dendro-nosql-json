@@ -1,0 +1,43 @@
+{
+  "attributes": {
+    "height": {
+      "unit": "dt_Unit_Meter",
+      "value": 2.0
+    }
+  },
+  "datapoints_config": [
+    {
+      "begins_at": "2010-09-28T10:30:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 3775,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-ucnrs"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "3775",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "351",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Air Temp Deg C 2 m Motte Avg",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "58dc50c31fb89100014f35b0",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2012-07-11T12:00:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 13924,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 3924",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "3924",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "356",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Air Temp Deg C SNARL Avg Seasonal Minimum",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58dc50c41fb89100014f35c1",
+  "tags": [
+    "ds_Aggregate_Minimum",
+    "ds_Function_Seasonal",
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ]
+}

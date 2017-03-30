@@ -1,0 +1,38 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2013-08-22T12:00:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 24242,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 4242",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "4242",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "348",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Relative Humidity Per BigCreek Gatehouse Avg Seasonal Average",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58dc50c31fb89100014f359f",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Function_Seasonal",
+    "ds_Medium_Air",
+    "ds_Variable_Moisture",
+    "dt_Unit_Percent"
+  ]
+}

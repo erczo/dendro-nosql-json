@@ -1,0 +1,44 @@
+{
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Inch",
+      "value": 8.0
+    }
+  },
+  "datapoints_config": [
+    {
+      "begins_at": "2011-02-01T13:40:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 23662,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 3662",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "3662",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "345",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Soil Temp Deg C 8 in Rancho Marino Avg Seasonal Average",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58dc50c31fb89100014f35b1",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Function_Seasonal",
+    "ds_Medium_Soil",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ]
+}

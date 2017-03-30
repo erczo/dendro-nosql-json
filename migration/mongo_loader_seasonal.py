@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 ########################################
-#  mongo_loader_datastreams.py
+#  mongo_loader_datastreams_seasonal.py
 # @author: collin bode
 # @email: collin@berkeley.edu
 # @date: 2017-03-29 
@@ -22,7 +22,7 @@ import requests
 import glob
 
 # Set paths
-path = os.path.dirname(__file__)+'/datastreams/'
+path = os.path.dirname(__file__)+'/seasonal/'
 tpath = path+'/'+'ztemp'+'/'
 if(os.path.exists(tpath) == False):
     os.mkdir(tpath)
@@ -30,7 +30,7 @@ if(os.path.exists(tpath) == False):
 # Set URL to Station and pull station JSON list
 url = 'http://128.32.109.75/api/v1/datastreams'
 header = {"Content-Type":"application/json"}
-r = requests.get(url+'?$limit=2000&source_type=sensor',headers=header)  # note the addition of 2000 record limit 
+r = requests.get(url+'?$limit=2000&source_type=procedure',headers=header)  # note the addition of 2000 record limit 
 assert r.status_code == 200
 rjson = r.json()
 total = rjson['total']

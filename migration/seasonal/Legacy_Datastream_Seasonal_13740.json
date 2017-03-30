@@ -1,0 +1,38 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2011-12-14T14:20:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 13740,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 3740",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "3740",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "350",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Soil Temp Deg C 20 in McLaughlin Avg Seasonal Minimum",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58dc50c31fb89100014f35af",
+  "tags": [
+    "ds_Aggregate_Minimum",
+    "ds_Function_Seasonal",
+    "ds_Medium_Soil",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ]
+}

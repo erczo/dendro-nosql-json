@@ -1,0 +1,38 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2011-05-18T14:50:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 23876,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 3876",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "3876",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "355",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Precipitation mm Sedgwick  Seasonal Average",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58dc50c41fb89100014f35c0",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Function_Seasonal",
+    "ds_Medium_Precipitation",
+    "ds_Variable_Height",
+    "dt_Unit_Millimeter"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "attributes": {
+    "depth": {
+      "unit": "dt_Unit_Inch",
+      "value": 4.0
+    }
+  },
+  "datapoints_config": [
+    {
+      "begins_at": "2010-09-29T10:10:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 23444,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 3444",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "3444",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "337",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Soil Temp Deg C 4 in Deep Canyon Avg Seasonal Average",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58dc50c31fb89100014f35a7",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Function_Seasonal",
+    "ds_Medium_Soil",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ]
+}

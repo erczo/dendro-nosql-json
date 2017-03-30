@@ -1,0 +1,38 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2011-01-31T16:50:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 33292,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 3292",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "3292",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "333",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Air Temp Deg C Hastings Avg Seasonal Maximum",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58dc50c31fb89100014f35ab",
+  "tags": [
+    "ds_Aggregate_Maximum",
+    "ds_Function_Seasonal",
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ]
+}

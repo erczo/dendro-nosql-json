@@ -1,0 +1,38 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2015-09-02T16:50:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 24147,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 4147",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "4147",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "363",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Precipitation mm Younger  Seasonal Average",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58dc50c41fb89100014f35ca",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Function_Seasonal",
+    "ds_Medium_Precipitation",
+    "ds_Variable_Height",
+    "dt_Unit_Millimeter"
+  ]
+}

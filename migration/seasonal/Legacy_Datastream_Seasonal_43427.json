@@ -1,0 +1,38 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2010-09-29T10:10:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 43427,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-day"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 3427",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "3427",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "337",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Precipitation mm Deep Canyon  Seasonal Cumulative",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58dc50c31fb89100014f35a7",
+  "tags": [
+    "ds_Aggregate_Cumulative",
+    "ds_Interval_Day",
+    "ds_Medium_Precipitation",
+    "ds_Variable_Height",
+    "dt_Unit_Millimeter"
+  ]
+}

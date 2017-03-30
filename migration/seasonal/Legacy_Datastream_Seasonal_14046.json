@@ -1,0 +1,38 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2010-09-30T17:50:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 14046,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 4046",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "4046",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "359",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Precipitation mm Granites  Seasonal Minimum",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58dc50c31fb89100014f35aa",
+  "tags": [
+    "ds_Aggregate_Minimum",
+    "ds_Function_Seasonal",
+    "ds_Medium_Precipitation",
+    "ds_Variable_Height",
+    "dt_Unit_Millimeter"
+  ]
+}

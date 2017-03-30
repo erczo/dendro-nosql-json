@@ -1,0 +1,38 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2011-05-18T14:50:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 23871,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 3871",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "3871",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "355",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Air Temp Deg C Sedgwick Avg Seasonal Average",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58dc50c41fb89100014f35c0",
+  "tags": [
+    "ds_Aggregate_Average",
+    "ds_Function_Seasonal",
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeCelsius"
+  ]
+}

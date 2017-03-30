@@ -1,0 +1,38 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2011-01-31T16:50:00Z",
+      "params": {
+        "query": {
+          "compact": true,
+          "datastream_id": 13283,
+          "time_adjust": -28800
+        }
+      },
+      "path": "/legacy/datavalues-seasonal"
+    }
+  ],
+  "description": "This Datastream is derived from the legacy datastreamid: 3283",
+  "enabled": true,
+  "external_refs": [
+    {
+      "identifier": "3283",
+      "type": "odm.datastreams.datastreamid"
+    },
+    {
+      "identifier": "333",
+      "type": "odm.stations.stationid"
+    }
+  ],
+  "name": "Wind Speed m s Hastings Avg Seasonal Minimum",
+  "source_type": "procedure",
+  "state": "ready",
+  "station_id": "58dc50c31fb89100014f35ab",
+  "tags": [
+    "ds_Aggregate_Minimum",
+    "ds_Function_Seasonal",
+    "ds_Medium_Air",
+    "ds_Variable_Speed",
+    "dt_Unit_MeterPerSecond"
+  ]
+}

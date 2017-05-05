@@ -1,0 +1,30 @@
+{
+  "datapoints_config": [
+    {
+      "connection": "noaa",
+      "params": {
+        "query": {
+          "interface": "unsummarized",
+          "parameter": {
+            "name": "Daily Maximum Temperature"
+          },
+          "unit": "e"
+        }
+      },
+      "path": "/series"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "name": "NWS Forecast Daily Maximum Temperature in Fahrenheit",
+  "source": "gov.noaa.nws.ndfd.rest.xml",
+  "source_type": "service",
+  "state": "ready",
+  "tags": [
+    "ds_Aggregate_Maximum",
+    "ds_Function_Forecast",
+    "ds_Medium_Air",
+    "ds_Variable_Temperature",
+    "dt_Unit_DegreeFahrenheit"
+  ]
+}

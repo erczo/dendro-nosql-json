@@ -1,0 +1,29 @@
+{
+  "datapoints_config": [
+    {
+      "connection": "noaa",
+      "params": {
+        "query": {
+          "interface": "unsummarized",
+          "parameter": {
+            "key_path": "/probability-of-precipitation/12 hour"
+          },
+          "unit": "m"
+        }
+      },
+      "path": "/series"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "name": "Digital Weather Unsummarized Probability Of Precipitation 12 Hour Percent",
+  "source": "gov.noaa.nws.ndfd.rest.xml",
+  "source_type": "service",
+  "state": "ready",
+  "tags": [
+    "dt_Unit_Percent",
+    "dw_Interface_Unsummarized",
+    "dw_Parameter_ProbabilityOfPrecipitation",
+    "dw_ProbabilityOfPrecipitationType_12Hour"
+  ]
+}

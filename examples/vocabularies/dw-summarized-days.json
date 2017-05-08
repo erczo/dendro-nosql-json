@@ -1,0 +1,18 @@
+{
+  "_id": "dw-summarized-days",
+  "description": "TBD",
+  "label": "SummarizedDays",
+  "scheme_id": "dw",
+  "terms": [
+    {
+      "definition": "TBD",
+      "label": "5Day",
+      "name": "5 Day"
+    },
+    {
+      "definition": "TBD",
+      "label": "7Day",
+      "name": "7 Day"
+    }
+  ]
+}

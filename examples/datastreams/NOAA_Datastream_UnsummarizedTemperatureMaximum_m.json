@@ -1,0 +1,30 @@
+{
+  "datapoints_config": [
+    {
+      "connection": "noaa",
+      "params": {
+        "query": {
+          "interface": "unsummarized",
+          "parameter": {
+            "key_path": "/temperature/maximum/p24h"
+          },
+          "unit": "m"
+        }
+      },
+      "path": "/series"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "name": "Digital Weather Unsummarized 24 Hour Temperature Maximum Celsius",
+  "source": "gov.noaa.nws.ndfd.rest.xml",
+  "source_type": "service",
+  "state": "ready",
+  "tags": [
+    "dt_Unit_DegreeCelsius",
+    "dw_Interface_Unsummarized",
+    "dw_LayoutPeriod_24Hour",
+    "dw_Parameter_Temperature",
+    "dw_TemperatureType_Maximum"
+  ]
+}

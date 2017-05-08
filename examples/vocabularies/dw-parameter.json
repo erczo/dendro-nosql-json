@@ -1,0 +1,86 @@
+{
+  "_id": "dw-parameter",
+  "description": "TBD",
+  "label": "Parameter",
+  "scheme_id": "dw",
+  "terms": [
+    {
+      "definition": "TBD",
+      "label": "ClimateAnomaly",
+      "name": "Climate Anomaly"
+    },
+    {
+      "definition": "TBD",
+      "label": "CloudAmount",
+      "name": "Cloud Amount"
+    },
+    {
+      "definition": "TBD",
+      "label": "ConditionsIcon",
+      "name": "Conditions Icon"
+    },
+    {
+      "definition": "TBD",
+      "label": "ConvectiveHazard",
+      "name": "Convective Hazard"
+    },
+    {
+      "definition": "TBD",
+      "label": "Direction"
+    },
+    {
+      "definition": "TBD",
+      "label": "FireWeather",
+      "name": "Fire Weather"
+    },
+    {
+      "definition": "TBD",
+      "label": "Hazards"
+    },
+    {
+      "definition": "TBD",
+      "label": "Humidity"
+    },
+    {
+      "definition": "TBD",
+      "label": "Precipitation"
+    },
+    {
+      "definition": "TBD",
+      "label": "Pressure"
+    },
+    {
+      "definition": "TBD",
+      "label": "ProbabilisticCondition",
+      "name": "Probabilistic Condition"
+    },
+    {
+      "definition": "TBD",
+      "label": "ProbabilityOfPrecipitation",
+      "name": "Probability of Precipitation"
+    },
+    {
+      "definition": "TBD",
+      "label": "Temperature"
+    },
+    {
+      "definition": "TBD",
+      "label": "WaterState",
+      "name": "Water State"
+    },
+    {
+      "definition": "TBD",
+      "label": "Weather"
+    },
+    {
+      "definition": "TBD",
+      "label": "WindSpeed",
+      "name": "Wind Speed"
+    },
+    {
+      "definition": "TBD",
+      "label": "WordedForecast",
+      "name": "Worded Forecast"
+    }
+  ]
+}

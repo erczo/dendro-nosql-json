@@ -1,0 +1,17 @@
+{
+  "_id": "dw-cloud-amount-type",
+  "description": "TBD",
+  "label": "CloudAmountType",
+  "scheme_id": "dw",
+  "terms": [
+    {
+      "definition": "TBD",
+      "label": "Total"
+    },
+    {
+      "definition": "TBD",
+      "label": "RTMATotal",
+      "name": "RTMA Total"
+    }
+  ]
+}

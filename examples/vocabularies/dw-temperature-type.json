@@ -1,0 +1,89 @@
+{
+  "_id": "dw-temperature-type",
+  "description": "TBD",
+  "label": "TemperatureType",
+  "scheme_id": "dw",
+  "terms": [
+    {
+      "definition": "TBD",
+      "label": "8To14DayAnomolies",
+      "name": "8-14 Day Anomolies"
+    },
+    {
+      "definition": "TBD",
+      "label": "Apparent"
+    },
+    {
+      "definition": "TBD",
+      "label": "DewPoint",
+      "name": "Dew Point"
+    },
+    {
+      "definition": "TBD",
+      "label": "EKDMOSApparent",
+      "name": "EKDMOS Apparent"
+    },
+    {
+      "definition": "TBD",
+      "label": "EKDMOSDewPoint",
+      "name": "EKDMOS Dew Point"
+    },
+    {
+      "definition": "TBD",
+      "label": "EKDMOSHourly",
+      "name": "EKDMOS Hourly"
+    },
+    {
+      "definition": "TBD",
+      "label": "EKDMOSMaximum",
+      "name": "EKDMOS Maximum"
+    },
+    {
+      "definition": "TBD",
+      "label": "EKDMOSMinimum",
+      "name": "EKDMOS Minimum"
+    },
+    {
+      "definition": "TBD",
+      "label": "HeatIndex",
+      "name": "Heat Index"
+    },
+    {
+      "definition": "TBD",
+      "label": "Hourly"
+    },
+    {
+      "definition": "TBD",
+      "label": "Maximum"
+    },
+    {
+      "definition": "TBD",
+      "label": "Minimum"
+    },
+    {
+      "definition": "TBD",
+      "label": "MonthlyAnomolies",
+      "name": "Monthly Anomolies"
+    },
+    {
+      "definition": "TBD",
+      "label": "RTMADewPoint",
+      "name": "RTMA Dew Point"
+    },
+    {
+      "definition": "TBD",
+      "label": "RTMAHourly",
+      "name": "RTMA Hourly"
+    },
+    {
+      "definition": "TBD",
+      "label": "SeasonalAnomolies",
+      "name": "Seasonal Anomolies"
+    },
+    {
+      "definition": "TBD",
+      "label": "WindChill",
+      "name": "Wind Chill"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "dw-precipitation-type",
+  "description": "TBD",
+  "label": "PrecipitationType",
+  "scheme_id": "dw",
+  "terms": [
+    {
+      "definition": "TBD",
+      "label": "8To14DayAnomolies",
+      "name": "8-14 Day Anomolies"
+    },
+    {
+      "definition": "TBD",
+      "label": "EKDMOSLiquid",
+      "name": "EKDMOS Liquid"
+    },
+    {
+      "definition": "TBD",
+      "label": "Ice"
+    },
+    {
+      "definition": "TBD",
+      "label": "Liquid"
+    },
+    {
+      "definition": "TBD",
+      "label": "MonthlyAnomolies",
+      "name": "Monthly Anomolies"
+    },
+    {
+      "definition": "TBD",
+      "label": "RTMALiquid",
+      "name": "RTMA Liquid"
+    },
+    {
+      "definition": "TBD",
+      "label": "SeasonalAnomolies",
+      "name": "Seasonal Anomolies"
+    },
+    {
+      "definition": "TBD",
+      "label": "Snow"
+    }
+  ]
+}

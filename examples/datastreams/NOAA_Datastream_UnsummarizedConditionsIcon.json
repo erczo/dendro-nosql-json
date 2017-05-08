@@ -1,0 +1,29 @@
+{
+  "datapoints_config": [
+    {
+      "connection": "noaa",
+      "params": {
+        "query": {
+          "interface": "unsummarized",
+          "parameter": {
+            "key_path": "/conditions-icon/forecast-NWS/p3h"
+          },
+          "unit": "m"
+        }
+      },
+      "path": "/series"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "name": "Digital Weather NWS Forecast Unsummarized 3 Hour Conditions Icon",
+  "source": "gov.noaa.nws.ndfd.rest.xml",
+  "source_type": "service",
+  "state": "ready",
+  "tags": [
+    "dw_ConditionsIconType_ForecastNWS",
+    "dw_Interface_Unsummarized",
+    "dw_LayoutPeriod_3Hour",
+    "dw_Parameter_ConditionsIcon"
+  ]
+}

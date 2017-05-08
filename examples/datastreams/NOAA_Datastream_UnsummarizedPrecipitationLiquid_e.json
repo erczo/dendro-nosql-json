@@ -6,7 +6,7 @@
         "query": {
           "interface": "unsummarized",
           "parameter": {
-            "name": "Daily Maximum Temperature"
+            "key_path": "/precipitation/liquid/p1h"
           },
           "unit": "e"
         }
@@ -16,15 +16,15 @@
   ],
   "description": "TBD",
   "enabled": true,
-  "name": "NWS Forecast Daily Maximum Temperature in Fahrenheit",
+  "name": "Digital Weather Unsummarized Hour Precipitation Liquid Inch",
   "source": "gov.noaa.nws.ndfd.rest.xml",
   "source_type": "service",
   "state": "ready",
   "tags": [
-    "ds_Aggregate_Maximum",
-    "ds_Function_Forecast",
-    "ds_Medium_Air",
-    "ds_Variable_Temperature",
-    "dt_Unit_DegreeFahrenheit"
+    "dt_Unit_Inch",
+    "dw_Interface_Unsummarized",
+    "dw_LayoutPeriod_Hour",
+    "dw_Parameter_Precipitation",
+    "dw_PrecipitationType_Liquid"
   ]
 }

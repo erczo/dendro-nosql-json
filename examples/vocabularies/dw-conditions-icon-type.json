@@ -1,0 +1,13 @@
+{
+  "_id": "dw-conditions-icon-type",
+  "description": "TBD",
+  "label": "ConditionsIconType",
+  "scheme_id": "dw",
+  "terms": [
+    {
+      "definition": "TBD",
+      "label": "ForecastNWS",
+      "name": "Forecast NWS"
+    }
+  ]
+}

@@ -6,7 +6,7 @@
         "query": {
           "interface": "unsummarized",
           "parameter": {
-            "name": "Daily Minimum Temperature"
+            "key_path": "/weather/p3h"
           },
           "unit": "m"
         }
@@ -16,15 +16,13 @@
   ],
   "description": "TBD",
   "enabled": true,
-  "name": "NWS Forecast Daily Minimum Temperature in Celsius",
+  "name": "Digital Weather Unsummarized 3 Hour Weather",
   "source": "gov.noaa.nws.ndfd.rest.xml",
   "source_type": "service",
   "state": "ready",
   "tags": [
-    "ds_Aggregate_Minimum",
-    "ds_Function_Forecast",
-    "ds_Medium_Air",
-    "ds_Variable_Temperature",
-    "dt_Unit_DegreeCelsius"
+    "dw_Interface_Unsummarized",
+    "dw_LayoutPeriod_3Hour",
+    "dw_Parameter_Weather"
   ]
 }

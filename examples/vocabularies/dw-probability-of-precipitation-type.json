@@ -1,0 +1,22 @@
+{
+  "_id": "dw-probability-of-precipitation-type",
+  "description": "TBD",
+  "label": "ProbabilityOfPrecipitationType",
+  "scheme_id": "dw",
+  "terms": [
+    {
+      "definition": "TBD",
+      "label": "12Hour",
+      "name": "12 Hour"
+    },
+    {
+      "definition": "TBD",
+      "label": "Floating"
+    },
+    {
+      "definition": "TBD",
+      "label": "EKDMOS6Hour",
+      "name": "EKDMOS 6 Hour"
+    }
+  ]
+}

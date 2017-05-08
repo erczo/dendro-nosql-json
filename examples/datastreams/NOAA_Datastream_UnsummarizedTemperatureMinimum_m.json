@@ -6,9 +6,9 @@
         "query": {
           "interface": "unsummarized",
           "parameter": {
-            "name": "Daily Minimum Temperature"
+            "key_path": "/temperature/minimum/p24h"
           },
-          "unit": "e"
+          "unit": "m"
         }
       },
       "path": "/series"
@@ -16,15 +16,15 @@
   ],
   "description": "TBD",
   "enabled": true,
-  "name": "NWS Forecast Daily Minimum Temperature in Fahrenheit",
+  "name": "Digital Weather Unsummarized 24 Hour Temperature Minimum Celsius",
   "source": "gov.noaa.nws.ndfd.rest.xml",
   "source_type": "service",
   "state": "ready",
   "tags": [
-    "ds_Aggregate_Minimum",
-    "ds_Function_Forecast",
-    "ds_Medium_Air",
-    "ds_Variable_Temperature",
-    "dt_Unit_DegreeFahrenheit"
+    "dt_Unit_DegreeCelsius",
+    "dw_Interface_Unsummarized",
+    "dw_LayoutPeriod_24Hour",
+    "dw_Parameter_Temperature",
+    "dw_TemperatureType_Minimum"
   ]
 }

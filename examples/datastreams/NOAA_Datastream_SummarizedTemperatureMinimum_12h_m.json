@@ -1,0 +1,33 @@
+{
+  "datapoints_config": [
+    {
+      "connection": "noaa",
+      "params": {
+        "query": {
+          "format": "12 hourly",
+          "interface": "summarized",
+          "numDays": 7,
+          "parameter": {
+            "key_path": "/temperature/minimum/p24h"
+          },
+          "unit": "m"
+        }
+      },
+      "path": "/series"
+    }
+  ],
+  "description": "TBD",
+  "enabled": true,
+  "name": "Digital Weather Summarized Temperature 7 Day 12 Hourly Minimum Celsius",
+  "source": "gov.noaa.nws.ndfd.rest.xml",
+  "source_type": "service",
+  "state": "ready",
+  "tags": [
+    "dt_Unit_DegreeCelsius",
+    "dw_Interface_Summarized",
+    "dw_Parameter_Temperature",
+    "dw_SummarizedDays_7Day",
+    "dw_SummarizedFormat_12Hourly",
+    "dw_TemperatureType_Minimum"
+  ]
+}
